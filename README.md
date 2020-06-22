@@ -1,2 +1,2 @@
-##Happy paws
-by Dominika Ozorkiewicz
+### Happy paws
+CodersLab JavaScript & React course - Final Project
