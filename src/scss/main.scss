@@ -1,0 +1,24 @@
+//settings
+@import "settings/variables";
+@import "settings/normalize";
+@import "settings/print";
+
+//partials
+@import "components/about";
+@import "components/banner";
+@import "components/footer";
+@import "components/header";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-cormorant;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
