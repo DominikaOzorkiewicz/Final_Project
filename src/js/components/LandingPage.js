@@ -1,4 +1,7 @@
 import React from 'react';
+import {Hero} from "./Hero";
+import {About} from "./About";
+import {Footer} from "./Footer";
 
 export const LandingPage = () => {
 
@@ -6,13 +9,10 @@ export const LandingPage = () => {
 
     return (
         <>
-            <hero>
-                <header__nav/>
-                <banner/>
-            </hero>
+            <Hero />
 
-            <about/>
-            <footer/>
+            <About/>
+            <Footer/>
         </>
     );
 }

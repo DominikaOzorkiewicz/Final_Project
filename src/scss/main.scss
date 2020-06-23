@@ -4,10 +4,10 @@
 @import "settings/print";
 
 //partials
+@import 'components/hero'; // with header and banner
 @import "components/about";
-@import "components/banner";
 @import "components/footer";
-@import "components/header";
+
 
 
 * {
