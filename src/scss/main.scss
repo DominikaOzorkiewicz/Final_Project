@@ -1,10 +1,14 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
 //settings
 @import "settings/variables";
 @import "settings/normalize";
 @import "settings/print";
+@import "settings/custom";
 
 //partials
-@import 'components/hero'; // with header and banner
+@import 'components/hero';
+@import "components/header";
 @import "components/about";
 @import "components/footer";
 
@@ -16,6 +20,7 @@
 
 body {
     font-family: $font-cormorant;
+    background-color: $color-paw;
 }
 
 .container {

@@ -1,1 +1,45 @@
 @import "../settings/variables";
+
+// ----- HEADER -----
+
+.header {
+    padding: 20px 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: rgba(245, 245, 245, 0.27);
+    border-bottom: 1px solid rgba(112, 105, 105, 0.56);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    color: $color-title;
+    font-size: $font-size--logo;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.menu {
+    display: flex;
+    &_list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__link {
+
+        &-el {}
+    }
+}
+
+.is-active {
+    color: $color-paw;
+}

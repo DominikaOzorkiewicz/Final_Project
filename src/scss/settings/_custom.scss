@@ -1,0 +1,39 @@
+@import "variables";
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+
+// Customize - my changes in bootstrap style
+
+$body-bg: #ab696e; //!global;
+$theme-colors: (
+        "primary": #ab696e,
+        "secondary": #ab696e,
+);
+
+$font-family-base: "Cormorant", sans-serif;
+
+$enable-rounded: true;
+
+
+%scope {
+    @import "~bootstrap/scss/variables";
+
+    $body-bg: black !global;
+
+    @debug $body-bg
+}
+
+@debug $body-bg;
+//@import "node_modules/bootstrap/scss/bootstrap";

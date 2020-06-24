@@ -48,7 +48,10 @@ module.exports = {
         enforce: 'pre',
         use: ['source-map-loader'],
       },
-
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
       {
         test: /\.scss$/,
         exclude: /node_modules/,
@@ -87,7 +90,7 @@ module.exports = {
         loader: "file-loader",
         options: {
           name: "[name].[ext]",
-          publicPath: "../",
+          publicPath: "/images/",
           outputPath: "/public/",
           useRelativePaths: true
         }
