@@ -1,11 +1,20 @@
 import React from 'react';
-import { Container, Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import { Container, Form, FormGroup, FormText, Label, Input, Button } from 'reactstrap';
 
 export const Contact = () => {
 
+
+    const contactStyle = {
+        width: '50%',
+        padding: '40px',
+        fontFamily: 'Cormorant',
+    }
+
     return (
-        <section className='contact'>
-            <Container className="contact-container container" fluid={true}>
+        <section className='contact' >
+            <Container className="contact-container container" fluid='true' style={contactStyle} >
+
+                <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Stay in touch!</h3>
 
             <Form>
 

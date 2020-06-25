@@ -1,0 +1,28 @@
+@import "../settings/variables";
+
+.userPanel {
+
+    &__container {
+        font-size: $font-size--text;
+    }
+
+    &__welcome {
+        text-align: center;
+        margin: 20px;
+        font-size: $font-size--heading;
+    }
+}
+
+.panel {
+
+    &__title {
+        text-align: center;
+        border-bottom: 1px solid rgba(171, 105, 110, 0.37);
+    }
+
+    &__content {}
+}
+
+.userDetails__list {
+    list-style-type: none;
+}

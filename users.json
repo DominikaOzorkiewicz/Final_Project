@@ -5,6 +5,12 @@
       "email": "dominika@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "name": "Grażyna Kodu",
+      "email": "grazynka@kalosz.com",
+      "password": "qwerty",
+      "id": 2
     }
   ]
 }

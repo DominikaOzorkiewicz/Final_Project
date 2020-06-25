@@ -10,19 +10,15 @@ export const Login = ({eventlogUser}) => {
 
     //log in method with validate
     const handleLogIn = (event) => {
-        console.log('test');
         event.preventDefault();
-        console.log('test2');
         const newError = [];
-        console.log('test3');
 
         if (email.length < 3 && !email.includes('@')) { newError.push('Email incorrect')}
         //if (password.length === user.password ) { newError.push('Password incorrect')}
         setErrors(newError);
-        console.log('test4');
+        console.log(newError);
 
         if (newError.length > 0 ) return false;
-        console.log('test5');
 
         fetch('http://localhost:3000/users')
             .then( resp => resp.json())
@@ -30,7 +26,7 @@ export const Login = ({eventlogUser}) => {
                 data.forEach(function (user) {
                     if (user.email === email && user.password === password) {
                         eventlogUser(true);
-                        history.push('/');
+                        history.push('/userpanel');
                     }
 
                 })
@@ -42,7 +38,7 @@ export const Login = ({eventlogUser}) => {
     return (
         <>
             <section className='login__container container'>
-                <Container className="login-container container" fluid={true}>
+                <Container className="login-container container" fluid='true'>
 
                     { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
 

@@ -19,7 +19,7 @@ export const NotFound = () => {
 
 
     return (
-        <Container className="notFound__container container" fluid={true} style={flexStyle}>
+        <Container className="notFound__container container" fluid='true' style={flexStyle}>
             <h2>Page not found</h2>
             <Button color='link' href='/' style={returnBtnStyle}>Return</Button>
         </Container>

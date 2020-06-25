@@ -57,8 +57,8 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           // Creates `style` nodes from JS strings
-          MiniCssExtractPlugin.loader,
-          //'style-loader',
+          //MiniCssExtractPlugin.loader,
+          'style-loader',
           // Translates CSS into CommonJS
           {
             loader: 'css-loader',

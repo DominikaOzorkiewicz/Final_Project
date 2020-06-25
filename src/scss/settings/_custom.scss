@@ -16,7 +16,7 @@
 
 // Customize - my changes in bootstrap style
 
-$body-bg: #ab696e; //!global;
+
 $theme-colors: (
         "primary": #ab696e,
         "secondary": #ab696e,
@@ -30,10 +30,10 @@ $enable-rounded: true;
 %scope {
     @import "~bootstrap/scss/variables";
 
-    $body-bg: black !global;
+    $body-bg: black;
 
     @debug $body-bg
 }
 
 @debug $body-bg;
-//@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,17 @@
+@import "../settings/variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cormorant", sans-serif;
+    font-size: $font-size--text;
+    color: $color-text;
+    background: $color-creme;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}

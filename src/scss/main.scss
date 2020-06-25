@@ -1,7 +1,11 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-//settings
 @import "settings/variables";
+@import "components/generic";
+
+
+//settings
+
 @import "settings/normalize";
 @import "settings/print";
 @import "settings/custom";
@@ -9,21 +13,6 @@
 //partials
 @import 'components/hero';
 @import "components/header";
+@import 'components/userPanel';
 @import "components/about";
 @import "components/footer";
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: $font-cormorant;
-    background-color: $color-paw;
-}
-
-.container {
-    width: 1440px;
-    margin: 0 auto;
-}

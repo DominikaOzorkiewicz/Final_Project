@@ -1,45 +1,27 @@
 @import "../settings/variables";
 
-// ----- HEADER -----
-
 .header {
-    padding: 20px 0;
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    background: rgba(245, 245, 245, 0.27);
-    border-bottom: 1px solid rgba(112, 105, 105, 0.56);
+    border-bottom: 1px solid rgba(141, 133, 133, 0.38);
 
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    &_container {}
 }
 
 .logo {
-    color: $color-title;
-    font-size: $font-size--logo;
-    text-transform: uppercase;
-    text-decoration: none;
-
+    font-family: "Cormorant", sans-serif;
+    color: #6D6D6D;
+    font-size: 3.125em;
+    text-shadow: 2px 2px 5px #575555;
+    margin-right: 50px
 }
 
-.menu {
-    display: flex;
-    &_list {
-        display: flex;
-        list-style: none;
-    }
-
-    &__link {
-
-        &-el {}
-    }
+.bi.bi-person-fill {
+    fill: rgba(171, 105, 110, 0.71);
+    margin-right: 10px
 }
 
-.is-active {
-    color: $color-paw;
+.mr-auto {
+    color: #575555;
+    font-weight: 600;
+    font-size: 1.5625em;
+    font-family: $font-cormorant;
 }
