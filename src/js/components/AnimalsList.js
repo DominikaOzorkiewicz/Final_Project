@@ -10,12 +10,12 @@ export const AnimalsList = ({animalType,animalList}) => {
 
     return (
         <section className='animalsList'>
-            <Container className="animalsList-container container" fluid='true' >
+            <Container className='animalsList__container container' fluid='true' >
 
-                <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>{animalType}</h3>
+                <h3 className='animalsList__title'>{animalType}</h3>
 
-                <ul>
-                    { animalsList.map((animal, index) => <li key={index} ><img src={animal.icon} width='200px' height='200px' style={{objectFit: 'cover'}}/>{animal.name}</li>) }
+                <ul className='animalsList__list'>
+                    { animalsList.map((animal, index) => <li key={index} className='animalsList__list-el'><img src={animal.icon} width='200px' height='200px' style={{objectFit: 'cover'}} alt='Animal'/>{animal.name}</li>) }
                 </ul>
 
             </Container>

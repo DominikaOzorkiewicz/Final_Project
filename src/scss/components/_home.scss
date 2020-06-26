@@ -1,0 +1,55 @@
+@import "../settings/variables";
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+
+    font-family: "Cormorant", sans-serif;
+    color: $color-text;
+    font-weight: 700;
+    margin: 0 auto;
+    height: 100%;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &-img {
+        //background-image: url("https://images.pexels.com/photos/909916/pexels-photo-909916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        //background-position: -500px -70px;
+        //background-position: 'center',
+        //background-attachment: 'fixed',
+        //background-repeat: 'no-repeat',
+        height: 100vh;
+        width: 100%;
+        filter: blur(8px)
+    }
+
+    &__content {
+        //background-color: rgba(58, 55, 55, 0.20);
+        border: 1px dotted gold;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        padding: 20px;
+        //zIndex: '2'
+    }
+
+    &__title {
+        font-size: 2.5em;
+        color: $color-title
+    }
+
+    &__button {
+        background-color: $color-paw;
+        border-radius: $images-radius;
+        margin-top: 20px
+    }
+}

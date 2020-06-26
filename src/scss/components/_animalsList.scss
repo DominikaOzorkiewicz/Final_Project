@@ -1,0 +1,19 @@
+@import "../settings/variables";
+
+.animalsList {
+
+    &__container {}
+
+    &__title {
+        text-align: center;
+        margin: 20px;
+        font-size: 1.875em
+    }
+
+    &__list {
+
+
+        &-el {}
+
+    }
+}

@@ -1,12 +1,22 @@
 import React, {useState} from 'react';
 import {Button, Container, Form, FormGroup, Input, Label} from 'reactstrap';
-import { useHistory } from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 
 export const Login = ({eventlogUser}) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [errors, setErrors] = useState([]);
     const history = useHistory();
+
+    const formStyle = {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '80%',
+        padding: '40px',
+        fontFamily: 'Cormorant'
+    }
 
     //log in method with validate
     const handleLogIn = (event) => {
@@ -38,7 +48,7 @@ export const Login = ({eventlogUser}) => {
     return (
         <>
             <section className='login__container container'>
-                <Container className="login-container container" fluid='true'>
+                <Container className="login-container container" fluid='true' style={formStyle}>
 
                     { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
 
@@ -55,6 +65,7 @@ export const Login = ({eventlogUser}) => {
 
 
                         <Button>Log in</Button>
+                        <p>No account? Register <Link to='/register'>here</Link></p>
                     </Form>
 
                 </Container>

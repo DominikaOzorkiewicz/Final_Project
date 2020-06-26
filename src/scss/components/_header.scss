@@ -1,7 +1,8 @@
 @import "../settings/variables";
 
 .header {
-    border-bottom: 1px solid rgba(141, 133, 133, 0.38);
+    //border-bottom: 1px solid rgba(141, 133, 133, 0.38);
+    //background-color: #FFFBFB;
 
     &_container {}
 }
@@ -24,4 +25,13 @@
     font-weight: 600;
     font-size: 1.5625em;
     font-family: $font-cormorant;
+}
+
+.navbar {
+    z-index: 5;
+    background-color: white;
+}
+
+.navbar-light .navbar-text a {
+    color: white
 }

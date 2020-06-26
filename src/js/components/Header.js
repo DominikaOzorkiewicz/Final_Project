@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
-import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, NavbarText, Button } from 'reactstrap';
+import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, NavbarText, Button, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 export const Header = ({ userLogged, eventlogUser }) => {
@@ -24,23 +24,30 @@ export const Header = ({ userLogged, eventlogUser }) => {
         <header className='header' style={ {borderBottom: '1px solid rgba(141, 133, 133, 0.38)'} }>
             <Container className='header__container container' fluid='true'>
 
-                <Navbar color='transparent' light expand='md'>
+                <Navbar  light expand='md'>
 
                     <NavbarBrand href='/' className='logo' >Happy Paws</NavbarBrand>
                     <NavbarToggler onClick={toggle} className="mr-2"/>
-                    <Collapse isOpen={isOpen} navbar>
+                    <Collapse  isOpen={isOpen} navbar>
 
                         <Nav className='mr-auto' navbar >
 
                             {logged === true &&
-                                <>
-                                <NavItem>
-                                    <NavLink tag={Link} to='/catList' className='menu__link-el' >Make cats happy!</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink tag={Link} to='/dogList' className='menu__link-el' >Make dogs happy!</NavLink>
-                                </NavItem>
-                                </>
+
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Make paws happy!
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        <NavLink tag={Link} to='/catList' className='menu__link-el' >Cats</NavLink>
+                                    </DropdownItem>
+                                    <DropdownItem divider/>
+                                    <DropdownItem>
+                                        <NavLink tag={Link} to='/dogList' className='menu__link-el' >Dogs</NavLink>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
                             }
 
                             <NavItem>

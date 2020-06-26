@@ -32,7 +32,7 @@ export const About = () => {
 
                     <Col sm={6} lg={4} style={imgAbout} />
                     <Col fluid='true' lg={8} style={{padding: '10px'}}>
-                        <h3 style={{textAlign: 'center', margin: '20px'}}>Let's talk about animals</h3>
+                        <h3 style={{textAlign: 'center', margin: '20px'}}>Let's talk about pets</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cupiditate debitis fugit hic incidunt laborum possimus quidem repellendus suscipit temporibus?</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolore doloremque eligendi id itaque molestias quae similique, tenetur. Alias ea, iusto molestiae natus obcaecati possimus reiciendis rem sequi! Inventore, quos.</p>
 
