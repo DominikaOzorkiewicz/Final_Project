@@ -33,9 +33,14 @@ export const Header = ({ userLogged, eventlogUser }) => {
                         <Nav className='mr-auto' navbar >
 
                             {logged === true &&
+                                <>
                                 <NavItem>
-                                <NavLink tag={Link} to='/' className='menu__link-el' >Make paws happy!</NavLink>
+                                    <NavLink tag={Link} to='/catList' className='menu__link-el' >Make cats happy!</NavLink>
                                 </NavItem>
+                                <NavItem>
+                                    <NavLink tag={Link} to='/dogList' className='menu__link-el' >Make dogs happy!</NavLink>
+                                </NavItem>
+                                </>
                             }
 
                             <NavItem>

@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Button, Container, Form, FormGroup, Input, Label, Col, FormText, NavLink} from 'reactstrap';
 import {Link, useHistory} from "react-router-dom";
+import Firebase from 'firebase';
 
 export const Register = () => {
     const [user, setUser] = useState({
@@ -62,7 +63,10 @@ export const Register = () => {
 
         if (newError.length > 0 ) return false;
 
-        sendForm();
+        //sendForm();
+        Firebase.database().ref('users/').push(user);
+        console.log('DATA SAVED');
+
         history.push('/userpanel');
     }
 
@@ -118,7 +122,7 @@ export const Register = () => {
                         <FormText color="muted">
                             This is some terms and conditions to read, understand and accept by check the checkbox below.
                         </FormText>
-                        <Input type="checkbox" name="check" id="exampleCheck" require/>
+                        <Input type="checkbox" name="check" id="exampleCheck" />
                         <Label for="exampleCheck" check>I accept the terms and conditions</Label>
                     </FormGroup>
 

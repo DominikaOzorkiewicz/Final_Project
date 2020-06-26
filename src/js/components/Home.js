@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import { Container, Button } from 'reactstrap';
 import {Link} from "react-router-dom";
 import {UserPanel} from "./UserPanel";
+import Firebase from 'firebase';
 
 export const Home = ({ userLogged }) => {
     const [logged, setLogged] = useState(userLogged);
@@ -48,6 +49,20 @@ export const Home = ({ userLogged }) => {
         zIndex: '2'
     }
 
+
+    const handleTest = () => {
+        let ref = Firebase.database().ref('Cats/');
+        let allCats = [];
+        ref.on('value', snapshot => {
+
+            snapshot.forEach(snap => {
+                allCats.push(snap.val());
+            });
+        });
+
+        console.log(allCats);
+    }
+
     return (
 
         <div className='home' style={homeStyle}>
@@ -61,7 +76,7 @@ export const Home = ({ userLogged }) => {
                             <h1 className='home__title' style={{fontSize: '3.125em', color: '#6D6D6D'}}>Hello</h1>
                             <p className='home__text' >Lorem ipsum dolor sit amet.</p>
 
-                            <Button className='home__button' >Meet our animals!</Button>
+                            <Button className='home__button' onClick={handleTest}>Meet our animals!</Button>
                             <p>No account? Register <Link to='/register'>here</Link></p>
                         </Container>
 
