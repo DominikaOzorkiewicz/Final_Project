@@ -15,6 +15,7 @@ import Firebase from 'firebase';
 import firebaseConfig from "./services/config";
 import {AnimalsList} from "./components/AnimalsList";
 
+//constructor for function
 const useSingleton = (initializer) => {
     React.useState(initializer)
 }
@@ -23,7 +24,7 @@ const useSingleton = (initializer) => {
 
 const App = () => {
 
-    const [logged,setLogged] = useState(true);  //true for test, CHANGE TO false
+    const [logged,setLogged] = useState(false);  //true for test, CHANGE TO false
     const [dogsList, setDogsList] = useState([]);
     const [catsList, setCatsList] = useState([]);
 
@@ -32,6 +33,7 @@ const App = () => {
         setLogged(state);
     }
 
+    // constructor - call only once to connect with database(Firebase)
     useSingleton(() => {
         console.log('To powinno się pojawić ino roz');
         let app = Firebase.initializeApp(firebaseConfig);

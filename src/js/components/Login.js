@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Button, Container, Form, FormGroup, Input, Label} from 'reactstrap';
 import {Link, useHistory} from "react-router-dom";
+import Firebase from 'firebase';
 
 export const Login = ({eventlogUser}) => {
     const [email, setEmail] = useState('');
@@ -24,25 +25,57 @@ export const Login = ({eventlogUser}) => {
         const newError = [];
 
         if (email.length < 3 && !email.includes('@')) { newError.push('Email incorrect')}
-        //if (password.length === user.password ) { newError.push('Password incorrect')}
         setErrors(newError);
         console.log(newError);
 
         if (newError.length > 0 ) return false;
 
-        fetch('http://localhost:3000/users')
+
+        //CHANGE TO FIREBASE!
+        let userFound = false;
+
+        let ref = Firebase.database().ref('users/');
+        let allUsers = [];
+        ref.on('value', snapshot => {
+
+            snapshot.forEach(snap => {
+                allUsers.push(snap.val());
+            });
+
+            allUsers.forEach(databaseUser => {
+                if (databaseUser.email === email && databaseUser.password === password) {
+                    userFound = true;
+                    console.log("znaleziony");
+                } else {console.log('nieznaleziony')}
+            });
+
+            if (userFound === true) {
+                eventlogUser(true);
+                history.push('/userpanel');
+
+            } else {
+                newError.push('Email or password incorrect');
+                setErrors(newError);
+            }
+
+        });
+
+        console.log(allUsers);
+
+        /* fetch('http://localhost:3000/users')
             .then( resp => resp.json())
             .then(data => {
                 data.forEach(function (user) {
                     if (user.email === email && user.password === password) {
-                        eventlogUser(true);
-                        history.push('/userpanel');
+                        userFound = true;
                     }
 
                 })
                 console.log(data);
-            });
+            }); */
+
     }
+
 
 
     return (

@@ -67,7 +67,7 @@ export const Register = () => {
         Firebase.database().ref('users/').push(user);
         console.log('DATA SAVED');
 
-        history.push('/userpanel');
+        history.push('/login');
     }
 
 
