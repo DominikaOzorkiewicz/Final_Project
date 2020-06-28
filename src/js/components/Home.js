@@ -13,21 +13,7 @@ export const Home = ({ userLogged }) => {
     });
 
 
-    const handleTest = () => {
-        let ref = Firebase.database().ref('Cats/');
-        let allCats = [];
-        ref.on('value', snapshot => {
-
-            snapshot.forEach(snap => {
-                allCats.push(snap.val());
-            });
-        });
-
-        console.log(allCats);
-    }
-
     return (
-
         <div className='home'>
 
             { logged !== true ?
@@ -39,7 +25,7 @@ export const Home = ({ userLogged }) => {
                             <h1 className='home__title' >Hello!</h1>
                             <p className='home__text' >Lorem ipsum dolor sit amet.</p>
 
-                            <Button className='home__button' size="lg" tag={Link} to='/login' onClick={handleTest}>Meet our pets!</Button>
+                            <Button className='home__button' size="lg" tag={Link} to='/login'>Meet our pets!</Button>
                             <p>No account? Register <Link to='/register'>here</Link></p>
                         </Container>
 
@@ -49,7 +35,6 @@ export const Home = ({ userLogged }) => {
                 : <UserPanel/> }
 
         </div>
-
     );
 
 }

@@ -14,6 +14,7 @@ import {UserPanel} from "./components/UserPanel";
 import Firebase from 'firebase';
 import firebaseConfig from "./services/config";
 import {AnimalsList} from "./components/AnimalsList";
+import {AnimalSingleCard} from "./components/AnimalSingleCard";
 
 //constructor for function
 const useSingleton = (initializer) => {
@@ -25,8 +26,9 @@ const useSingleton = (initializer) => {
 const App = () => {
 
     const [logged,setLogged] = useState(false);  //true for test, CHANGE TO false
-    const [dogsList, setDogsList] = useState([]);
-    const [catsList, setCatsList] = useState([]);
+    const [animalsList, setAnimalsList] = useState([]);
+    //const [dogsList, setDogsList] = useState([]);
+    //const [catsList, setCatsList] = useState([]);
 
     const logUser = (state) => {
         console.log(state);
@@ -39,7 +41,7 @@ const App = () => {
         let app = Firebase.initializeApp(firebaseConfig);
 
         {
-            let ref = app.database().ref('Cats/');
+            let ref = app.database().ref('Animals/');
             let allCats = [];
             ref.on('value', snapshot => {
 
@@ -49,22 +51,37 @@ const App = () => {
             });
 
             console.log(allCats);
-            setCatsList(allCats);
+            setAnimalsList(allCats);
         }
 
-        {
-            let ref = app.database().ref('Dogs/');
-            let allCats = [];
-            ref.on('value', snapshot => {
 
-                snapshot.forEach(snap => {
-                    allCats.push(snap.val());
-                });
-            });
-
-            console.log(allCats);
-            setDogsList(allCats);
-        }
+        //{
+        //             let ref = app.database().ref('Cats/');
+        //             let allCats = [];
+        //             ref.on('value', snapshot => {
+        //
+        //                 snapshot.forEach(snap => {
+        //                     allCats.push(snap.val());
+        //                 });
+        //             });
+        //
+        //             console.log(allCats);
+        //             setCatsList(allCats);
+        //         }
+        //
+        //         {
+        //             let ref = app.database().ref('Dogs/');
+        //             let allCats = [];
+        //             ref.on('value', snapshot => {
+        //
+        //                 snapshot.forEach(snap => {
+        //                     allCats.push(snap.val());
+        //                 });
+        //             });
+        //
+        //             console.log(allCats);
+        //             setDogsList(allCats);
+        //         }
 
     });
 
@@ -79,8 +96,9 @@ const App = () => {
                 <Route path='/login' component={() => <Login eventlogUser={logUser} /> } />
                 <Route path='/register' component={Register} />
                 <Route path='/userpanel' component={UserPanel} />
-                <Route path='/catList' component={() => <AnimalsList animalType='Cats' animalList={catsList} />} />
-                <Route path='/dogList' component={() => <AnimalsList animalType='Dogs' animalList={dogsList}/>}  />
+                <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList} />} />
+                <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList}/>}  />
+                <Route path='/card/:animalID' component={AnimalSingleCard} />
 
                 <Route path='*' component={NotFound} />
             </Switch>
@@ -90,7 +108,6 @@ const App = () => {
     </HashRouter>
 
 }
-
 
 
 ReactDOM.render(<App/>, document.getElementById("app"));

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {Container} from "reactstrap";
+import {Container, FormGroup, Label, Input, ListGroup, ListGroupItem} from "reactstrap";
+import {Link} from "react-router-dom";
 import Firebase from "firebase";
 
 export const AnimalsList = ({animalType,animalList}) => {
@@ -12,11 +13,30 @@ export const AnimalsList = ({animalType,animalList}) => {
         <section className='animalsList'>
             <Container className='animalsList__container container' fluid='true' >
 
-                <h3 className='animalsList__title'>{animalType}</h3>
+                <h3 className='animalsList__title'>{`${animalType}s`}</h3>
 
-                <ul className='animalsList__list'>
-                    { animalsList.map((animal, index) => <li key={index} className='animalsList__list-el'><img src={animal.icon} width='200px' height='200px' style={{objectFit: 'cover'}} alt='Animal'/>{animal.name}</li>) }
-                </ul>
+                <FormGroup>
+                    <Label for="exampleSearch">Search shelter</Label>
+                    <Input
+                        type="search"
+                        name="search"
+                        id="shelterSearch"
+                        placeholder="Wpisz schronisko"
+                    />
+                </FormGroup>
+
+                <ListGroup className='animalsList__list' horizontal="lg">
+
+                    { animalsList.map((animal, index) =>
+
+                        animal.animalType === animalType &&
+                        <ListGroupItem key={index} className='animalsList__list-el'>
+                            <img src={animal.icon} className='animalsList__list-avatar' width='200px' height='200px' alt='Animal'/>
+                            <Link to={`/card/${animal.id}`}>{animal.name}</Link>
+                        </ListGroupItem>
+                    )}
+
+                </ListGroup>
 
             </Container>
         </section>

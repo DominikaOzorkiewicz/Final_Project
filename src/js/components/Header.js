@@ -9,7 +9,6 @@ export const Header = ({ userLogged, eventlogUser }) => {
 
     const toggle = () => setIsOpen(!isOpen);
 
-
     //change logged status true/false
     useEffect(() => {
         setLogged(userLogged);
@@ -21,7 +20,7 @@ export const Header = ({ userLogged, eventlogUser }) => {
 
 
     return (
-        <header className='header' style={ {borderBottom: '1px solid rgba(141, 133, 133, 0.38)'} }>
+        <header className='header' >
             <Container className='header__container container' fluid='true'>
 
                 <Navbar  light expand='md'>

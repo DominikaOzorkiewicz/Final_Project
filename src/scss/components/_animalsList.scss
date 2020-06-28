@@ -7,13 +7,27 @@
     &__title {
         text-align: center;
         margin: 20px;
-        font-size: 1.875em
+        font-size: 1.875em;
+        text-transform: capitalize;
     }
 
     &__list {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
 
 
-        &-el {}
+
+        &-el {
+
+        }
+
+        &-avatar {
+            object-fit: cover;
+            transition: all 0.5s;
+            min-height: 100px;
+            min-width: 100px;
+        }
 
     }
 }

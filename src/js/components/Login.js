@@ -19,6 +19,7 @@ export const Login = ({eventlogUser}) => {
         fontFamily: 'Cormorant'
     }
 
+
     //log in method with validate
     const handleLogIn = (event) => {
         event.preventDefault();
@@ -30,10 +31,7 @@ export const Login = ({eventlogUser}) => {
 
         if (newError.length > 0 ) return false;
 
-
-        //CHANGE TO FIREBASE!
         let userFound = false;
-
         let ref = Firebase.database().ref('users/');
         let allUsers = [];
         ref.on('value', snapshot => {
@@ -45,8 +43,7 @@ export const Login = ({eventlogUser}) => {
             allUsers.forEach(databaseUser => {
                 if (databaseUser.email === email && databaseUser.password === password) {
                     userFound = true;
-                    console.log("znaleziony");
-                } else {console.log('nieznaleziony')}
+                } else {console.log('user not found')}
             });
 
             if (userFound === true) {
@@ -62,30 +59,19 @@ export const Login = ({eventlogUser}) => {
 
         console.log(allUsers);
 
-        /* fetch('http://localhost:3000/users')
-            .then( resp => resp.json())
-            .then(data => {
-                data.forEach(function (user) {
-                    if (user.email === email && user.password === password) {
-                        userFound = true;
-                    }
-
-                })
-                console.log(data);
-            }); */
-
     }
-
 
 
     return (
         <>
-            <section className='login__container container'>
-                <Container className="login-container container" fluid='true' style={formStyle}>
+            <section className='login'>
+                <Container className="login-container container" fluid='true' style={formStyle} >
+
+                    <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Log in</h3>
 
                     { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
 
-                    <Form onSubmit={handleLogIn} >
+                    <Form onSubmit={handleLogIn} style={ {minWidth: '300px'} }>
                         <FormGroup>
                             <Label>Email</Label>
                             <Input type='email' name='email' value={email} placeholder='Email' onChange={event => setEmail(event.target.value)}/>

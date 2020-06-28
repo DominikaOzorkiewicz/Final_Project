@@ -79,7 +79,7 @@ export const Register = () => {
 
                 { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
 
-                <Form  onSubmit={handleSubmit}>
+                <Form  onSubmit={handleSubmit} style={ {minWidth: '300px'} } >
                     <FormGroup>
                         <Label>Name</Label>
                         <Input type='text' name='name' value={user.name} placeholder='Type your name' onChange={handleChangeUserData} />

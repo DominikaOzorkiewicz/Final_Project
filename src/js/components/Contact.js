@@ -5,9 +5,13 @@ export const Contact = () => {
 
 
     const contactStyle = {
-        width: '50%',
         padding: '40px',
         fontFamily: 'Cormorant',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '80%'
     }
 
     return (
@@ -16,7 +20,7 @@ export const Contact = () => {
 
                 <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Stay in touch!</h3>
 
-            <Form>
+            <Form style={ {minWidth: '300px'} } >
 
                 <FormGroup>
                     <Label>Name</Label>
