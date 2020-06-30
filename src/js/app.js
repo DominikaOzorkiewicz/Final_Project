@@ -16,7 +16,7 @@ import firebaseConfig from "./services/config";
 import {AnimalsList} from "./components/AnimalsList";
 import {AnimalSingleCard} from "./components/AnimalSingleCard";
 
-//constructor for function
+//custom Hook declaration for initialize connect with database
 const useSingleton = (initializer) => {
     React.useState(initializer)
 }
@@ -25,65 +25,36 @@ const useSingleton = (initializer) => {
 
 const App = () => {
 
-    const [logged,setLogged] = useState(false);  //true for test, CHANGE TO false
+    const [logged,setLogged] = useState(true);  //true for test, CHANGE TO false
     const [animalsList, setAnimalsList] = useState([]);
-    //const [dogsList, setDogsList] = useState([]);
-    //const [catsList, setCatsList] = useState([]);
 
     const logUser = (state) => {
         console.log(state);
         setLogged(state);
     }
 
-    // constructor - call only once to connect with database(Firebase)
+    //inicjalizacja połączenia z bazą danych, musi być wykonana tylko raz, dlatego mieści się w 'konstruktorze'
+    // constructor - call only once before anything else in the life-cycle of this component to connect with database(Firebase)
     useSingleton(() => {
         console.log('To powinno się pojawić ino roz');
         let app = Firebase.initializeApp(firebaseConfig);
 
         {
             let ref = app.database().ref('Animals/');
-            let allCats = [];
+            let allAnimals = [];
             ref.on('value', snapshot => {
 
                 snapshot.forEach(snap => {
-                    allCats.push(snap.val());
+                    allAnimals.push(snap.val());
                 });
             });
 
-            console.log(allCats);
-            setAnimalsList(allCats);
+            console.log(allAnimals);
+            setAnimalsList(allAnimals);
         }
 
-
-        //{
-        //             let ref = app.database().ref('Cats/');
-        //             let allCats = [];
-        //             ref.on('value', snapshot => {
-        //
-        //                 snapshot.forEach(snap => {
-        //                     allCats.push(snap.val());
-        //                 });
-        //             });
-        //
-        //             console.log(allCats);
-        //             setCatsList(allCats);
-        //         }
-        //
-        //         {
-        //             let ref = app.database().ref('Dogs/');
-        //             let allCats = [];
-        //             ref.on('value', snapshot => {
-        //
-        //                 snapshot.forEach(snap => {
-        //                     allCats.push(snap.val());
-        //                 });
-        //             });
-        //
-        //             console.log(allCats);
-        //             setDogsList(allCats);
-        //         }
-
     });
+
 
     return <HashRouter>
         <>
@@ -98,7 +69,7 @@ const App = () => {
                 <Route path='/userpanel' component={UserPanel} />
                 <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList} />} />
                 <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList}/>}  />
-                <Route path='/card/:animalID' component={AnimalSingleCard} />
+                <Route path='/card/:animalID' component={() => <AnimalSingleCard animalList={animalsList}/>} />
 
                 <Route path='*' component={NotFound} />
             </Switch>

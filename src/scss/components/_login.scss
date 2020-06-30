@@ -3,6 +3,7 @@
 .login {
 
     &__container {
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -11,4 +12,5 @@
         padding: 40px;
         font-family: $font-cormorant;
     }
+
 }

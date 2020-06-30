@@ -2,5 +2,20 @@
 
 .singleCard {
 
-    &-container {}
+    &__container {
+        margin-top: 40px;
+    }
+
+    &__header {}
+
+    &__icon {
+        object-fit: contain;
+        transition: all 0.5s;
+        min-height: 100px;
+        min-width: 100px;
+    }
+
+    &__name {}
+
+    &__description {}
 }

@@ -15,6 +15,7 @@ export const Register = () => {
     const history = useHistory();
 
     const formStyle = {
+        marginTop: '40px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -105,13 +106,13 @@ export const Register = () => {
                         <Col sm={10}>
                             <FormGroup check>
                                 <Label check>
-                                    <Input type="radio" name="radio-yes" />{' '}
+                                    <Input type="radio" name="radio-yes" value={'yes'} />
                                     Yes
                                 </Label>
                             </FormGroup>
                             <FormGroup check>
                                 <Label check>
-                                    <Input type="radio" name="radio-no" />{' '}
+                                    <Input type="radio" name="radio-no" value={'no'} />
                                     No
                                 </Label>
                             </FormGroup>

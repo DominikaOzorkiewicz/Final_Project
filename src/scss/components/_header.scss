@@ -2,15 +2,19 @@
 
 .header {
     border-bottom: 1px solid rgba(141, 133, 133, 0.38);
-    //background-color: #FFFBFB;
+    box-shadow: -3px -3px 12px 0px grey;
 
 
-    &_container {}
+    &__container {
+        box-shadow: none;
+        border: none;
+        background-image: none;
+    }
 }
 
 .logo {
     font-family: "Cormorant", sans-serif;
-    color: #6D6D6D;
+    color: $color-darker-title;
     font-size: 3.125em;
     text-shadow: 2px 2px 5px #575555;
     margin-right: 50px
@@ -31,6 +35,9 @@
 .navbar {
     z-index: 5;
     background-color: white;
+}
+.nav-item {
+    list-style: none;
 }
 
 .navbar-light .navbar-text a {

@@ -65,7 +65,7 @@ export const Login = ({eventlogUser}) => {
     return (
         <>
             <section className='login'>
-                <Container className="login-container container" fluid='true' style={formStyle} >
+                <Container className="login__container container" fluid='true' style={formStyle} >
 
                     <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Log in</h3>
 

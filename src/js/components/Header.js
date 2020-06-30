@@ -23,7 +23,7 @@ export const Header = ({ userLogged, eventlogUser }) => {
         <header className='header' >
             <Container className='header__container container' fluid='true'>
 
-                <Navbar  light expand='md'>
+                <Navbar className='d-flex justify-content-around' light expand='md'>
 
                     <NavbarBrand href='/' className='logo' >Happy Paws</NavbarBrand>
                     <NavbarToggler onClick={toggle} className="mr-2"/>
@@ -58,7 +58,7 @@ export const Header = ({ userLogged, eventlogUser }) => {
                         </Nav>
 
                         {logged === true &&
-                            <Link to='/userpanel' >
+                            <Link className='ml-auto' to='/userpanel' >
                                 <svg className="bi bi-person-fill"  width="2.5em" height="2.5em" viewBox="0 0 16 16"
                                      fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd"
@@ -66,9 +66,9 @@ export const Header = ({ userLogged, eventlogUser }) => {
                                 </svg>
                             </Link>}
 
-                        <NavbarText>{logged === true ?
+                        <NavItem className='float-right'>{logged === true ?
                             <Button tag={Link} to='/' onClick={handleLogOut}>Log out</Button>
-                                : <Button tag={Link} to='/login'>Log in</Button> }</NavbarText>
+                                : <Button tag={Link} to='/login'>Log in</Button> }</NavItem>
 
                     </Collapse>
 

@@ -2,7 +2,9 @@
 
 .animalsList {
 
-    &__container {}
+    &__container {
+        margin-top: 40px;
+    }
 
     &__title {
         text-align: center;
@@ -14,11 +16,22 @@
     &__list {
         list-style-type: none;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
+        max-width: fit-content;
+
+        @media (max-width: 993px) {
+            flex-direction: row;
+        }
 
 
 
         &-el {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: none
+
 
         }
 

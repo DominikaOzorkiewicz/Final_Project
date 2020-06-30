@@ -19,7 +19,7 @@ export const Home = ({ userLogged }) => {
             { logged !== true ?
                 <>
                     <div className='home-img'/>
-                    <Container className='home__container container' style={{fontSize: 'xx-large'}}>
+                    <Container className='home__container container' >
 
                         <Container className='home__content' >
                             <h1 className='home__title' >Hello!</h1>

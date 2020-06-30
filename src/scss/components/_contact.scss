@@ -1,0 +1,25 @@
+@import "../settings/variables";
+
+.contact {
+
+    &__container {
+        margin-top: 40px;
+        padding: 40px;
+        font-family: $font-cormorant;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%
+    }
+
+    &__title {
+        text-align: center;
+        margin: 20px;
+        font-size: $font-size--heading
+    }
+
+    &__form {
+        min-width: 300px
+    }
+}

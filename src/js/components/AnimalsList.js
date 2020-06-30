@@ -31,8 +31,8 @@ export const AnimalsList = ({animalType,animalList}) => {
 
                         animal.animalType === animalType &&
                         <ListGroupItem key={index} className='animalsList__list-el'>
-                            <img src={animal.icon} className='animalsList__list-avatar' width='200px' height='200px' alt='Animal'/>
-                            <Link to={`/card/${animal.id}`}>{animal.name}</Link>
+                            <Link  to={`/card/${animal.id}`}><img src={animal.icon} className='animalsList__list-avatar rounded' width='200px' height='200px' alt='Animal'/></Link>
+                            <Link className="h6" to={`/card/${animal.id}`}>{animal.name}</Link>
                         </ListGroupItem>
                     )}
 
