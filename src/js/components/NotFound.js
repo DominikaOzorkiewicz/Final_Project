@@ -10,7 +10,8 @@ export const NotFound = () => {
     }
 
     const flexStyle = {
-        height: '100%',
+        marginTop: '40px',
+        height: '50vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -21,7 +22,7 @@ export const NotFound = () => {
     return (
         <Container className="notFound__container container" fluid='true' style={flexStyle}>
             <h2>Page not found</h2>
-            <Button color='link' href='/' style={returnBtnStyle}>Return</Button>
+            <Button color='link' href='/' style={returnBtnStyle}>Return to home page</Button>
         </Container>
     );
 }

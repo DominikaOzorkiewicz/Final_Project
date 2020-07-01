@@ -1,8 +1,9 @@
 @import "../settings/variables";
 
 .header {
-    border-bottom: 1px solid rgba(141, 133, 133, 0.38);
-    box-shadow: -3px -3px 12px 0px grey;
+    border-bottom: 3px solid rgba(141, 133, 133, 0.38);
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    box-shadow: 3px 1px 20px 0px grey;
 
 
     &__container {
@@ -21,7 +22,7 @@
 }
 
 .bi.bi-person-fill {
-    fill: rgba(171, 105, 110, 0.71);
+    fill: #6c757d;
     margin-right: 10px
 }
 

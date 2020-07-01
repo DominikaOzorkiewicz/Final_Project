@@ -43,6 +43,22 @@ const App = () => {
         }
     });
 
+    const [sheltersList, setSheltersList] = useState( () => {
+        //get info about shelters from database(Firebase)
+        {
+            let ref = Firebase.database().ref('shelter/');
+            let shelters = [];
+
+            ref.on('value', snapshot => {
+                snapshot.forEach(snap => {
+                    shelters.push(snap.val());
+                });
+            });
+            console.log('schroniska');
+            console.log(shelters);
+            return shelters;
+        }
+    });
 
 
 
@@ -51,14 +67,14 @@ const App = () => {
             <Header userLogged={logged} eventlogUser={logUser}/>
 
             <Switch>
-                <Route exact path='/' component={() => <Home eventlogUser={logUser} /> } />
+                <Route exact path='/' component={() => <Home userLogged={logged} /> } />
                 <Route path='/about' component={About} />
                 <Route path='/contact' component={Contact} />
                 <Route path='/login' component={() => <Login eventlogUser={logUser} /> } />
                 <Route path='/register' component={Register} />
                 <Route path='/userpanel' component={UserPanel} />
-                <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList} />} />
-                <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList}/>}  />
+                <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
+                <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
                 <Route path='/card/:animalID' component={() => <AnimalSingleCard animalList={animalsList}/>} />
 
                 <Route path='*' component={NotFound} />

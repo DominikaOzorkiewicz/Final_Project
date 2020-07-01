@@ -48,7 +48,7 @@ export const Login = ({eventlogUser}) => {
 
             if (userFound === true) {
                 eventlogUser(true);
-                history.push('/userpanel');
+                history.push('/');
 
             } else {
                 newError.push('Email or password incorrect');

@@ -17,10 +17,14 @@
 // Customize - my changes in bootstrap style
 
 
-$theme-colors: (
+/* $theme-colors: (
         "primary": #ab696e,
         "secondary": #ab696e,
-);
+); */
+
+.btn-primary,
+.btn-secondary {}
+
 
 $font-family-base: "Cormorant", sans-serif;
 
