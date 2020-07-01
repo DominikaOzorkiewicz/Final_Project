@@ -1,9 +1,11 @@
 @import "../settings/variables";
 
 .singleCard {
+    font-size: 1.3em;
 
     &__container {
         margin-top: 40px;
+        padding: 40px;
     }
 
     &__header {}
@@ -18,4 +20,11 @@
     &__name {}
 
     &__description {}
+}
+
+
+.addFavoriteBtn {}
+
+.bi.bi-heart {
+    margin-right: 5px;
 }

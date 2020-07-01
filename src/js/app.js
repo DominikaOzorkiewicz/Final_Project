@@ -75,7 +75,7 @@ const App = () => {
                 <Route path='/userpanel' component={UserPanel} />
                 <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
                 <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
-                <Route path='/card/:animalID' component={() => <AnimalSingleCard animalList={animalsList}/>} />
+                <Route path='/card/:animalID' component={() => <AnimalSingleCard animalList={animalsList} sheltersList={sheltersList} />} />
 
                 <Route path='*' component={NotFound} />
             </Switch>

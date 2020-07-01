@@ -25,7 +25,7 @@ export const Header = ({ userLogged, eventlogUser }) => {
 
                 <Navbar className='d-flex justify-content-around' light expand='md'>
 
-                    <NavbarBrand href='/home' className='logo' ><img src="https://img.icons8.com/cotton/64/000000/cat-footprint--v1.png" alt='Paw icon'/>Happy Paws</NavbarBrand>
+                    <NavbarBrand href='/home' className='logo' ><img className='logo__img' src="https://img.icons8.com/cotton/64/000000/cat-footprint--v1.png" alt='Paw icon'/>Happy Paws</NavbarBrand>
                     <NavbarToggler onClick={toggle} className="mr-2"/>
                     <Collapse  isOpen={isOpen} navbar>
 
