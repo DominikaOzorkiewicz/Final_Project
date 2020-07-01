@@ -3,32 +3,18 @@ import Firebase from 'firebase';
 import {Container, Card, CardHeader,CardBody, CardImg, CardTitle, CardText} from 'reactstrap';
 import {useParams} from "react-router-dom";
 
-const useSingleton = (initializer) => {
-    React.useState(initializer)
-}
 
 export const AnimalSingleCard = ({ animalList }) => {
     let { animalID } = useParams();
     const [animal, setAnimal] = useState(animalList);
-    const [pet, setPet] = useState('');
 
-    //  nie działa i nie mam pojęcia dlaczego <<<-----------------------------------
-    //const [pet, setPet] = useState(()=> {
-    //         animalList.forEach( selectedPet => {
-    //             if (animalID === selectedPet.id) {
-    //                 console.log('mam!');
-    //                 return selectedPet;
-    //             }
-    //         });
-    //     });
-
-    useSingleton(() => {
-        animal.forEach( selectedPet => {
-            if (animalID === selectedPet.id) {
-                setPet(selectedPet);
-            }
-        });
+    const [pet, setPet] = useState(() => {
+             const selectedAnimal = animalList.filter(animal => {
+                 return animal.id === animalID;
+             });
+        return selectedAnimal.length <= 0 ? '' : selectedAnimal[0];
     })
+
 
     return (
         <section className='singleCard' >
@@ -40,6 +26,7 @@ export const AnimalSingleCard = ({ animalList }) => {
                     <CardBody>
                         <CardImg className='singleCard__icon' variant="top" src={ pet.icon } width='200px' height='200px' alt='Animal'/>
                         <CardTitle className='singleCard__name' >Name: {pet.name}</CardTitle>
+                        <CardText className='singleCard__age' >Birth: {pet.birth}</CardText>
                         <CardText className='singleCard__description' >Description: {pet.description}</CardText>
 
                     </CardBody>

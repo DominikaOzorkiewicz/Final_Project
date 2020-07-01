@@ -16,44 +16,34 @@ import firebaseConfig from "./services/config";
 import {AnimalsList} from "./components/AnimalsList";
 import {AnimalSingleCard} from "./components/AnimalSingleCard";
 
-//custom Hook declaration for initialize connect with database
-const useSingleton = (initializer) => {
-    React.useState(initializer)
-}
-
 
 
 const App = () => {
 
     const [logged,setLogged] = useState(true);  //true for test, CHANGE TO false
-    const [animalsList, setAnimalsList] = useState([]);
 
     const logUser = (state) => {
         console.log(state);
         setLogged(state);
     }
 
-    //inicjalizacja połączenia z bazą danych, musi być wykonana tylko raz, dlatego mieści się w 'konstruktorze'
-    // constructor - call only once before anything else in the life-cycle of this component to connect with database(Firebase)
-    useSingleton(() => {
-        console.log('To powinno się pojawić ino roz');
+    const [animalsList, setAnimalsList] = useState( () => {
+        //connect with database(Firebase)
         let app = Firebase.initializeApp(firebaseConfig);
-
         {
             let ref = app.database().ref('Animals/');
             let allAnimals = [];
-            ref.on('value', snapshot => {
 
+            ref.on('value', snapshot => {
                 snapshot.forEach(snap => {
                     allAnimals.push(snap.val());
                 });
             });
-
-            console.log(allAnimals);
-            setAnimalsList(allAnimals);
+            return allAnimals;
         }
-
     });
+
+
 
 
     return <HashRouter>
