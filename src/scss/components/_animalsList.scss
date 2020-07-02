@@ -56,6 +56,8 @@
     font-size: 1.3em;
 
     &:hover {
-        color: #6417ca;
+        color: rgba(0, 0, 0, 0.9);
+        text-decoration: none;
+        text-shadow: 3px 0 5px #b0b5b9;
     }
 }

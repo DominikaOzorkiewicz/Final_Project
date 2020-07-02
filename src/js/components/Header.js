@@ -32,29 +32,31 @@ export const Header = ({ userLogged, eventlogUser }) => {
                         <Nav className='mr-auto' navbar >
 
                             {logged === true &&
+                                <UncontrolledDropdown nav inNavbar>
+                                    <DropdownToggle nav caret>
+                                        Make paws happy!
+                                    </DropdownToggle>
+                                    <DropdownMenu right>
+                                        <DropdownItem>
+                                            <NavLink tag={Link} to='/catList' className='menu__link-el' >Cats</NavLink>
+                                        </DropdownItem>
 
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    Make paws happy!
-                                </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        <NavLink tag={Link} to='/catList' className='menu__link-el' >Cats</NavLink>
-                                    </DropdownItem>
-
-                                    <DropdownItem>
-                                        <NavLink tag={Link} to='/dogList' className='menu__link-el' >Dogs</NavLink>
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                                        <DropdownItem>
+                                            <NavLink tag={Link} to='/dogList' className='menu__link-el' >Dogs</NavLink>
+                                        </DropdownItem>
+                                    </DropdownMenu>
+                                </UncontrolledDropdown>
                             }
 
                             <NavItem>
-                                <NavLink tag={Link} to="/about" className='menu__link-el'>About me</NavLink>
+                                <NavLink tag={Link} to="/about" className='menu__link-el'>About</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink tag={Link} to='/contact' className='menu__link-el'>Contact</NavLink>
-                            </NavItem>
+
+                            {logged === true &&
+                                <NavItem>
+                                    <NavLink tag={Link} to='/contact' className='menu__link-el'>Contact</NavLink>
+                                </NavItem>
+                            }
                         </Nav>
 
                         {logged === true &&
@@ -64,11 +66,15 @@ export const Header = ({ userLogged, eventlogUser }) => {
                                     <path fillRule="evenodd"
                                           d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                                 </svg>
-                            </Link>}
+                            </Link>
+                        }
 
-                        <NavItem className='float-right'>{logged === true ?
-                            <Button tag={Link} to='/' onClick={handleLogOut}>Log out</Button>
-                                : <Button tag={Link} to='/login'>Log in</Button> }</NavItem>
+                        <NavItem className='float-right'>
+                            {logged === true ?
+                                <Button tag={Link} to='/' onClick={handleLogOut}>Log out</Button>
+                                : <Button tag={Link} to='/login'>Log in</Button>
+                            }
+                        </NavItem>
 
                     </Collapse>
 

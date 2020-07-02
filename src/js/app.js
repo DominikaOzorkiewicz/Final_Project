@@ -27,6 +27,13 @@ const App = () => {
         setLogged(state);
     }
 
+    //ustawianie aktywnego usera i info o nim
+    const [loggedUser, setLoggedUser] = useState('');
+    const setCurrentUser = (user) => {
+        console.log(user);
+        setLoggedUser(user);
+    }
+
     const [animalsList, setAnimalsList] = useState( () => {
         //connect with database(Firebase)
         let app = Firebase.initializeApp(firebaseConfig);
@@ -34,7 +41,7 @@ const App = () => {
             let ref = app.database().ref('Animals/');
             let allAnimals = [];
 
-            ref.on('value', snapshot => {
+            ref.once('value', snapshot => {
                 snapshot.forEach(snap => {
                     allAnimals.push(snap.val());
                 });
@@ -49,7 +56,7 @@ const App = () => {
             let ref = Firebase.database().ref('shelter/');
             let shelters = [];
 
-            ref.on('value', snapshot => {
+            ref.once('value', snapshot => {
                 snapshot.forEach(snap => {
                     shelters.push(snap.val());
                 });
@@ -69,13 +76,13 @@ const App = () => {
             <Switch>
                 <Route exact path='/' component={() => <Home userLogged={logged} /> } />
                 <Route path='/about' component={About} />
-                <Route path='/contact' component={Contact} />
-                <Route path='/login' component={() => <Login eventlogUser={logUser} /> } />
+                <Route path='/contact' component={() => <Contact sheltersList={sheltersList} />}  />
+                <Route path='/login' component={() => <Login eventlogUser={logUser} eventCurrentUser={setCurrentUser} /> } />
                 <Route path='/register' component={Register} />
-                <Route path='/userpanel' component={UserPanel} />
+                <Route path='/userpanel' component={() => <UserPanel user={loggedUser} /> } />
                 <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
                 <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
-                <Route path='/card/:animalID' component={() => <AnimalSingleCard animalList={animalsList} sheltersList={sheltersList} />} />
+                <Route path='/card/:animalID' component={() => <AnimalSingleCard user={loggedUser} animalList={animalsList} sheltersList={sheltersList} />} />
 
                 <Route path='*' component={NotFound} />
             </Switch>

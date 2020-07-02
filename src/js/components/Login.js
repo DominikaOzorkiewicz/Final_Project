@@ -3,7 +3,7 @@ import {Button, Container, Form, FormGroup, Input, Label} from 'reactstrap';
 import {Link, useHistory} from "react-router-dom";
 import Firebase from 'firebase';
 
-export const Login = ({eventlogUser}) => {
+export const Login = ({eventlogUser, eventCurrentUser}) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [errors, setErrors] = useState([]);
@@ -32,9 +32,10 @@ export const Login = ({eventlogUser}) => {
         if (newError.length > 0 ) return false;
 
         let userFound = false;
+        let currentUser = '';
         let ref = Firebase.database().ref('users/');
         let allUsers = [];
-        ref.on('value', snapshot => {
+        ref.once('value', snapshot => {
 
             snapshot.forEach(snap => {
                 allUsers.push(snap.val());
@@ -43,11 +44,13 @@ export const Login = ({eventlogUser}) => {
             allUsers.forEach(databaseUser => {
                 if (databaseUser.email === email && databaseUser.password === password) {
                     userFound = true;
+                    currentUser = databaseUser;
                 } else {console.log('user not found')}
             });
 
             if (userFound === true) {
                 eventlogUser(true);
+                eventCurrentUser(currentUser);
                 history.push('/');
 
             } else {

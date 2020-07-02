@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Container, FormGroup, Label, Input, ListGroup, ListGroupItem} from "reactstrap";
 import {Link} from "react-router-dom";
-import Firebase from "firebase";
-import firebaseConfig from "../services/config";
 
 export const AnimalsList = ({animalType,animalList, sheltersList}) => {
 
@@ -36,8 +34,10 @@ export const AnimalsList = ({animalType,animalList, sheltersList}) => {
                     { shelterID !== '' ? (
                         animalsList.filter(animal => {
                             return animal.location === shelterID
+
                         }).map((animal, index) =>
                             animal.animalType === animalType &&
+
                             <ListGroupItem key={index} className='animalsList__list-el'>
                                 <Link  to={`/card/${animal.id}`}><img src={animal.icon} className='animalsList__list-avatar rounded' width='200px' height='200px' alt='Animal'/></Link>
                                 <Link className="h6" to={`/card/${animal.id}`}>{animal.name}</Link>

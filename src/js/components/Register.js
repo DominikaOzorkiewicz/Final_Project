@@ -8,6 +8,8 @@ export const Register = () => {
         name:'',
         email: '',
         password: '',
+        id: '',
+        favoritePetsList: [],
     });
 
     const [password2, setPassword2] = useState('');
@@ -64,8 +66,12 @@ export const Register = () => {
 
         if (newError.length > 0 ) return false;
 
+        //set user ID
+        user.id = Math.random().toString(36).substr(2, 9);
+
         //sendForm();
-        Firebase.database().ref('users/').push(user);
+        //Firebase.database().ref('users/').push(user);
+        Firebase.database().ref('users/' + user.id).set(user);
         console.log('DATA SAVED');
 
         history.push('/login');
