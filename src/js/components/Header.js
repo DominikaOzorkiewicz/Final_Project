@@ -16,6 +16,7 @@ export const Header = ({ userLogged, eventlogUser }) => {
 
     const handleLogOut = () => {
         eventlogUser(false);
+        localStorage.clear();
     }
 
 

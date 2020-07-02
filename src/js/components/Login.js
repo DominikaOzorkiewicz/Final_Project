@@ -41,6 +41,8 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
             if (userFound === true) {
                 eventlogUser(true);
                 eventCurrentUser(currentUser);
+                // set user to local storage as string
+                localStorage.setItem('ActiveUser', JSON.stringify(currentUser));
                 history.push('/');
 
             } else {

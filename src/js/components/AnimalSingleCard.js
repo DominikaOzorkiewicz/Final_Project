@@ -1,16 +1,25 @@
 import React, {useEffect, useState} from 'react';
 import Firebase from 'firebase';
-import {Container, Card, CardHeader,CardBody, CardImg, CardTitle, CardText, Button, Row, Col} from 'reactstrap';
+import {Container, Card, CardHeader, CardBody, CardImg, CardTitle, CardText, Button, Row, Col} from 'reactstrap';
 import {useParams, Link} from "react-router-dom";
 
 
 export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
     let { animalID } = useParams();
-    const [animal, setAnimal] = useState(animalList);
+
+    const [animal, setAnimal] = useState(() => {
+        if (animalList === undefined || animalList.length === 0) {
+
+            if (localStorage.getItem('Animals') !== null) {
+                return JSON.parse(localStorage.getItem('Animals'));
+            } else { return ''}
+
+        } else {return animalList}
+    });
 
     // Set animal based on animal id
     const [pet, setPet] = useState(() => {
-             const selectedAnimal = animalList.filter(animal => {
+             const selectedAnimal = animal.filter(animal => {
                  return animal.id === animalID;
              });
         return selectedAnimal.length <= 0 ? '' : selectedAnimal[0];
@@ -62,7 +71,7 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
                         <CardImg className='singleCard__icon' variant="top" src={ pet.icon } width='200px' height='200px' alt='Animal'/>
                         <Row style={ {marginTop: '20px'} }>
                             <Col className="col-md-4">
-                                <CardTitle className='singleCard__name' >Name: {pet.name}</CardTitle>
+                                <CardTitle className='singleCard__name'>Name: <span>{pet.name}</span></CardTitle>
                             </Col>
 
                             <Col className="col-md-4 offset-md-4">

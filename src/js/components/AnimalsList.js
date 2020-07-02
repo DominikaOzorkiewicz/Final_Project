@@ -4,7 +4,16 @@ import {Link} from "react-router-dom";
 
 export const AnimalsList = ({animalType,animalList, sheltersList}) => {
 
-    const [animalsList, setAnimalsList] = useState(animalList);
+    const [animalsList, setAnimalsList] = useState(() => {
+        if (animalList === undefined || animalList.length === 0) {
+
+            if (localStorage.getItem('Animals') !== null) {
+                return JSON.parse(localStorage.getItem('Animals'));
+            } else { return ''}
+
+        } else {return animalList}
+    });
+
     const [shelterID, setShelterID] = useState('');
 
     const handleChangeShelter = (event) => {

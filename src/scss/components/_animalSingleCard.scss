@@ -17,13 +17,32 @@
         min-width: 100px;
     }
 
-    &__name {}
+    &__name {
+        span {
+            font-weight: 600;
+        }
+    }
 
-    &__description {}
+    &__description {
+        line-height: 1.7em;
+    }
 }
 
+.addFavoriteBtn {
+    &:hover {
+        svg {
+            transition: 0.5s;
+            fill: red;
+        }
+    }
 
-.addFavoriteBtn {}
+    &:active{
+        svg {
+            transition: 0.5s;
+            fill: red;
+        }
+    }
+}
 
 .bi.bi-heart {
     margin-right: 5px;

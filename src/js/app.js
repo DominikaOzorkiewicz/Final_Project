@@ -20,15 +20,24 @@ import {AnimalSingleCard} from "./components/AnimalSingleCard";
 
 const App = () => {
 
-    const [logged,setLogged] = useState(true);  //true for test, CHANGE TO false
+    const [logged,setLogged] = useState(false);  //true for test, CHANGE TO false
 
     const logUser = (state) => {
         console.log(state);
         setLogged(state);
     }
 
-    //ustawianie aktywnego usera i info o nim
-    const [loggedUser, setLoggedUser] = useState('');
+    // Set active user and info about in local storage
+    const [loggedUser, setLoggedUser] = useState(() => {
+        // Check if any user is logged
+        if (localStorage.getItem('ActiveUser') !== null) {
+            setLogged(true);
+            return JSON.parse(localStorage.getItem('ActiveUser'));
+
+        } else {return ''}
+    });
+
+
     const setCurrentUser = (user) => {
         console.log(user);
         setLoggedUser(user);
@@ -45,7 +54,10 @@ const App = () => {
                 snapshot.forEach(snap => {
                     allAnimals.push(snap.val());
                 });
+                // set animals to local storage as string
+                localStorage.setItem('Animals', JSON.stringify(allAnimals));
             });
+
             return allAnimals;
         }
     });
