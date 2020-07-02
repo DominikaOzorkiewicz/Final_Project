@@ -9,16 +9,6 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
     const [errors, setErrors] = useState([]);
     const history = useHistory();
 
-    const formStyle = {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '80%',
-        padding: '40px',
-        fontFamily: 'Cormorant'
-    }
-
 
     //log in method with validate
     const handleLogIn = (event) => {
@@ -57,41 +47,37 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
                 newError.push('Email or password incorrect');
                 setErrors(newError);
             }
-
         });
 
         console.log(allUsers);
-
     }
 
 
     return (
-        <>
-            <section className='login'>
-                <Container className="login__container container" fluid='true' style={formStyle} >
+        <section className='login'>
+            <Container className="login__container container" fluid='true' >
 
-                    <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Log in</h3>
+                <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Log in</h3>
 
-                    { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
+                { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
 
-                    <Form onSubmit={handleLogIn} style={ {minWidth: '300px'} }>
-                        <FormGroup>
-                            <Label>Email</Label>
-                            <Input type='email' name='email' value={email} placeholder='Email' onChange={event => setEmail(event.target.value)}/>
-                        </FormGroup>
+                <Form onSubmit={handleLogIn}  style={ {minWidth: '300px'} }>
+                    <FormGroup>
+                        <Label>Email</Label>
+                        <Input type='email' name='email' value={email} placeholder='Email' onChange={event => setEmail(event.target.value)}/>
+                    </FormGroup>
 
-                        <FormGroup>
-                            <Label>Password</Label>
-                            <Input type='password' name='password' value={password} placeholder='Password' onChange={event => setPassword(event.target.value)}/>
-                        </FormGroup>
+                    <FormGroup>
+                        <Label>Password</Label>
+                        <Input type='password' name='password' value={password} placeholder='Password' onChange={event => setPassword(event.target.value)}/>
+                    </FormGroup>
 
 
-                        <Button>Log in</Button>
-                        <p>No account? Register <Link to='/register'>here</Link></p>
-                    </Form>
+                    <Button>Log in</Button>
+                    <p>No account? Register <Link to='/register' style={ {color: 'red', textDecoration: 'underline'} } >here</Link></p>
+                </Form>
 
-                </Container>
-            </section>
-        </>
+            </Container>
+        </section>
     );
 }

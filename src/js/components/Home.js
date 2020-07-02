@@ -18,7 +18,7 @@ export const Home = ({ userLogged }) => {
 
             <Container className='home__container container' >
 
-                    <h1 className='home__title' >Hello!</h1>
+                    <h1 className='home__title'>Hello!</h1>
 
                     {logged === true ?
                         <>
@@ -40,10 +40,9 @@ export const Home = ({ userLogged }) => {
                         <>
                             <p className='home__text' >Please login to search for your new animal friend.</p>
                             <Button className='home__button' size="lg" tag={Link} to='/login'>Log in</Button>
-                            <p className='home__text-register'>No account? Register <Link to='/register'>here!</Link></p>
+                            <p className='home__text-register'>No account? Register <Link to='/register' style={ {color: 'red', textDecoration: 'underline'} }>here!</Link></p>
                         </>
                     }
-
 
             </Container>
 

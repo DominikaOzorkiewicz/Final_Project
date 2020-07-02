@@ -35,8 +35,9 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
         }
 
         // Prevent to add the same pet twice
-        if ( !(pet.id in user.favoritePetsList) ) {
+        if ( !(user.favoritePetsList.includes(pet.id)) ) {
             user.favoritePetsList.push(pet.id);
+
         } else { user.favoritePetsList = user.favoritePetsList.filter(el => el !== pet.id) }
 
         let favoritePetsList = Firebase.database().ref('users/' + user.id).update({'favoritePetsList': user.favoritePetsList},
@@ -48,7 +49,6 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
                 }
             });
     }
-
 
 
     return (

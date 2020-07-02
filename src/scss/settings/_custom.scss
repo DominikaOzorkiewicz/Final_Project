@@ -31,6 +31,11 @@ $font-family-base: "Cormorant", sans-serif;
 $enable-rounded: true;
 $enable-responsive-font-sizes: true;
 
+$link-color: #575555;
+$link-hover-color: rgba(0, 0, 0, 0.9);
+$link-hover-decoration: none;
+$link-hover-text-shadow: 3px 0 5px #b0b5b9;
+
 
 %scope {@import "~bootstrap/scss/variables";}
 

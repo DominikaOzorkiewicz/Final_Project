@@ -79,7 +79,7 @@ const App = () => {
                 <Route path='/contact' component={() => <Contact sheltersList={sheltersList} />}  />
                 <Route path='/login' component={() => <Login eventlogUser={logUser} eventCurrentUser={setCurrentUser} /> } />
                 <Route path='/register' component={Register} />
-                <Route path='/userpanel' component={() => <UserPanel user={loggedUser} /> } />
+                <Route path='/userpanel' component={() => <UserPanel user={loggedUser} animalList={animalsList} /> } />
                 <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
                 <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
                 <Route path='/card/:animalID' component={() => <AnimalSingleCard user={loggedUser} animalList={animalsList} sheltersList={sheltersList} />} />
