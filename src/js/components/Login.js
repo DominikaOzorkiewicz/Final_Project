@@ -10,7 +10,7 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
     const history = useHistory();
 
 
-    //log in method with validate
+    // Log in method with validate
     const handleLogIn = (event) => {
         event.preventDefault();
         const newError = [];
@@ -41,7 +41,7 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
             if (userFound === true) {
                 eventlogUser(true);
                 eventCurrentUser(currentUser);
-                // set user to local storage as string
+                // Set user to local storage as string
                 localStorage.setItem('ActiveUser', JSON.stringify(currentUser));
                 history.push('/');
 
@@ -50,8 +50,6 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
                 setErrors(newError);
             }
         });
-
-        console.log(allUsers);
     }
 
 
@@ -73,7 +71,6 @@ export const Login = ({eventlogUser, eventCurrentUser}) => {
                         <Label>Password</Label>
                         <Input type='password' name='password' value={password} placeholder='Password' onChange={event => setPassword(event.target.value)}/>
                     </FormGroup>
-
 
                     <Button>Log in</Button>
                     <p>No account? Register <Link to='/register' style={ {color: 'red', textDecoration: 'underline'} } >here</Link></p>

@@ -1,14 +1,11 @@
 import React, {useEffect, useState} from "react";
 import {Container, Button, NavLink} from 'reactstrap';
 import {Link} from "react-router-dom";
-import {UserPanel} from "./UserPanel";
-import Firebase from 'firebase';
 
 export const Home = ({ userLogged }) => {
     const [logged, setLogged] = useState(userLogged);
 
     useEffect(() => {
-        console.log(`działa ${userLogged}`);
         setLogged(userLogged);
     });
 

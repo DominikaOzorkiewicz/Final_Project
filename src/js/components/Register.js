@@ -36,22 +36,6 @@ export const Register = () => {
         }));
     }
 
-    //method for send full correct form
-    const sendForm = () => {
-
-        fetch('http://localhost:3000/users', {
-            method: 'POST',
-            body: JSON.stringify(user),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        })
-            .then( resp => resp.json())
-            .then( data => setUser(data))
-            .catch( err => console.log(err));
-
-    }
-
     const handleSubmit = (event) => {
         event.preventDefault();
         const newError = [];
@@ -69,8 +53,6 @@ export const Register = () => {
         //set user ID
         user.id = Math.random().toString(36).substr(2, 9);
 
-        //sendForm();
-        //Firebase.database().ref('users/').push(user);
         Firebase.database().ref('users/' + user.id).set(user);
         console.log('DATA SAVED');
 

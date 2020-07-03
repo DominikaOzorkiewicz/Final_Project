@@ -17,8 +17,6 @@ export const UserPanel = ({ user, animalList }) => {
     });
 
 
-    console.log(loggedUser.favoritePetsList);
-
 
     return (
         <section className='userPanel'>

@@ -4,7 +4,6 @@
 
     font-family: $font-cormorant;
 
-
     &__container {
         margin-top: 40px;
         display: flex;
@@ -18,14 +17,10 @@
         margin: 20px;
         text-align: center;
         font-size: $font-size--heading
-        //display: flex;
-        //justify-content: center;
-        //align-items: center;
     }
 
     &__content {
         justify-content: center;
-
     }
 
     &__img {
@@ -45,5 +40,9 @@
         padding: 20px;
         font-size: 1.3em;
         line-height: 1.7em;
+    }
+
+    &__socialmedia {
+        cursor: pointer;
     }
 }

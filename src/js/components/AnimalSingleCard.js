@@ -17,6 +17,7 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
         } else {return animalList}
     });
 
+
     // Set animal based on animal id
     const [pet, setPet] = useState(() => {
              const selectedAnimal = animal.filter(animal => {
@@ -25,6 +26,7 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
         return selectedAnimal.length <= 0 ? '' : selectedAnimal[0];
     });
 
+
     // Set shelter name based on animal location
     const [shelter, setShelter] = useState(() => {
         const selectedShelter = sheltersList.filter(shelter => {
@@ -32,6 +34,7 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
         });
         return selectedShelter.length <= 0 ? '' : selectedShelter[0];
     });
+
 
     // Favorite list
     const [favoritePet, setFavoritePet] = useState([]);

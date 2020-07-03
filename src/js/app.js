@@ -9,7 +9,6 @@ import {Contact} from "./components/Contact";
 import {NotFound} from "./components/NotFound";
 import {Login} from "./components/Login";
 import {Register} from "./components/Register";
-import {Footer} from "./components/Footer";
 import {UserPanel} from "./components/UserPanel";
 import Firebase from 'firebase';
 import firebaseConfig from "./services/config";
@@ -20,7 +19,7 @@ import {AnimalSingleCard} from "./components/AnimalSingleCard";
 
 const App = () => {
 
-    const [logged,setLogged] = useState(false);  //true for test, CHANGE TO false
+    const [logged,setLogged] = useState(false);
 
     const logUser = (state) => {
         console.log(state);
@@ -39,13 +38,23 @@ const App = () => {
 
 
     const setCurrentUser = (user) => {
-        console.log(user);
         setLoggedUser(user);
     }
 
     const [animalsList, setAnimalsList] = useState( () => {
-        //connect with database(Firebase)
+        // Connect with database(Firebase)
         let app = Firebase.initializeApp(firebaseConfig);
+
+        /*
+        app.auth().signInWithEmailAndPassword(email, password)
+            .then(function(result) {
+                console.log('auth  działa');// result.user.tenantId should be ‘TENANT_PROJECT_ID’.
+            }).catch(function(error) {
+            console.log('auth nie działa');// Handle error.
+
+        });
+        */
+
         {
             let ref = app.database().ref('Animals/');
             let allAnimals = [];
@@ -54,7 +63,7 @@ const App = () => {
                 snapshot.forEach(snap => {
                     allAnimals.push(snap.val());
                 });
-                // set animals to local storage as string
+                // Set animals to local storage as string
                 localStorage.setItem('Animals', JSON.stringify(allAnimals));
             });
 
@@ -63,7 +72,7 @@ const App = () => {
     });
 
     const [sheltersList, setSheltersList] = useState( () => {
-        //get info about shelters from database(Firebase)
+        // Get info about shelters from database(Firebase)
         {
             let ref = Firebase.database().ref('shelter/');
             let shelters = [];
@@ -73,36 +82,33 @@ const App = () => {
                     shelters.push(snap.val());
                 });
             });
-            console.log('schroniska');
-            console.log(shelters);
             return shelters;
         }
     });
 
 
 
-    return <HashRouter>
-        <>
-            <Header userLogged={logged} eventlogUser={logUser}/>
+    return (
+        <HashRouter>
+            <>
+                <Header userLogged={logged} eventlogUser={logUser}/>
 
-            <Switch>
-                <Route exact path='/' component={() => <Home userLogged={logged} /> } />
-                <Route path='/about' component={About} />
-                <Route path='/contact' component={() => <Contact sheltersList={sheltersList} />}  />
-                <Route path='/login' component={() => <Login eventlogUser={logUser} eventCurrentUser={setCurrentUser} /> } />
-                <Route path='/register' component={Register} />
-                <Route path='/userpanel' component={() => <UserPanel user={loggedUser} animalList={animalsList} /> } />
-                <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
-                <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
-                <Route path='/card/:animalID' component={() => <AnimalSingleCard user={loggedUser} animalList={animalsList} sheltersList={sheltersList} />} />
+                <Switch>
+                    <Route exact path='/' component={() => <Home userLogged={logged} /> } />
+                    <Route path='/about' component={About} />
+                    <Route path='/contact' component={() => <Contact sheltersList={sheltersList} />}  />
+                    <Route path='/login' component={() => <Login eventlogUser={logUser} eventCurrentUser={setCurrentUser} /> } />
+                    <Route path='/register' component={Register} />
+                    <Route path='/userpanel' component={() => <UserPanel user={loggedUser} animalList={animalsList} /> } />
+                    <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
+                    <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
+                    <Route path='/card/:animalID' component={() => <AnimalSingleCard user={loggedUser} animalList={animalsList} sheltersList={sheltersList} />} />
+                    <Route path='*' component={NotFound} />
+                </Switch>
 
-                <Route path='*' component={NotFound} />
-            </Switch>
-
-            {/* <Footer/> */}
-        </>
-    </HashRouter>
-
+            </>
+        </HashRouter>
+    );
 }
 
 
