@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Button, Container, Form, FormGroup, Input, Label, Col, FormText, NavLink} from 'reactstrap';
-import {Link, useHistory} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import Firebase from 'firebase';
 
 export const Register = () => {
@@ -64,33 +64,67 @@ export const Register = () => {
         <section className='register'>
             <Container className="register-container container" fluid='true' style={formStyle} >
 
-                <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>Register</h3>
+                <h3 style={{textAlign: 'center', margin: '20px', fontSize: '1.875em'}}>
+                    Register
+                </h3>
 
-                { errors.length > 0 && <ul> {errors.map( (error, index) => <li key={index} >{error}</li>)} </ul> }
+                { errors.length > 0 &&
+                    <ul> {errors.map( (error, index) =>
+                        <li key={index}>
+                            {error}
+                        </li>)}
+                    </ul>
+                }
 
-                <Form  onSubmit={handleSubmit} style={ {minWidth: '300px'} } >
+                <Form  onSubmit={handleSubmit} style={{minWidth: '300px'}} >
                     <FormGroup>
                         <Label>Name</Label>
-                        <Input type='text' name='name' value={user.name} placeholder='Type your name' onChange={handleChangeUserData} />
+                        <Input
+                            type='text'
+                            name='name'
+                            value={user.name}
+                            placeholder='Type your name'
+                            onChange={handleChangeUserData}
+                        />
                     </FormGroup>
 
                     <FormGroup>
                         <Label>Email</Label>
-                        <Input type='email' name='email' value={user.email} placeholder='Type your email' onChange={handleChangeUserData} />
+                        <Input
+                            type='email'
+                            name='email'
+                            value={user.email}
+                            placeholder='Type your email'
+                            onChange={handleChangeUserData}
+                        />
                     </FormGroup>
 
                     <FormGroup>
                         <Label>Password</Label>
-                        <Input type='password' name='password' value={user.password} placeholder='Password' onChange={handleChangeUserData} />
+                        <Input
+                            type='password'
+                            name='password'
+                            value={user.password}
+                            placeholder='Password'
+                            onChange={handleChangeUserData}
+                        />
                     </FormGroup>
 
                     <FormGroup>
                         <Label>Repeat password</Label>
-                        <Input type='password' name='password2' value={password2} placeholder='Repeat password' onChange={event => setPassword2(event.target.value)} />
+                        <Input
+                            type='password'
+                            name='password2'
+                            value={password2}
+                            placeholder='Repeat password'
+                            onChange={event => setPassword2(event.target.value)}
+                        />
                     </FormGroup>
 
                     <FormGroup tag="fieldset" row>
-                        <legend className="col-form-label col-sm-12">Have you ever adopted an animal from a shelter?</legend>
+                        <legend className="col-form-label col-sm-12">
+                            Have you ever adopted an animal from a shelter?
+                        </legend>
                         <Col sm={10}>
                             <FormGroup check>
                                 <Label check>
@@ -109,10 +143,13 @@ export const Register = () => {
 
                     <FormGroup check>
                         <FormText color="muted">
-                            This is some terms and conditions to read, understand and accept by check the checkbox below.
+                            This is some terms and conditions to read,
+                            understand and accept by check the checkbox below.
                         </FormText>
                         <Input type="checkbox" name="check" id="exampleCheck" />
-                        <Label for="exampleCheck" check>I accept the terms and conditions</Label>
+                        <Label for="exampleCheck" check>
+                            I accept the terms and conditions
+                        </Label>
                     </FormGroup>
 
                     <Button>Register</Button>

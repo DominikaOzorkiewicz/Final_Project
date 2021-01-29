@@ -9,16 +9,14 @@ import {Contact} from "./components/Contact";
 import {NotFound} from "./components/NotFound";
 import {Login} from "./components/Login";
 import {Register} from "./components/Register";
-import {UserPanel} from "./components/UserPanel";
+import {UserProfile} from "./components/UserProfile";
 import Firebase from 'firebase';
-import firebaseConfig from "./services/config";
+import firebaseConfig from "./services/firebase";
 import {AnimalsList} from "./components/AnimalsList";
 import {AnimalSingleCard} from "./components/AnimalSingleCard";
 
 
-
 const App = () => {
-
     const [logged,setLogged] = useState(false);
 
     const logUser = (state) => {
@@ -35,7 +33,6 @@ const App = () => {
 
         } else {return ''}
     });
-
 
     const setCurrentUser = (user) => {
         setLoggedUser(user);
@@ -66,7 +63,6 @@ const App = () => {
                 // Set animals to local storage as string
                 localStorage.setItem('Animals', JSON.stringify(allAnimals));
             });
-
             return allAnimals;
         }
     });
@@ -87,7 +83,6 @@ const App = () => {
     });
 
 
-
     return (
         <HashRouter>
             <>
@@ -99,17 +94,15 @@ const App = () => {
                     <Route path='/contact' component={() => <Contact sheltersList={sheltersList} />}  />
                     <Route path='/login' component={() => <Login eventlogUser={logUser} eventCurrentUser={setCurrentUser} /> } />
                     <Route path='/register' component={Register} />
-                    <Route path='/userpanel' component={() => <UserPanel user={loggedUser} animalList={animalsList} /> } />
+                    <Route path='/userprofile' component={() => <UserProfile user={loggedUser} animalList={animalsList} /> } />
                     <Route path='/catList' component={() => <AnimalsList animalType='cat' animalList={animalsList}  sheltersList={sheltersList} />} />
                     <Route path='/dogList' component={() => <AnimalsList animalType='dog' animalList={animalsList} sheltersList={sheltersList} />}  />
                     <Route path='/card/:animalID' component={() => <AnimalSingleCard user={loggedUser} animalList={animalsList} sheltersList={sheltersList} />} />
                     <Route path='*' component={NotFound} />
                 </Switch>
-
             </>
         </HashRouter>
     );
 }
-
 
 ReactDOM.render(<App/>, document.getElementById("app"));

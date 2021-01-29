@@ -1,7 +1,6 @@
 @import "../settings/variables";
 
 .about {
-
     font-family: $font-cormorant;
 
     &__container {
@@ -37,7 +36,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 20px;
+        padding: 20px 20px 20px 40px;
         font-size: 1.3em;
         line-height: 1.7em;
     }

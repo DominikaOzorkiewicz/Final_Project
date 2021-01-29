@@ -1,11 +1,8 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-
 @import "settings/variables";
 @import "components/generic";
 
-
 //settings
-
 @import "settings/normalize";
 @import "settings/print";
 @import "settings/custom";
@@ -14,7 +11,7 @@
 @import "components/header";
 @import "components/home";
 @import "components/login";
-@import 'components/userPanel';
+@import 'components/userProfile';
 @import "components/animalsList";
 @import "components/animalSingleCard";
 @import "components/about";

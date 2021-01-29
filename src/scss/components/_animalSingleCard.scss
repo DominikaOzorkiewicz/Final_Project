@@ -25,6 +25,7 @@
 
     &__description {
         line-height: 1.7em;
+        padding: 0 60px;
     }
 }
 
@@ -36,7 +37,7 @@
         }
     }
 
-    &:active{
+    &:active {
         svg {
             transition: 0.5s;
             fill: red;

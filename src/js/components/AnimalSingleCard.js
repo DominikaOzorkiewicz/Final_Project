@@ -60,6 +60,7 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
                     console.log('Data saved successfully!');
                 }
             });
+        localStorage.setItem('ActiveUser', JSON.stringify(user));
     }
 
 
@@ -87,7 +88,7 @@ export const AnimalSingleCard = ({ animalList, sheltersList, user }) => {
                             </Col>
                         </Row>
                         <CardText className='singleCard__age' >Birth: {pet.birth}</CardText>
-                        <CardText className='singleCard__description' >Description: {pet.description}</CardText>
+                        <CardText className='singleCard__description' >{pet.description}</CardText>
 
                         <Button outline color="secondary" tag={Link} to='/contact'>Contact</Button>
 

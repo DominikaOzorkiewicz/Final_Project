@@ -1,7 +1,6 @@
 @import "../settings/variables";
 
-.userPanel {
-
+.userProfile {
     &__container {
         margin-top: 40px;
         font-size: $font-size--text;
@@ -16,8 +15,7 @@
     }
 }
 
-.panel {
-
+.profile {
     &__title {
         text-align: center;
         border-bottom: 1px solid rgba(171, 105, 110, 0.37);
@@ -32,18 +30,8 @@
     margin-bottom: 30px;
 }
 
-.userDetails__list {
-    list-style-type: none;
-
-    &-el {}
-}
-
 .favoriteList {
-
     &__list {
-
-        &-el {}
-
         &-avatar {
             object-fit: cover;
             min-height: 100px;

@@ -1,0 +1,1915 @@
+{
+   "shelter":[
+      {
+         "id":"0001",
+         "name":"Schronisko dla Bezdomnych Zwierząt w Gaju",
+         "location":"Gaj 56D, 63-100 Śrem",
+         "email":""
+      },
+      {
+         "id":"0002",
+         "name":"Schronisko dla zwierząt w Poznaniu",
+         "location":"Bukowska 266, 60-189 Poznań",
+         "email":""
+      }
+   ],
+   "Animals":[
+      {
+         "name":"Miodek",
+         "birth":"",
+         "description":"Trafił do schroniska razem z trójką rodzeństwa. Reszta rodzeństwa znalazła już kochający dom. Został tylko ON! Miodek potrafi korzystać z kuwety. W przyszłości będzie musiał zostać wykastrowany.",
+         "location":"0001",
+         "id":"84bd-1f4d13cc8922-cat-miodek",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kot_Miodek/mini/105407235_1722794271216009_5196042704571756427_n_1_.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Racławka",
+         "birth":"04.2020",
+         "description":"Trafiła do schroniska razem z dwójką rodzeństwa oraz matką. Kotka potrafi korzystać z kuwety, przyjmuje pokarm suchy i mokry. W przyszłości będzie musiała przejść zabieg sterylizacji. Do pełni szczęścia poszukiwana kochająca rodzina.",
+         "location":"0001",
+         "id":"84bd-1f4d13cc8965-cat-raclawka",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kotka_Raclawka/mini/dsc_5555.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Raclawka/dsc_5555.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Raclawka/dsc_5560.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Raclawka/dsc_5561.jpg"
+         ]
+      },
+      {
+         "name":"Racławek",
+         "birth":"04.2020",
+         "description":"Trafił do schroniska razem z dwójką rodzeństwa oraz matką. Kotek potrafi korzystać z kuwety, przyjmuje pokarm suchy i mokry. W przyszłości będzie musiał zostać wykastrowany. Do pełni szczęścia poszukiwana kochająca rodzina.",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-raclawek",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kot_Raclawek/mini/dsc_5536.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Raclawek/dsc_5529.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Raclawek/dsc_5532.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Raclawek/dsc_5536.jpg"
+         ]
+      },
+      {
+         "name":"Cichy",
+         "birth":"",
+         "description":"Więcej informacji wkrótce.",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-cichy",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/mini/dsc_5489.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/dsc_2380.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/dsc_2384.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/dsc_2387.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/dsc_2390.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/dsc_5489.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Cichy/dsc_5490.jpg"
+         ]
+      },
+      {
+         "name":"Racka",
+         "birth":"04.2020",
+         "description":"Tafiła do schroniska razem z dwójką rodzeństwa oraz matką. Kotka potrafi korzystać z kuwety, przyjmuje pokarm suchy i mokry. W przyszłości będzie musiała przejść zabieg sterylizacji.Do pełni szczęścia poszukiwana kochająca rodzina.",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-racka",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kotka_Racka/mini/dsc_5540.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Racka/dsc_5540.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Racka/dsc_5543__1_.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Racka/dsc_5545__1_.jpg"
+         ]
+      },
+      {
+         "name":"Pankot",
+         "birth":"2017",
+         "description":"Trafił do nas jako kot wolnożyjący wraz z drugim kotem. Jest niezwykle przyjacielski i towarzyski, najprawdopodobniej miał kiedyś styczność z człowiekiem. Nie ma w sobie agresji, może zamieszkać w domu z dziećmi. Akceptuje inne koty, boi się psów. Aktualnie jest leczony w kierunku kociego kataru lecz mamy nadzieję, że już niedługo będzie mógł zostać adoptowany. Będzie idealnym towarzyszem dla osób, które marzą o kocie, który będzie razem z nimi wylegiwał się na kanapie przed telewizorem 🙂 Może to właśnie Ty go pokochasz ?",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-pankot",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kot_Pankot/mini/dsc_5450.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Pankot/dsc_5450.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Pankot/dsc_5453.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kot_Pankot/dsc_5458.jpg"
+         ]
+      },
+      {
+         "name":"Malinka",
+         "birth":"2013",
+         "description":"Malinka szuka domu! Kotka jest po zabiegu sterylizacji. Potrafi korzystać z kuwety, zachowuje czystość. Nie polecamy jej do domu gdzie są inne koty, ponieważ potrafi wdać się w bójkę. Strasznie syczy. Dla człowieka to idealna kompanka. Bardzo lubi przesiadywanie na rączkach oraz mizainko. Kotka trafiła do nas w bardzo złym stanie. Poszukujemy osoby, która ją pokocha <3",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-malinka",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kotka_Malinka/mini/dsc_5496.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Malinka/dsc_5496.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Malinka/dsc_5509.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Malinka/dsc_5514.jpg"
+         ]
+      },
+      {
+         "name":"Grzymka",
+         "birth":"2012",
+         "description":"Grzymka to dorosła wysterylizowana kotka. Potrafi korzystać z kuwety, jest bardzo czysta. Grzymka niestety wróciła z adopcji...:( Totalnie nie odnajduje się w domu, w którym jest już drugi kot. Poszukujemy domu na CITO dla niej, ponieważ totalnie nie odnajduje się w scnronisku. Strasznie płacze i szuka kontaktu z człowiekiem. Jeśli chcesz mieć super towarzyszkę, ADOPTUJ JĄ !!!",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-grzymka",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kotka_Janka/mini/janka_2.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Janka/janka_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Janka/janka_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Janka/janka_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Janka/janka_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Janka/janka_5.jpg"
+         ]
+      },
+      {
+         "name":"Mizia",
+         "birth":"05.2019",
+         "description":"Trafiła do schroniska z kilkudniowymi kociakami. Została znaleziona na czyjejś posesji, gdzie urodziła. Kiedyś na pewno miała dom! Jest niezwykle towarzyska, uwielbia być miziana i noszona na rączkach. Potrafi korzystać z kuwety. Nie ma w sobie żadnej agresji. Potrafi znaleźć wspólny język z psami oraz innymi kotami. Bardzo nam zależy na znalezieniu jej kogoś kto pokocha ją całym sercem. Mizia jest już po zabiegu sterylizacji.",
+         "location":"0001",
+         "id":"84bd-1f4d13cc73225-cat-mizia",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/kotka_Mizia2020/mini/dsc_5159__1_.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Mizia2020/dsc_5150__1_.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Mizia2020/dsc_5159__1_.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/kotka_Mizia2020/dsc_5215.jpg"
+         ]
+      },
+      {
+         "name":"Węgielek",
+         "birth":"2016",
+         "description":"Węgielek to bardzo urokliwy i towarzyski kociak. Obecnie przebywa w domu tymczasowym w Kościanie u naszej Hani. Przyzwyczajony jest do towarzystwa innych kotów i psów. Ładnie zachowuje czystość, potrafi korzystać z kuwety. Posiada aktualne szczepienia, jest odrobaczony oraz wykastrowany. Poszukujemy domy niewychodzącego. Pamiętajcie, że czarne przynosi szczęście <3",
+         "location":"0001",
+         "id":"72361e23-aba3-cat-wegielek",
+         "animalType":"cat",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Wegielek/mini/wegielek004.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek001.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek002.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek003.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek004.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek_1111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek_1112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wegielek/wegielek_1113.jpg"
+         ]
+      },
+      {
+         "name":"Kahir",
+         "birth":"11.2018",
+         "description":"(rezerwacja) Kahir to przedstawiciel teriera niemieckiego. Ma w sobie dużo energii, lubi biegać, bawić się. Najlepiej jeżeli trafi do aktywnej rodziny. Podczas spacerów zdarza mu się ciągnąć na smyczy, wszystko go interesuje. Powinien odnaleźć się w rodzinie z dziećmi, nie ma w sobie agresji w stosunku do człowieka. Kahir jest typem uciekiniera, w schronisku znalazł się już kolejny raz. Przyszły opiekun musi psiaka zabezpieczyć, aby nie udał się na samodzielny spacer. Prosimy pomóżcie mu znaleźć świadomy i odpowiedzialny dom!",
+         "location":"0001",
+         "id":"566a599a-9552-463f-dog-kahir",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Kahir/mini/kahir_2.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Kahir/kahir.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kahir/kahir_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kahir/kahir_3.jpg"
+         ]
+      },
+      {
+         "name":"Beauty",
+         "birth":"2018",
+         "description":"Beauty, czyli piękna... Psina błąkała się kilka tygodni po okolicznych miejscowościach. Długo próbowano ją złapać, ale potrafi przeskoczyć każdy płot, to też było to bardzo trudne. W końcu, dzięki pomocy ludzi, którym jej los nie był obojętny, udało się. Beauty nie znała dotyku człowieka, strasznie się bała, nie wiedziała co to wspólny spacer. Wszystkiego powoli zaczęliśmy ją uczyć. Dziś psina cieszy się na widok osoby, którą zna. Na spacerze idzie ładnie przy nodze, nie ciągnie. Boi się gwałtownych ruchów. Szukamy dla niej domu, który ją wesprze. Beauty dobrze dogaduje się z innymi psami, nie szyka zaczepki. Mogłaby zamieszkać ze starszymi dziećmi, które zrozumieją jej obawy. Jeśli miałaby zamieszkać w domu z ogrodem, nie powinna zostawać przed domem bez nadzoru, ponieważ żaden płot nie jest dla niej przeszkodą. Jesteśmy pewni, że Beauty będzie wspaniałym oraz oddanym przyjacielem rodziny. Przeszła w schronisku ogromną przemianę. Do pełni szczęścia brakuje jej tylko domu...",
+         "location":"0001",
+         "id":"8859de59-aa96-413b-dog-beauty",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Beauty/mini/beauty_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Beauty/beauty.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Beauty/beauty_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Beauty/beauty_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Beauty/beauty_4.jpg"
+         ]
+      },
+      {
+         "name":"Alfa",
+         "birth":"2018",
+         "description":"Alfa przez brak wyobraźni stał się bezdomny. Na początku wszystko było pięknie, opiekun chodził z nim na szkolenia, pracował z nim, ale po jakimś czasie wszystko się zmieniło. Gdy ugryzł właściciela, ten był w tym czasie pod wpływem alkoholu. Zdarzało się również, że miał zakładany kaganiec, po czym obrywał. W domu było również małe dziecko, które najechało na niego wózkiem. Czworonóg tego nie wytrzymał i ugryzł, po czym schował się w klatce kennelowej. Incydent skończył się tym, że Alfa przez dwa tygodnie miał ściągany kaganiec jedynie po to, by się najeść. Pies trafił do nas. W schronisku nie przejawia najmniejszych oznak agresji! Wystarczy szanować go, ale również ustalać jasne zasady. Jest młodym i szalonym dobermanem. Potrzebuje pracy i ogłady. Nie nadaje się dla osób, które nigdy wcześniej nie miały doczynienia z tą rasą. Szukamy dla niego domu bez dzieci! Podczas spacerów ciągnie jak parowóz, dosłownie. Jest jednak bardzo karny i chętny do współpracy, dzięki czemu można szybko wypracować z nim chodzenie przy nodze. Alfa nie rozumie, że waży ponad 40 kg. Potrafi z impetem wskoczyć czy też wbiec na człowieka z radości. Przyszły opiekun musi przygotować się na coroczne kontrolowanie psa w gabinecie weterynaryjnym, ponieważ ma on wędrującą nerkę, musi przyjmować leki wspomagające oraz karmę typu urinary. W kontaktach z innymi psami bywa różnie. Zdecydowanie lepiej dogaduje się z ułożonymi i przyjacielskim suczkami, niektóre samce też zdarza mu się akceptować. Uwielbia bawić się piszczącymi piłkami, chętnie aportuje i oddane zabawki. Zna podstawowe komendy, lecz w zgiełku schroniskowym szybko się rozprasza. Lubi rozdawać buziaki oraz przytulać się do osób, które zna bliżej. Potrafi utrzymywać czystość. Pozostawiony w kojcu ujada oraz wyje. Przyszły dom musi brać pod uwagę możliwość występowania lęku separacyjnego. Przed adopcją adopcją zostanie wykastrowany! OSOBY ZAINTERESOWANE ADOPCJĄ PROSIMY O ZAPOZNANIE SIĘ ZE SPECYFIKĄ RASY!",
+         "location":"0001",
+         "id":"26f5ee20-bef3-47d9-dog-alfa",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/2020/mini/alfa_miniatura.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_6.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Alfa_2/alfa_7.jpg"
+         ]
+      },
+      {
+         "name":"Iga",
+         "birth":"2019",
+         "description":"(rezerwacja)Iga ma około 8/9 miesięcy, została interwencyjnie odebrana od swoich właścicieli, którzy trzymali ją uwiązaną na smyczy przy \"budzie\". Dziecko chciało psa i niestety tak to się skończyło. Sunia ma w sobie wiele pozytywnej energii, uwielbia się bawić, dokazywać, nie ma w sobie agresji do człowieka. Może zamieszkać z rodziną, w której są dzieci. W kontaktach z innymi psami jest ok. Podczas spacerów początkowo ciągnie na smyczy, ale po chwili uspokaja się i zwraca uwagę na osobę wyprowadzającą. Należy do naszego stadka luzaków, chodzi swobodnie po terenie schroniska, zawsze towarzyszy opiekunom przy obchodach terenu. Iga na pewno wniesie wiele radości w życie swoich nowych ludzi. Szukamy dla niej domu, gdzie będzie członkiem rodziny. ",
+         "location":"0001",
+         "id":"d822c217-0103-dog-iga",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Iga/mini/iga_3.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Iga/dsc_5392.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Iga/iga_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Iga/iga_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Iga/iga_3.jpg"
+         ]
+      },
+      {
+         "name":"Masza",
+         "birth":"2011",
+         "description":"Została interwencyjnie odebrana od swoich właścicieli, była uwiązana łańcuchem do \"budy\". Zaniedbana, brudna, przerażona. Gdy zobaczyła swojego właściciela nie chciała wyjść z budy. Sunia z dnia na dzień coraz bardziej się otwiera, jest coraz bardziej przyjacielska i radosna. Lubi gdy człowiek do niej mówi, głaszcze ją, przytula. Jest niezwykle delikatna i uczuciowa dla osób, które już trochę pozna. Podczas spacerów zdarza jej się ciągnąć jednak jest to do wypracowania. W kontaktach z innymi psami bywa różna, niektóre akceptuje, inne nie. Będzie idealną towarzyszką dla rodziny z dziećmi. Ona tak na prawdę nigdy nie była kochana, nie miała domu. Bardzo zależy nam na jej szczęściu! Pomóżcie znaleźć dla tej cudownej psiny odpowiedzialny i kochającą rodzinę!",
+         "location":"0001",
+         "id":"9ab79837-c709-45c6-dog-masza",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Masza/mini/dsc_5335.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Masza/dsc_5326.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Masza/dsc_5335.jpg"
+         ]
+      },
+      {
+         "name":"Dżokej",
+         "birth":"2011",
+         "description":"Interwencyjnie odebrany od swoich właścicieli, którzy trzymali go na łańcuchu uwiązanego do pseudo-budy. Nigdy nie był puszczany luzem, nie  był kochany, z zanikami mięśni, zaniedbany, brudny. W schronisku odzyskuje wiarę w ludzi, zaczyna przybierać na masie, na jego mordce widać już pierwsze uśmiechy oraz radość. Ten łagodny olbrzym może zamieszkać z dziećmi, innymi psami, nie ma w sobie agresji, jest też niezwykle łagodny i posłuszny. Podczas spacerów ma bardzo dużo energii. Puszczony luzem na wybiegu zwraca uwagę na opiekuna, przychodzi żeby się przytulić, podać łapkę. Preferujemy dla niego dom z ogrodem ze względu na jego bardzo duże rozmiary.",
+         "location":"0001",
+         "id":"a412d797-86bf-4dbf-dog-dzokej",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Dzokej/mini/dsc_5379.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Dzokej/dsc_5376.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Dzokej/dsc_5379.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Dzokej/dsc_5386.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Dzokej/dsc_5388.jpg"
+         ]
+      },
+      {
+         "name":"Kuba",
+         "birth":"",
+         "description":"To malutki i bardzo pocieszny piesek. Został interwencyjnie odebrany od swoich właścicieli, którzy trzymali go w nieodpowiednich warunkach. Psiak jest bardzo towarzyski, lubi przebywać wśród ludzi. Zabrany na spacer radośnie maszeruje obok osoby wyprowadzającej, jest niezwykle karny i posłuszny. W kontaktach z innymi samcami bywa dominujący, z suczkami dogaduje się wzorowo. Kuba sprawdzi się u rodziny z dziećmi, osoby starszej, osoby, która nigdy nie miała czworonożnego przyjaciela. Dzięki swoim małym rozmiarom idealnie zaklimatyzuje się choćby w mieszkaniu. Kuba pozwala brać się na ręce, nie ma w sobie żadnej agresji. Przyszły opiekun na pewno zyska wspaniałego przyjaciela.",
+         "location":"0001",
+         "id":"5233afad-4ae2-dog-kuba",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Kuba2/mini/dsc_5401.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Kuba2/dsc_5401.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kuba2/dsc_5412.jpg"
+         ]
+      },
+      {
+         "name":"Fina",
+         "birth":"2010",
+         "description":"Interwencyjnie odebrana od swoich właścicieli. Była uwiązana na krótkim łańcuchu, do rozpadającej budy bez podłogi, spała ma gołej ziemi, w środku lasu. Sunia jest nieco nieśmiała dla nieznajomych. Zabrana na spacer bardzo się otwiera, merda ogonem, domaga się uwagi człowieka. Szukamy dla niej domu, w którym będzie czworonożnym jedynakiem, ponieważ jest dominująca i mocno zadziorna w kontaktach z innymi psami. Fina może zamieszkać z rodziną ze starszymi dziećmi, osobą samotną. Na pewno wniesie wiele radości do życia swoich nowych opiekunów. Uwielbia być głaskana, przytulana, nie ma w sobie agresji w stosunku do człowieka. Mamy nadzieję, że ktoś się w niej zakocha, ona nigdy nie miała prawdziwego domu.",
+         "location":"0001",
+         "id":"6f656ef1-761c-4ddc-dog-fina",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Fina/mini/dsc_4839.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Fina/dsc_0104.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Fina/dsc_4839.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Fina/fina_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Fina/fina_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Fina/fina_3.jpg"
+         ]
+      },
+      {
+         "name":"Felek",
+         "birth":"2010",
+         "description":"Felek - mały piesek o wielkim sercu! Całe życie był uwiązany do pseudo budy, na krótkim łańcuchu, na dodatek w środku lasu. Karmiony odpadkami i niekochany. Idealnie sprawdzi się jako kompan dla osoby samotnej lub starszej. Zaklimatyzuje się również u rodziny ze starszymi dziećmi lub bez nich. Czasami nie podoba mu się dotyk w okolicach kark, ale jeżeli poświęci mu się czas oraz okaże zrozumienie na pewno wyzbędzie się tej obawy. Ładnie radzi sobie na smyczy. Na początku spaceru jest podekscytowany, ale to obserwujemy u każdego z psiaków. Cieszą się, że wychodzą na spacer. W stosunku do innych czworonogów bywa dominujący, szczególnie dla samców, najlepiej jeżeli zamieszka ze spokojną suczką lub zostanie psim jedynakiem. Jego mały wzrost sprawdzi się do mieszkania w bloku.",
+         "location":"0001",
+         "id":"79b88364-6801-4b48-dog-felek",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Felek/mini/felek_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Felek/dsc_4827.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Felek/dsc_4833.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Felek/felek_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Felek/felek_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Felek/felek_3.jpg"
+         ]
+      },
+      {
+         "name":"Gabi",
+         "birth":"2010",
+         "description":"Została porzucona przez swojego właściciela w opuszczonym domu, uratowana przez strażaków, którzy wyważyli drzwi jest już z nami. Sunia nie ma w sobie cienia agresji! To psi anioł. Ma w sobie ogromne pokłady miłości, uwielbia przesiadywać na kolanach, przytulać się, rozdawać buziaki. Akceptuje inne psy oraz koty. Bedzie idealną towarzyszką dla rodziny z dziećmi, to niezwykle uczuciowy oraz delikatny czworonóg. Bardzo prosimy o dom dla niej!!! Podczas spacerów nie zdarza jej się ciągnąć na smyczy, z osobami, które zna może chodzić luzem, przychodzi wtedy na zawołanie. Potrafi zachowywać czystość w pomieszczeniach. Jest ułożona i posłuszna. Idealnie odnajdzie się w mieszkaniu w bloku ze względu na swoje małe rozmiary, jednak dom z ogrodem też będzie dla niej odpowiedni. Gabi nie waży więcej niż 8 kg.",
+         "location":"0001",
+         "id":"68984bea-4f71-4f40-dog-gabi",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Gabi/mini/gabi_7.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/dsc_4608.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_6.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_7.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_8.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gabi/gabi_9.jpg"
+         ]
+      },
+      {
+         "name":"Gloria",
+         "birth":"04.2019",
+         "description":"(rezerwacja)Gloria trafiła do nas razem ze Grace z Międzychod. Pierwsze dni dla Glorii były trudne, była przerażona, próbowała bronić Grace. Jednak z dnia na dzień jest coraz bardziej otwarta, lubi się przytulać, jest psem niezwykle oddanym i lojalnym. Będzie idealnym psem rodzinnym. Nie ma w sobie żadnej agresji, akceptuje inne psy. Podczas spacerów jest bardzo grzeczna. Gloria wciąż jeszcze jest leczona, jej skóra oraz sierść w dniu przyjęcia była w opłakanym stanie. Na szczęście jest z nią coraz lepiej. To spokojna i uwielbiająca przebywać przy człowieku psina.",
+         "location":"0001",
+         "id":"8c8b47a1-4c98-4572-dog-gloria",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Gloria/mini/gloria_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Gloria/gloria_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gloria/gloria_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gloria/gloria_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Gloria/gloria_4.jpg"
+         ]
+      },
+      {
+         "name":"Zara",
+         "birth":"2010",
+         "description":"Trafiła do schroniska pod koniec kwietnia. Była w opłakanym w stanie. Zapchlona, wyłysiała, z wielką, otwartą raną na lewej łopatce. Została znaleziona przy drodze. Możliwe, że była używana do polowań, co tłumaczyłoby jej ranę. Sunia przeszła u nas leczenie. Zarka nie ma w sobie żadnej agresji w stosunku do człowieka, lubi być głaskana i przytulana. W kontaktach z innymi psami przeważnie nie ma problemu, jednak zdarzają się i takie, których nie akceptuje. Podczas spacerów idzie przy nodze, jest niezwykle posłuszna i spokojna. Szukamy dla niej kochającego domu. Stan w jakim została znaleziona może świadczyć o tym, że nigdy takiego nie miała, dlatego tym bardziej zależy nam, aby ktoś ją pokochał!",
+         "location":"0001",
+         "id":"37525c49-65a9-43a4-dog-zara",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Zara/mini/zara_3.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Zara/zara_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zara/zara_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zara/zara_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zara/zara_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zara/zara_5.jpg"
+         ]
+      },
+      {
+         "name":"Grace",
+         "birth":"11.2019",
+         "description":"Trafiła do nas razem ze Glorią z miejscowości Międzychód. Suczki przez bardzo długi czas były bez opieki, trochę nam zajęło zanim udało się je złapać. Ich stan zdrowotny pozostawiał wiele do życzenia, brudne, przerażone, wyłysiałe były niemalże dzikie, bały się smyczy, dotyku..Grace nadal jeszcze uczy się co to spacer, pieszczoty, zabawa, najprawdopodobniej nigdy nie miała człowieka, który ją kochał. Żyła jako bezpański pies, tułający się i próbujący przeżyć za wszelką cenę. Jednak z dnia na dzień zaczyna nam coraz bardziej ufać, radośnie merda ogonem, podchodzi i obwąchuje, czasem pozwoli się pogłaskać. Jej skóra oraz sierść też są w coraz lepszym stanie, kąpiele nadal nie są jej ulubioną czynnością lecz niestety musi je znosić.Grace nie ma problemu w kontaktach z innymi psami, jest niezwykle radosna i towarzyska. Powinna trafić do osoby cierpliwej i wyrozumiałej u boku, której nauczy się życia wśród ludzi. Podpięta na smycz trochę protestuje, zdecydowanie bardziej woli spacery luzem kiedy tylko jej mama jest obok. Byłoby cudownie gdyby te dwie wspaniałe sunie mogły zamieszkać razem, gdyż są ze sobą bardzo związane, jednak oddzielne domy też bierzemy pod uwagę. Mamy nadzieję, że jeszcze troszkę i będą zdrowymi, pięknymi psami przy kochającym ich człowieku.",
+         "location":"0001",
+         "id":"a5fe4c3c-5cef-4f91-dog-grace",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Grace_album/mini/grace_4_album.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Grace_album/grace_1_album.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Grace_album/grace_2_album.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Grace_album/grace_3_album.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Grace_album/grace_4_album.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Grace_album/grace_5_album.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Grace_album/grace_6_album.jpg"
+         ]
+      },
+      {
+         "name":"Aleksia",
+         "birth":"2016",
+         "description":"Trafiła do nas z Mościszek. Wg naszej oceny sunia bardzo szybko przywiązuje się do człowieka. Bywa nieco nadopiekuńcza, zdarza jej się bronić osoby jej bliskie. Póki co niefajnie reaguje na inne psy, jest w stosunku nich dominującą. Najlepiej jeżeli w nowym domu będzie jedynym czworonogiem. Nie polecamy jej również do domu z małymi dziećmi.Aleksia potrzebuje trochę pracy. Czasem warczy. Prawdopodobnie wychodzą błędy wychowawcze poprzedniego opiekuna. Oprócz kilku szczegółów Aleksia jest psem bardzo kontaktowym. Uwielbia się przytulać i bawić. Ma w sobie niesamowite pokłady energii. Podczas spacerów dość mocno ciągnie na smyczy, dlatego bardzo ważne jest aby miała codzienną dawkę ruchu, by rozładować emocje. Wg nas najlepiej byłoby gdyby trafiła do domu z ogrodem. Mamy nadzieję, że znajdzie się ktoś kto zechce przyjechać do niej kilka razy żeby nawzajem się poznawać.",
+         "location":"0001",
+         "id":"ecf4aaef-b081-44c8-dog-aleksia",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Aleksia/mini/aleksia_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Aleksia/aleksia.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleksia/aleksia_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleksia/aleksia_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleksia/aleksia_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleksia/aleksia_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleksia/dsc_3118.jpg"
+         ]
+      },
+      {
+         "name":"Wiktor",
+         "birth":"2016",
+         "description":"Trafił do schroniska prosto od swoich właścicieli, którzy nie radzili sobie z jego charakterem. Owczarek potrafi kontrolować człowieka, bardzo nie lubi kagańca, a w gabinecie weterynaryjnym jest z nim duży problem. Od razu podkreślamy - pies potrzebuje pracy. Jest młody, ma wiele energii, uwielbia aportować. Podpięty na smycz z ekscytacji zdarza mu się ją gryźć, ale po chwili skupia się już na spacerze. Z innymi psami bywa różnie, gdyby miał zamieszkać z drugim czworonogiem najlepiej jeżeli zapoznają się w schronisku. Niestety nie akceptuje kotów. Odradzamy go również osobom, które mają małe dzieci. Wiktor idealnie sprawdzi się u osoby, która będzie wykorzystywała jego potencjał szkoleniowy. Szybko uczy się nowych sztuczek, chętnie korzysta z psiego toru przeszkód. Najlepiej jeżeli zamieszka w domu z ogrodem u osoby, która ma doświadczenie w pracy z psami.",
+         "location":"0001",
+         "id":"a133f440-5a55-40b1-b20c-dog-wiktor",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/mini/wiktor_owczarek_6.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/wiktor_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/wiktor_owczarek_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/wiktor_owczarek_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/wiktor_owczarek_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/wiktor_owczarek_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wiktor_owczarek/wiktor_owczarek_6.jpg"
+         ]
+      },
+      {
+         "name":"Prino",
+         "birth":"2012",
+         "description":"Trafił do nas z drugim psem, najprawdopodobniej swoim bratem Turanem. Oboje są jeszcze wycofani, boją się szybszych ruchów rękoma, wciąż pracujemy nad tym żeby nabrały pewności siebie. Prino nie potrafi jeszcze chodzić na smyczy ale mamy nadzieję, że jak najszybciej się tego nauczy. Szukamy dla niego spokojnego domu, który będzie miał czas oraz możliwości na pracę z nim. Towarzystwo drugiego psa bardzo mu pomaga, dlatego też polecamy go dla osób z innymi czworonogami. Nie nadaje się do rodziny z dziećmi, z powodu swojej lękliwości. Prino z dnia na dzień robi coraz większe postępy, cieszy się na widok człowieka, nie boi się wyjść z kojca, pierwszy podchodzi gdy ktoś go woła, mamy nadzieję, że już niedługo pokona swój strach.",
+         "location":"0001",
+         "id":"1eacad76-890f-4001-dog-prino",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Prino/mini/prino_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Prino/dsc_0100.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Prino/prino_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Prino/prino_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Prino/prino_3.jpg"
+         ]
+      },
+      {
+         "name":"Turan",
+         "birth":"2012",
+         "description":"Trafił do nas z drugim psem, najprawdopodobniej swoim bratem Prino. Oby dwoje są jeszcze wycofane, boją się szybszych ruchów rękoma, wciąż pracujemy nad tym żeby nabrały pewności siebie. Chłopak nie potrafi jeszcze chodzić na smyczy. Szukamy dla niego spokojnego domu, który będzie miał czas oraz możliwości na pracę z nim. Towarzystwo drugiego psa bardzo mu pomaga, dlatego też polecamy go dla osób z innymi czworonogami. Nie nadaje się do rodziny z dziećmi, z powodu swojej lękliwości. Turan z dnia na dzień robi coraz większe postępy. Cieszy się na widok człowieka, nie boi się wyjść z kojca, podchodzi gdy ktoś go wola. Mamy nadzieję, że już niedługo pokona swój strach.",
+         "location":"0001",
+         "id":"a9b5ab90-7458-dog-turan",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Turan/mini/turan_3.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Turan/dsc_0041.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Turan/turan_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Turan/turan_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Turan/turan_3.jpg"
+         ]
+      },
+      {
+         "name":"Stachu",
+         "birth":"2008",
+         "description":"Stasiu czeka na swój dom już bardzo długo... Należy raczej do psich seniorów. Stasiu to pies, ktoremu trzeba poświęcić trochę czasu. Gdy się to zrobi jest to najwierniejszy przyjaciel. Staś daje się całować po głowie, uwielbia się przytulać, ceną za tak wspaniałego psa jest tylko czas. Uważamy, że będzie to idealny kompan do spokojnych spacerów i niedzielnego odpoczynku. Ale to wszystko trzeba osiągnąć pracą. Ze względu na wiek Stachu nie ma zbyt wiele czasu, by czekać... Mamy nadzieję, że stanie się cud i lada dzień skontaktuje się że schroniskiem osoba, która zechce zaadoptować Stacha. Nie polecamy go do domu z małymi dziećmi oraz z innymi zwierzętami. Powinien również trafić do osoby doświadczonej w pracy z psami. Nie jest złym psem, potrzebuję po prostu odpowiedniego poprowadzenia. Wtedy z pewnością stworzy że swoim opiekunem niesamowitą więź. Pomóżcie nam znaleźć dom dla seniora z charakterem. Stasiu czeka... W schronisku dostaje karmę Gastro Intestinal. Jest już po zabiegu kastracji.",
+         "location":"0001",
+         "id":"03a0a664-85aa-4772-dog-stachu",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/mini/stachu_1111.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/92267029_2848762588492159_4037376958839914496_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/92539356_2848762171825534_8548314005259681792_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/92592673_2848763341825417_1774928181766127616_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/92664494_2848763008492117_1874152191275565056_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/92973501_2848761871825564_6798989077027749888_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/dsc_0026.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/dsc_0028.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/stachu_1111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/stachu_1113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/stasinek_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/stasinek_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Stachu_powrot/stasinek_3.jpg"
+         ]
+      },
+      {
+         "name":"Inglot",
+         "birth":"2011",
+         "description":"Został interwencyjnie odebrany od swoich właścicieli - razem z kilkoma innymi psami. Był trzymany na łańcuchu przy rozpadającej się budzie. Inglot jest bardzo towarzyski. Nigdy nie pogardzi wspólnym spacerem. Najlepiej jeśli w domu byłby jedynym czworonogiem lub mógłby zamieszkać też ze spokojną suczką. W kontaktach z dziećmi nie ma w sobie agresji, uwielbia być głaskany, czesany, biegać razem z nimi na wybiegu, bawić się piłkami. Inglot jest psem niewielkich rozmiarów. Mamy nadzieję, że nie będzie musiał długo czekać na kochający dom!",
+         "location":"0001",
+         "id":"e1c83408-96a6-4529-dog-inglot",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Inglot/mini/dsc_0597.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Inglot/dsc_0583.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Inglot/dsc_0597.jpg"
+         ]
+      },
+      {
+         "name":"Kurek",
+         "birth":"2010",
+         "description":"Trafił do nas z innego schroniska, w którym spędził większość swojego życia. Niestety jest psem bardzo wycofanym. Osoba chcąca podarować mu dom musi nastawić się na przyjeżdżanie do nas i przyzwyczajanie Kurka do siebie. Nie polecamy go dla osób, które mają już inne czworonogi, ponieważ on ich po prostu nie akceptuje. Chodzenie na smyczy to jak na razie również nie jego bajka. Kurek jest czujny i zawsze sygnalizuje gdy tylko kogoś wypatrzy. Nie polecamy go do domu z dziećmi. Mamy nadzieję, że znajdzie się ktoś zdeterminowany i chcący stworzyć z nim więź. Nie pozwólmy mu spędzić reszty życia za kratami.",
+         "location":"0001",
+         "id":"021a8967-e199-4b57-dog-kurek",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Kurek/mini/kurek_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Kurek/kurek_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kurek/kurek_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kurek/kurek_3.jpg"
+         ]
+      },
+      {
+         "name":"Wella",
+         "birth":"2010",
+         "description":"Trafiła do nas z innego schroniska, w którym spędziła większość swojego życia. Niestety jest psem bardzo wycofanym. Osoba chcąca podarować jej dom musi nastawić się na przyjeżdżanie do nas i przyzwyczajanie suni do siebie. Nie polecamy jej dla osób, które mają już inne czworonogi, ponieważ ich nie akceptuje (wyjątkiem jest jeden psi towarzysz z poprzedniego schroniska, z którym jest na jednym ze zdjęć). Chodzenie na smyczy to jak na razie również nie jej bajka. Wella jest czujna i zawsze sygnalizuje, gdy tylko kogoś wypatrzy. Nie polecamy jej do domu z dziećmi. Mamy nadzieję, że znajdzie się ktoś zdeterminowany i chcący stworzyć z nią więź. Nie pozwólmy jej spędzić reszty życia za kratami.",
+         "location":"0001",
+         "id":"aab3cdd2-2f56-451f-dog-wella",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Wella/mini/wella_1.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Wella/wella_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wella/wella_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wella/wella_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Wella/wella_4.jpg"
+         ]
+      },
+      {
+         "name":"Kitek",
+         "birth":"02.2019",
+         "description":"Kitek jest jeszcze trochę wycofany i nieśmiały, potrzebuje czasu żeby zaufać i nauczyć się żyć z człowiekiem. Potrzebuje cierpliwego i gotowego na pracę z psem lękliwym. Podczas spacerów trzeba być dla niego wyrozumiałym, czasami się zatrzymuje i potrzebuje chwili żeby pójść dalej. Podpięcie na smycz też wymaga czasu, należy dać mu czas na wyciszenie. Powinien dobrze odnaleźć się w domu z innym psem, towarzystwo czworonogów bardzo mu pomaga. Mieszka w kojcu ze swoim bratem. Szukamy dla niego spokojnego domu, centrum dużego miasta raczej nie jest dla niego. Mamy nadzieję, że znajdzie się ktoś kto go pokocha i pomoże zaufać. Kitek zasługuje na nowe, lepsze życie u boku osób, którym zaufa.",
+         "location":"0001",
+         "id":"6b669781-f179-46d9-dog-kitek",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Kitek/mini/kitek_12.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Kitek/dsc_0081.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kitek/kitek.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kitek/kitek_11.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kitek/kitek_12.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Kitek/kitek_3.jpg"
+         ]
+      },
+      {
+         "name":"Rudy",
+         "birth":"02.2019",
+         "description":"Rudy jest trochę nieśmiały dla nieznanych mu osób, na opiekunów reaguje już coraz lepiej. Cieszy się, merda ogonem, sam domaga się uwagi oraz pieszczot. Podczas spacerów spokojnie idzie przodem, nie ciągnie, zdarza mu się przystanąć ale wystarczy mała zachęta i idzie dalej. Nie ma już problemu z podpięciem smyczy, pozwala sobie również zakładać szelki. Powinien dobrze odnaleźć się w domu z innym psem, towarzystwo czworonogów bardzo mu pomaga. Od urodzenia trzymany był razem z rodzeństwem w ala składziku za domem, miał znikomy kontakt z człowiekiem, w schronisku bardzo się otworzył. Początki nie były łatwe, bał się wszystkiego, pokazywał zęby - dziś to inny pies! Szukamy dla niego odpowiedzialnego człowieka, który będzie mógł kilka razy przyjechać i wyprowadzić go na spacer. Psiak nadal potrzebuje pracy oraz czasu, nigdy nie mieszkał w mieście. Hałas i auta mogą być dla niego przerażające, ale wierzymy, że odpowiednia rodzina to zmieni i nauczy go normalnego życia. Może zamieszkać ze starszymi dziećmi. Mamy nadzieję, że znajdzie się ktoś kto go pokocha. Rudy jest już po kastracji i do pełni szczęścia brakuje mu tylko domu!",
+         "location":"0001",
+         "id":"a26eeb98-506a-48b0-dog-rudy",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Rudy_3/mini/rudy_nowe_11.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_11.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_12.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_13.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_14.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_15.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_nowe_11.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rudy_3/rudy_nowe_13.jpg"
+         ]
+      },
+      {
+         "name":"Mefisto",
+         "birth":"2007",
+         "description":"Mefisto nie jest już najmłodszy. Nie należy też do psów łatwych, ma swoje zdanie i bywa dominujący. Zdarza mu się bronić zasobów oraz przestrzeni. Na pewno nie jest psem dla każdego. Musi trafić na osobę gotową do wspólnej pracy i doświadczoną w prowadzeniu psów trudnych. Mefi nie akceptuje innych zwierząt. Na spacerach dosyć mocno ciągnie na smyczy, wyprowadzić go mogą jedynie osoby, które tak na prawdę sobie wybrał i uważa \"swoje\". Nie nadaje się do domu z dziećmi. Mógłby pilnować posesji o ile będzie miał odpowiednie warunki oraz schronienie. Osoba zainteresowana jego adopcją będzie musiała przyjeżdżać do schroniska, aby się z nim poznawać i uczyć się siebie nawzajem. Wiemy, że jego adopcja nie należy do łatwych ale nie tracimy nadziei, że i on znajdzie swojego człowieka.",
+         "location":"0001",
+         "id":"02eab579-4d45-4c42-dog-mefisto",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Mefisto/mini/mefisto.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Mefisto/dsc_8713.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Mefisto/mefisto.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Mefisto/mefisto_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Mefisto/mefisto_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Mefisto/mefisto_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Mefisto/mefisto_5.jpg"
+         ]
+      },
+      {
+         "name":"Jaskier",
+         "birth":"2010",
+         "description":"Bardzo przeżywa każde rozstanie z człowiekiem.  Zamknięty w kojcu wypatruje opiekunów przez kraty. Bardzo nam zależy, aby jak najszybciej znaleźć mu nową rodzinę. Psiak jest niezwykle przyjacielski, uwielbia być głaskany, powinien idealnie odnaleźć się w domu. Podczas spacerów raczej trzyma się blisko opiekuna. Dobrze czuje się w towarzystwie innych niezbyt dominujących psów, ważne żeby drugi czworonóg nie był zbyt nachalny oraz zaborczy. Najlepiej jeżeli będzie psim jedynakiem lub zamieszka z bardziej uległą suczką bądź samcem.",
+         "location":"0001",
+         "id":"208256a9-e162-480c-dog-jaskier",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Jaskier/mini/jaskier_13.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Jaskier/jaskier.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Jaskier/jaskier_12.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Jaskier/jaskier_13.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Jaskier/jaskier_14.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Jaskier/jaskier_miniatura.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Jaskier/jaskier_â€”_kopia.jpg"
+         ]
+      },
+      {
+         "name":"Ford",
+         "birth":"",
+         "description":"Z początku był psem bardzo nieśmiałym, wycofanym, nieufnym. Teraz nieco się ośmielił, ale wciąż potrzebuje czasu, by przekonać się do nowej osoby. Za to gdy już kogoś pozna i pokocha – wtedy jego miłość nie ma granic! Rozdaje buziaki, ładuje się na kolana, cieszy się i skacze. Również spacery z Fordem mają dwojaką naturę. Gdy wyprowadza go ktoś, kogo nie zna, to człowiekowi temu nie poświęca zbyt dużo uwagi – po prostu prze do przodu, zdeterminowany, by szybko „obskoczyć” cały las, zostawić swój ślad, obwąchać, co się da, i… szybko wrócić do kojca, gdzie czuje się bezpiecznie. Natomiast gdy idzie na spacer z kimś znajomym, to… owszem, znów pędzi, ciągnie do przodu, ale – zawołany – przystaje, wraca do człowieka, przytula się, uśmiecha, korzysta z bliskości… Zdecydowanie więc Ford zyskuje na bliższej znajomości. Nie można zatem zrażać się tym, że przy pierwszym spotkaniu nas zignoruje, nie wykaże żadnego zainteresowania, że będzie liczył się dla niego sam spacer, a nie osoba, która jest na drugim końcu smyczy. On potrzebuje czasu, by poznać i zaufać, ale gdy już zaufa i pokocha, to całym swym psim sercem. Ford niestety zbyt długo mieszka w schronisku.",
+         "location":"0001",
+         "id":"0986945c-363a-4d08-dog-ford",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Ford/mini/dsc_0251.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/dsc_0251.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/ford.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/ford2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/ford3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/ford4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/fordzik.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/fordzik_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/fordzik_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/fordzik_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ford/fordzik_5.jpg"
+         ]
+      },
+      {
+         "name":"Playboy",
+         "birth":"",
+         "description":"Pies niezwykłej urody. Niestety nie każdy to zauważa, ponieważ jest psem lękliwym. Wypracował sobie postawę obronną i odstrasza odwiedzających głośnym szczekaniem oraz warczeniem. Jednak gdy wejdziemy do jego kojca i podepniemy go na smycz nieruchomieje. Jest tak zestresowany, że próbuje się schować. Najprawdopodobniej nigdy nikt nie uczył go spacerowania na smyczy. Playboy potrzebuje pracy, nie jest psem dla każdego. Przyszły opiekun będzie musiał do niego przyjeżdżać i zdobywać jego zaufanie. On potrafi cieszyć się na znajome mu osoby. Widać, że potrzebuje człowieka, jego ciepła i bliskości, jednak na razie nie potrafi się przełamać. Małymi kroczkami próbujemy utwierdzić go w przekonaniu, że ludzie są dobrzy i nie musi się przed nimi bronić. Bardzo dobrze sobie radzi w towarzystwie innych psów. Na pewno obecność drugiego psa w nowym domu bardzo by mu pomogła. Odradzamy go osobom, które mają dzieci. Szukamy dla niego osoby, która będzie mogła poświęcić mu swój czas.  Najlepiej jeżeli zamieszka w domu z ogrodem. Mamy nadzieję, że ktoś zakocha się w tym udającym twardziela psiaku i postanowi odmienić jego życie!",
+         "location":"0001",
+         "id":"e8dedda2-e5db-4822-dog-playboy",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Playboy/mini/play_2.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/dsc_4546-1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/playboy_111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/playboy_1112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/playboy_1113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/play_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/play_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Playboy/play_3.jpg"
+         ]
+      },
+      {
+         "name":"Puffi",
+         "birth":"2018",
+         "description":"Aktywny psiak o sylwetce i duszy sportowca. Uwielbia biegać i skakać, a wyjście z kojca jest dla niego największą nagrodą. Nie zawsze jednak tak było. Kiedy Puffi do nas przyjechał, reagował bardzo nerwowo na każdego. Szybko okazało się jednak, że reakcja ta spowodowana jest strachem i niepewnością. Puffi nie potrafił odnaleźć się w tej nowej i niezbyt przyjemnej sytuacji, ponieważ przez większość swojego życia był psem domowym. Z czasem zaczął jednak oswajać się z kojcem i postanowił, że dość ma już samotności. Teraz widok człowieka wprawia Puffiego w euforię. Jest jeszcze młodym psem, pełnym energii i szczenięcej radości. Potrafi już niektóre podstawowe komendy, zatem nauka dobrych manier to tylko kwestia czasu i zaangażowania opiekuna. Puffi nie nadaje się do domu z małymi dziećmi. Toleruje suczki, ale przez swój nadmiar energii jest czasem zbyt nachalny wobec innych psów.",
+         "location":"0001",
+         "id":"d4910241-0501-4ec6-dog-puffi",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Puffi/mini/89294412_2779231548778597_6882748159139774464_o.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Puffi/89124730_2779231555445263_33343261342957568_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Puffi/89294412_2779231548778597_6882748159139774464_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Puffi/89540821_2779231755445243_8489990063071952896_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Puffi/dsc_0146.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Puffi/puffi.jpg"
+         ]
+      },
+      {
+         "name":"Berlin",
+         "birth":"2010",
+         "description":"Berlin to duży i bardzo łagodny psiak. Kiedy przyjechał do schroniska jego opuszki były w bardzo złym stanie. To newralgiczne miejsce dla psa, bo nieustannie są przez niego używane, dlatego w warunkach schroniskowych trudno było uporać się z tym problemem i z pewnością dom ułatwiłby proces całkowitego wyleczenia wrażliwych łapek Berlina. Psiak ten dał nam się jednak poznać jako niezwykle cierpliwy i wdzięczny psi kumpel. Mimo wieku nie brak mu energii i po latach niezbyt szczęśliwego życia, zaczyna teraz przeżywać swoją drugą młodość. Uwielbia wychodzić na spacery, a po chwili ekscytacji uspokaja się i utrzymuje tempo opiekuna. Berlin lepiej dogaduje się z suczkami, zwłaszcza jeśli są one spokojne i nie narzucają się mu. Ten kochany psiak zasługuje na swoje własne legowisko i ogrom miłości!",
+         "location":"0001",
+         "id":"01d35df3-f324-4d39-dog-berlin",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Berlin/mini/berlin_2.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/78183036_783293122120175_2815701037938114560_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_211.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_411.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_nowe_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_nowe_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Berlin/berlin_nowe_3.jpg"
+         ]
+      },
+      {
+         "name":"Bella",
+         "birth":"2012",
+         "description":"Bella to dużych rozmiarów sunia o równie wielkim sercu. Uwielbia kontakt z człowiekiem, jednak jak każda kobieta wszystko robi na własnych zasadach. Człowiek nie jest w stanie do niczego ją zmusić. To uparta psina. Jeśli nie będzie miała ochoty wyjść na spacer, to po prostu na niego nie wyjdzie. Bela nie ma w sobie jednak cienia agresji. Jest wielkim fanem głaskania i przytulania. Relaksuje się nawet podczas wyczesywania jej gęstej sierści. Jest najszczęśliwsza, gdy przebywa w centrum zainteresowania człowieka. W kontaktach z innymi psami bywa różnie: są psiaki, z którymi Bela jest w stanie dogadać się bez problemu, ale zdążają się i takie, które nie mają szans na zdobycie sympatii tej psiej damy. Bela posiada aktualne szczepienia, jest odrobaczona i wysterylizowana.",
+         "location":"0001",
+         "id":"8f29bd74-d7c8-4672-dog-bella",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Bela/mini/bella_2223.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela1112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela1113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela_1111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela_1112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bela_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bella_2222.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bella_2223.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bela/bella_2224.jpg"
+         ]
+      },
+      {
+         "name":"Rufi",
+         "birth":"",
+         "description":"Rufi to psiak, który wrócił z adopcji. W domu zdarzało mu się ugryźć w sytuacjach dla niego stresowych tj. podpinanie obroży, branie na ręce. U nas nadal lekki lęk wywołuje u niego chęć podpięcia za obroże, za to znacznie lepiej radzi sobie na szelkach. Pierwsze tygodnie były dla niego straszne: nie znał budy, ilość psów go przytłaczała, bardzo się bał. Od początku poświęcaliśmy mu więcej czasu, przez co zaczął nam ufać. Aktualnie pozwala brać się na ręce, podpinać na szelki, pięknie chodzi na spacerach. Rufi akceptuje inne psy i sunie, ale bywa dosyć nachalny co może się niektórym psom nie podobać. Nie powinien zamieszkać z małymi dziećmi. Potrafi zachować czystość. Nie pogardzi aportowaniem czy dłuższym spacerem. Dla nieznanych osób wciąż jest niepewny. Nie jest psem dla każdego. Potrzebuje czasu żeby zaufać.",
+         "location":"0001",
+         "id":"bbe70486-b848-4e06-dog-rufi",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Rufi/mini/93780347_2874805245887893_400925473275641856_o.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/104428965_3019727651395651_3883898039872012792_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/104892985_3019727824728967_1692649621904760364_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/91687998_2832375503464201_7448006687547457536_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/91691656_2832375610130857_6543134413461389312_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/92136752_2832375436797541_204969578965499904_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/93780347_2874805245887893_400925473275641856_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/dsc_0005.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/dsc_0020.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/dsc_0044.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rufi/rufinek.jpg"
+         ]
+      },
+      {
+         "name":"Siwy",
+         "birth":"2010",
+         "description":"Siwy potrzebuje trochę pracy. Przez pierwsze tygodnie nie pozwalał w ogóle się do siebie zbliżać, wszystkich odstraszał szczerzeniem zębów. Dziś nadal nad wszystkim pracujemy, ale nie jest już tak niedostępny jak kiedyś. W kontaktach z innymi psami bywa różny, lecz w większości akceptuje mniejsze od siebie psy. Nie lubi dotyku gdy chodzi luzem po wybiegu lub jest w kojcu. Po podpięciu na smycz przez osoby mu znane całkowicie się zmienia: pozwala się kąpać, czesać, głaskać i wyprowadzić na spacer. Potrzebuje czasu żeby zaufać jednak jest bardziej psim indywidualistą. Idealnie odnalazłby się na podwórku czy ogrodzie z dostępem do budy lub jakiegoś pomieszczenia. Nie nadaje się do domu z dziećmi. Szukamy dla niego osoby, która będzie mogła poświęcić mu trochę czasu, aby jej zaufał.",
+         "location":"0001",
+         "id":"9db7092e-6933-464d-dog-siwy",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/pliki/aktualnosci2017/mini/siwy.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Siwy/71835697_737346286693496_6800236563163774976_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Siwy/siwy_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Siwy/siwy_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Siwy/siwy_3.jpg"
+         ]
+      },
+      {
+         "name":"Megi",
+         "birth":"2010",
+         "description":"Interwencyjnie odebrana od swoich właścicieli. Sunia była uwiązana krótkim łańcuchem do rozpadającej się budy, na dodatek w błocie. Nigdy nie biegała luzem, nigdy nie kochana. Po prostu była. Megi jest bardzo towarzyska, zamknięta w kojcu wciąż wypatruje człowieka. Zdarza jej się bronić miski, może być to spowodowane ograniczonym dostępem do karmy w poprzednim miejscu. Sunia ma w sobie wiele energii, zachowuje się jak szczeniak. Uwielbia biegać po wybiegu, powoli uczy też się korzystać z psiego toru przeszkód. Podczas spacerów bardzo mocno ciągnie, potrzebuje trochę czasu żeby się wyciszyć, przez co musi spacerować na szelkach dla własnego bezpieczeństwa. Szukamy jej domu bez innych zwierząt, ponieważ niestety nie akceptuje innych czworonogów. Powinna idealnie odnaleźć się w domu z ogrodem. Raczej nie polecamy jej do mieszkania, ani do rodziny z małymi dziećmi. Mamy nadzieję, że znajdzie się ktoś kto podaruje jej serce!",
+         "location":"0001",
+         "id":"4584b34e-ee44-43d8-dog-megi",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Megi/mini/megi_2.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Megi/dsc_0089.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Megi/megi_2.jpg"
+         ]
+      },
+      {
+         "name":"Zek",
+         "birth":"2010",
+         "description":"Długo błąkał się w pobliskiej miejscowości, a ponieważ od urodzenia był psem dzikim, to złapanie go było wielkim wyzwaniem. Na szczęście Zek jest już bezpieczny i powoli oswaja się ze schroniskową rzeczywistością. Zdarza mu się reagować kłapaniem w chwilach silnego stresu, jednak nie jest to spowodowane agresją - Zek się jeszcze po prostu bardzo boi. Największy problem stanowi dla niego smycz. Podpięty na nią stoi jak sparaliżowany i boi się zrobić chociaż jeden krok.Jest psem bardzo wrażliwym i delikatnym, ale coraz chętniej przebywa w towarzystwie ludzi. Po kilku tygodniach socjalizacji da się już zauważyć, że Zekowi ludzki dotyk zaczyna sprawiać przyjemność i nie reaguje już na niego ucieczką lub drżeniem całego ciała. Zamiast tego z błogością mruży oczy i pozerkuje na opiekuna, gdy ten przestanie go głaskać. Przed tym pięknym psiakiem jeszcze daleka droga, jednak wkrótce na pewno zrozumie, że życie u boku ludzi jest całkiem przyjemne.",
+         "location":"0001",
+         "id":"11b27d62-de22-4506-dog-zek",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Zek/mini/zek_13.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/dsc_0247.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/dsc_0292.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/dsc_0559.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/zek.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/zek_11.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/zek_12.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zek/zek_13.jpg"
+         ]
+      },
+      {
+         "name":"Marian",
+         "birth":"2007",
+         "description":"Ma około dwunastu lat. Głęboko wierzymy, że jego wiek nie przekreśli szansy na nowy, kochający dom! Psiak trafił do nas bardzo zdezorientowany, wykazywał zachowania obronne, bardzo bał się człowieka i nie pozwalał się do siebie zbliżać. Trochę nam zajęło żeby przekonać go do smyczy. Dziś nadal czasami ma problem z jej podpięciem. Marian na pewno nie jest psem dla każdego, potrzebuje doświadczonego opiekuna, który przekona go do siebie i pokaże, że nie każdy człowiek jest zły, że nie trzeba wszystkich od siebie odstraszać. Chłopak nie nadaje się do domu z dziećmi, idealnym rozwiązaniem byłaby dla niego osoba mogąca poświęcić mu troszkę więcej czasu. Marian nie akceptuje innych psów, dlatego szukamy dla niego miejsca, w którym będzie jedynakiem. Nadal wypracowujemy u niego pozytywne skojarzenia ze smyczą, nie chcemy żeby się jej. Przy poświęceniu czasu oraz przekupieniu smaczkami pozwala podpiąć się na smycz i wyprowadzić. Marian potrzebuje czasu żeby zaufać, osoba zainteresowana jego adopcją będzie musiała kilka razy przyjechać do schroniska.",
+         "location":"0001",
+         "id":"548ee492-497f-4eb3-dog-marian",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Marian/mini/marian_3.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Marian/77416211_2894948973878262_1891397545825927168_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Marian/marian_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Marian/marian_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Marian/marian_3.jpg"
+         ]
+      },
+      {
+         "name":"Synuś",
+         "birth":"",
+         "description":"Przyjechał do schroniska jako zupełnie dziki pies. Jego początki były bardzo trudne, ze strachu próbował atakować, a w schroniskowym kojcu szukał okazji do ucieczki. Bardzo trudno było mu odnaleźć się w nowej rzeczywistości i zaakceptować obecność człowieka. Psom takim jak Synuś nie jest łatwo w schronisku: panuje tu nieustanny gwar i hałas, który przytłacza te delikatne istoty. Lata dzikiego życia wyczuliły ostrożność Synusia i nawet teraz, gdy jest już bezpieczny, wciąż nie odzyskał w pełni spokoju ducha. Ten psiak, choć z zewnątrz lękliwy i wycofany, w głębi serca jest jednak wojownikiem, który już nieraz udowodnił, że potrafi z podniesioną głową pokonywać przeszkody, które na jego drodze postawiło życie. Pozostała mu już tylko jedna bariera do przekroczenia - strach. Synuś potrzebuje Człowieka, który wesprze go w stawianiu czoła lękom i pokaże nowy, domowy świat, którego ten uroczy psiak nigdy nie poznał.W wyniku wypadku niestety jego przednia łapka musiała być amputowana. Ale dziś Synuś radzi sobie bez niej już naprawdę dobrze. Do pełni szczęścia brakuje mu tylko domu...",
+         "location":"0001",
+         "id":"18574fc2-1442-46ba-dog-synus",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Synus/mini/dsc_0132.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/96860390_275458993498757_9025296881126735872_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0031.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0051.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0065.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0132.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0383.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0409.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/dsc_0413.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/synus.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/synus_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/synus_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/synus_26.07_koscian.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/synus_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Synus/synus_4.jpg"
+         ]
+      },
+      {
+         "name":"Martagon",
+         "birth":"",
+         "description":"Trafił do nas bardzo wystraszony i wychudzony... Raczej nie mia łatwego życia. Bał się dosłownie wszystkiego, musieliśmy przekonać go, że człowiek nie jest zły. Bardzo lubi spacerować, na smyczy nie ciągnie, raczej stara się trzymać blisko osoby wyprowadzającej. Martagon potrzebuje odpowiedzialnego i spokojnego opiekuna, który będzie dla niego oparciem. Psiak akceptuje sunie z innymi samcami przeważnie też się dogaduje. Jest bardzo skoczny, potrafi pokonać wysokie ogrodzenie, przyszły właściciel musi mieć na uwadze jego zdolności. Najlepiej jeżeli zamieszka w domu bez małych dzieci. Przed adopcją zostanie wykastrowany.",
+         "location":"0001",
+         "id":"fa27650d-3a79-4ec5-dog-martagon",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Martagon/mini/martagon_2.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Martagon/martagon_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Martagon/martagon_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Martagon/martagon_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Martagon/martagon_4.jpg"
+         ]
+      },
+      {
+         "name":"Czarek",
+         "birth":"",
+         "description":"Został odebrany interwencyjnie od swoich właścicieli. Całe życie był uwiązany krowim łańcuchem do dziury w ścianie. Jego towarzysz niedoli został już adoptowany! Czaruś niestety jeszcze nikogo nie oczarował... Jest bardzo przyjacielskim i pragnącym kontaktu z człowiekiem psem. Zawsze wita nas merdającym ogonem i uśmiechem na pysku! Podczas spacerów interesuje się dosłownie wszystkim, wszystko chciałby obwąchać. Będzie idealnym kompanem rodziny. Do pełni szczęścia wystarczą mu regularne spacery i uwaga człowieka. Akceptuje sunie, z samcami bywa różnie. Najlepiej jeżeli z przyszłym psim towarzyszem zapozna się na terenie schroniska. Czaruś nigdy nie był kochany, nigdy nie mieszkał w ciepłym domu. Dostawał do jedzenia ochłapy z obiadu... W upały stał na pełnym słońcu, zimą marzł na śniegu... Przyjechał do nas wychudzony, na szczęście zaczyna powoli przybierać na masie. Psiak bardzo zasługuje na miłość i czułość, zasługuje by kochać i być kochanym!",
+         "location":"0001",
+         "id":"3e68adcb-d680-42ef-dog-czarek",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Czarek2/czarek_12.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Czarek2/czarek_12.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Czarek2/dsc_0343.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Czarek2/dsc_0350.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Czarek2/dsc_0354.jpg"
+         ]
+      },
+      {
+         "name":"Leon",
+         "birth":"01.2007",
+         "description":"Całe swoje życie mieszkał na działce w Śremie, uwiązany do budy w bardzo kiepskim stanie. Przebywał tam razem ze swoim panem. Niestety jego opiekun umarł, a Leoś został sam na działce. Na szczęście ktoś zgłosił nam zaistniałą sytuacje. Pojechaliśmy i zabraliśmy psiaka do schroniska. Początkowo Leon był nieufny i wystraszony. Jest bardziej przyjacielski w stosunku do kobiet, mężczyzn też akceptuje - ale potrzebuje troszkę więcej czasu, żeby zaufać. Po chwili poznania staje się bardzo otwarty i pocieszny, lubi rozdawać buziaki i być głaskany. Nie przepada za przytulaniem. Leon nie powinien trafić do domu z dziećmi. Najlepiej jeżeli zamieszka w spokojnym domu ze starszą osobą lub parą bez małych dzieci. Psiak podczas spacerów jest grzeczny. Leon tak jak już wcześniej wspomnieliśmy potrzebie trochę czasu żeby zaufać, najlepiej jeżeli osoba chcąca podarować mu dom przyjedzie kilka razy, aby mógł się z nią zapoznać. Leon akceptuje spokojne sunie, w przypadku samców bywa dosyć mocno dominujący.",
+         "location":"0001",
+         "id":"5c47f3b8-af06-4b63-dog-leon",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Leon/mini/dsc_0531.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Leon/dsc_0502.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Leon/dsc_0510.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Leon/dsc_0531.jpg"
+         ]
+      },
+      {
+         "name":"Aleks",
+         "birth":"2018",
+         "description":"Piękny pies w typie labradora. Znaleziony w lipcu 2019 roku w gminie Dolsk. To bardzo młody pies, który wymaga pracy i uwagi. Jest bardzo, bardzo energiczny. Potrzebuje regularnego wysiłku. Wydaje nam się, że osoba, która go wychowywała strasznie go rozpieściła, albo popełniła wiele błędów. Aleks potrzebuje osoby doświadczonej w pracy z psami. Ze względu na swoją niedelikatność szukamy dla niego domu bez małych dzieci. Aleks akceptuje łagodne suczki. Podczas spaceru ciągnie, podgryza smycz i próbuje łapać za ręce. Musimy dołożyć wszelkich starań, by go tego oduczyć. Na wybiegu uwielbia hasać i potrafi wtedy zająć się sobą. Mamy nadzieję, że uda nam się wyprowadzić go na prostą. Na pewno będziemy się starać. Wierzymy, że regularne spacery i intensywna praca zrobi z Aleksa wspaniałego psa, który po adopcji już nie wróci do schroniska.",
+         "location":"0001",
+         "id":"707d82aa-dfc5-477c-dog-aleks",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/pliki/aktualnosci2017/mini/alex1_â€”_kopia.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Aleks/alex1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleks/alex2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleks/alex3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Aleks/alex_26.07_dolsk.jpg"
+         ]
+      },
+      {
+         "name":"Karat",
+         "birth":"",
+         "description":"Sporych rozmiarów pies, który niestety nie widzi. Podczas spacerów trzeba mu trochę pomagać i prowadzić tak, żeby w nic nie uderzył. Karat lubi przebywać z człowiekiem, pozwala się głaskać i przytulać. Nie polecamy go jednak do domu z małymi dziećmi. Najlepiej jeżeli trafi do starszej lub samotnej osoby, która poświęci mu swój czas. Karat nie toleruje innych zwierząt, dlatego w nowym domu musi być jedynakiem. Zapraszamy do schroniska, by poznać go osobiście.",
+         "location":"0001",
+         "id":"6044e29e-ed38-4d4f-dog-karat",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/pliki/aktualnosci2017/mini/karat_1_â€”_kopia.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karatf.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_10.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_6.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Karat/karat_7.jpg"
+         ]
+      },
+      {
+         "name":"Sonia",
+         "birth":"2012",
+         "description":"Przez zdecydowaną większość swojego życia była psem domowym, przywiązanym wyłącznie do swojej ukochanej opiekunki. Okrutny los sprawił jednak, że długoletnia przyjaźń dobiegła niespodziewanego końca, a serce Soni przepełniła pustka, która towarzyszy jej do dnia dzisiejszego. Sonia nie potrafiła poradzić sobie ze stratą, co odbiło się na jej psychice. Źle znosi pobyt w schronisku i w związku z tym narażona jest na długotrwały stres obniżający normalne funkcjonowanie organizmu, co powoduje wychudzenie. Nie jest agresywna, jej zachowania motywowane są wyłącznie niepewnością, dlatego potrzebuje zrozumienia, ciepła i akceptacji, ale też spokoju, opanowania i asertywności. Sonia wyjątkowo mocno i szybko przywiązuje się do osoby, która pojawia się w jej otoczeniu na dłuższą chwilę, a każde rozstanie bardzo przeżywa. Jest psem dość aktywnym, jednak nie ciągnie na smyczy. Wychowała się w domu, dlatego najlepiej czuje się z dala od krat i budy. Ma neutralny stosunek do innych psów i suczek.",
+         "location":"0001",
+         "id":"c82306b5-dbe2-451d-dog-sonia",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/mini/66751645_2297458800289210_5930259562622877696_n.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/66751645_2297458800289210_5930259562622877696_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_11111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_11112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_11113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_11114.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_6.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Sonia_nowe_zdjecia/sonia_7.jpg"
+         ]
+      },
+      {
+         "name":"Tofik",
+         "birth":"08.2018",
+         "description":"Interwencyjnie odebrany od swojej właścicielki. Psiak przez pierwsze dni był bardzo przestraszony i nieufny. Strach minął, a Tofi stał się bardzo pewnym siebie, a nawet kontrolującym człowieka psem. Był już w dwóch adopcjach. Niestety za każdym razem pojawiał się ten sam problem, agresja oraz kontrola. Szukamy dla niego odpowiedzialnej oraz przygotowanej na pracę z nim osoby lub rodziny. Na smyczy czasem ciągnie. Po wyjściu z kojca ma wiele energii i musi się wyszaleć. W stadzie innych psów jest dosyć nachalny, najlepiej jeżeli w nowym domu zostanie jedynakiem. Szukamy dla niego domu bez dzieci! Tofik ma tendencje do bronienia zasobów, podczas zabiegów pielęgnacyjnych jest bardzo pobudzony i zdarza mu się pokazać zęby, a nawet próbować ugryźć. Powinien odnaleźć się w mieszkaniu w bloku, wystarczą mu regularne spacery oraz zabawy piłką, jednak dom z ogrodem na pewno pozwoli na większe pole manewru z psiakiem. Ma bardzo duży potencjał szkoleniowy, lubi węszyć oraz korzystanie z psiego toru przeszkód. Powinien trafić do osoby konsekwentnej i mającej doświadczenie w pracy z trudnymi psami, przed adopcją wymagane są spacery zapoznawcze na terenie schroniska oraz współpraca z behawiorystą.",
+         "location":"0001",
+         "id":"eb0ab624-33e7-4120-dog-tofik",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Tofik/mini/tofik_0001.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Tofik/dsc_0128.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Tofik/dsc_0142.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Tofik/dsc_0174.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Tofik/tofik_0001.jpg"
+         ]
+      },
+      {
+         "name":"Nero",
+         "birth":"2013",
+         "description":"Pies w typie owczarka niemieckiego. Niestety, gdy trafił do schroniska wykazywał zachowania agresywne. W schronisku pracujemy z nim oraz staramy się przystosować tego pieknego psa do adopcji. Nero to pies, który ma w sobie dużo energii, niestety trzeba go często wyciszać, gdyż ma bardzo zaawansowaną dysplazję. W stosunku do osób, które dobrze zna jest posłuszny i przyjacielski, pozwala się podpiąć na smycz oraz głaskać. Nero zna podstawowe komenty. Szukamy dla niego odpowiedzialnego opiekuna, który zanim go zaadoptuje bedzie go odwiedzał w schronisku, by mogli się ze sobą zżyć. Uważamy, że Nero powinien zamieszkać w domu bez innych zwierząt. Rozsądnie byłoby, gdyby zaadoptowała go rodzina, w której nie ma już małych dzieci. Idealnie odnalazłby się w domu z ogródkiem. Mając większą swobodę ruchu, mógłby dac upust emocjom. Serdecznie zapraszamy do schroniska, by poznać Nero",
+         "location":"0001",
+         "id":"6b57f898-5de7-4e03-dog-nero",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/mini/dsc_0900.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_00080.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0009.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0024.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0050.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0054.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0057.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0077.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0886.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0899.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0900.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0905.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0922.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0925.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/nero_marzec_2019/dsc_0960.jpg"
+         ]
+      },
+      {
+         "name":"Orys",
+         "birth":"",
+         "description":"Trafił do nas w 2018 roku. Czy pies trudny to pies nieadopcyjny? W Gaju dobrze wiemy, że nie, bo wielu naszych wymagających podopiecznych znalazło cudownych ludzi. Orys nie dołączył jednak jeszcze do grona szczęśliwców i powoli traci nadzieję, że kiedykolwiek się to zmieni. Być może Orys nie będzie idealnym psem dla rodziny z dziećmi, nie będzie pewnie też odpowiedni dla osoby niedoświadczonej w pracy z psami, ale ktoś, kto zbuduje z nim więź, będzie szczęśliwym przyjacielem tego radosnego, energicznego psa. Orys bardzo broni swoich rzeczy, ale jesteśmy pełni nadziei, że dzięki odpowiedniej pracy i zaangażowaniu swojego przyszłego opiekuna zrozumie, że nikt niczego już mu nie odbierze.Orys cieszy się, gdy idzie na spacer. Pozwoli sobie założyć szelki. Podczas spaceru zaprasza do zabawy. Orysa trzeba nauczyć, że nie może warczeć kiedy mu się podoba. W schronisku mieszka w kojcu sam. Najlepiej byłoby, gdyby w domu w którym ma zamieszkać był jedynakiem. Orys z pewnością potrzebuje bardzo dużo ruchu. Długie spacery, bieganie czy aportowanie z pewnością pozwolą mu wywalić z siebie niepotrzebne, negatywne emocje. Osoby chętne do adopcji pieska serdecznie zapraszamy do naszego schroniska. Jeśli chcesz nam pomóc w opiece nad Orysem, możesz to zrobić za pomocą przelewu: Schronisko dla zwierząt w Gaju, Gaj 56D, 63-100 Śrem, nr konta 84 1240 6902 1111 0010 6705 8364 lub za pośrednictwem formularza paypal biuro@schroniskogaj.pl koniecznie - z dopiskiem DLA ORYSA Kontakt w sprawie adopcji: Schronisko dla bezdomnych zwierząt w Gaju tel. 661 222 200 ",
+         "location":"0001",
+         "id":"ad66c180-cc5b-4287-dog-orys",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Orys/mini/80435889_2597733690261718_8651075482978091008_o.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/50658247_2038176809550745_1994176465406525440_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/80435889_2597733690261718_8651075482978091008_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/dsc_1618.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/dsc_1621.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/dsc_1625.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/dsc_1631.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/dsc_5869.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/dsc_5879.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/fot._aleksandra_lutynska__5_.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/fot._weronika_malinowska__7_.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/fot._wiktoria_piasecka__8_.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Orys/fot._zuzanna_skrzypczak__8_.jpg"
+         ]
+      },
+      {
+         "name":"Vorcan",
+         "birth":"",
+         "description":"Każdy pies jest dla nas wyjątkowy. Jedne potrzebują trochę więcej naszej uwagi, inne świetnie sobie radzą niemalże od początku. Vorcan należy do tej grupy psów, które by znaleźć swój wymarzony dom, potrzebują tej uwagi całkiem sporo. Na początku pobytu w schronisku często reagował agresją. Nowe otoczenie, mnóstwo nieznanych mu osób nie wpływa na niego pozytywnie. Dziś Vorcan nie należy jeszcze do pieszczochów dla wszystkich, ale z wieloma się zaprzyjaźnił. Jedną z nich jest nasza wolontariuszka ze zdjęć. Pokazujemy te zdjęcia, by pokazać, że Vorcan naprawdę potrafi byc wspaniałym przyjacielem. Gdy poprosiliśmy ją, żeby nam go opisała tak jak ona go postrzega, otrzymaliśmy taką odpowiedź: \"To taki uroczy głuptas. Dużo rzeczy go dziwi i interesuje, ale podchodzi do nich niepewnie i ostrożnie. Trzeba mieć dla niego cierpliwość i nie wywierać na nigo presji bo potrzebuje czasu. Teraz już to się rzadko zdarza, ale na początku wiele rzeczy i sytuacji go stresowało, opierał wtedy o mnie łapy i mierzył wzrokiem to co go zaniepokoiło. Z zabawek najbardziej lubi szarpaki, często chwyta smycz i zaczyna nią szarpać, uwielbia biegać ze smyczą w pysku. Ma duży entuzjazm, bawi się jak szczeniak potykając się o własne łapy. Dość szybko się męczy podczas zabawy. Bardzo się przywiązuje, widać że człowiek jest dla niego ważny, że mu ufa i cieszy go jego obecność, a kiedy jest szczęśliwy to pokazuje to całym sobą.\" Zdarza mu się niespodziewanie zaatakować człowieka, gdy ten chce go pogłaskać lub złapać za obroże. Jednak ma też kilka osób, które akceptuje i w stosunku do nich jest przyjacielski. Psiak potrzebuje jeszcze dużo pracy, aby wyjść na prostą. Potrafi chodzić na smyczy, podczas spacerów trochę ciągnie. Potrzebuje dłuższego spaceru, żeby wyładować nagromadzoną energię. Vorcan nie sprawdzi się do domu z innym psem, ponieważ jest dominujący oraz mógłby przed nim bronić miski. Niestety pobyt w schronisku mu nie służy, Vorcan bardzo schudł. W chwili obecnej jest na specjalnej karmie, z tygodnia na tydzień wygląda coraz lepiej, ale zupełnie dobrze będzie wyglądał pewnie dopiero w domu. Osoba zainteresowana jego adopcją musiałaby kilkukrotnie przyjechać w celu zapoznania z psiakiem. Chłopak idealnie sprawdzi się w domu z aktywnym opiekunem. Jeżeli Vorcan sprawił, że Wasze serducho zabiło szybciej - serdecznie zapraszamy do schroniska. Chętnie Was z nim zapoznamy. Bardzo chcielibyśmy, by znalazł wymarzony dom ❤",
+         "location":"0001",
+         "id":"b5a3b77e-8e25-47ce-dog-vorcan",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/pliki/aktualnosci2017/mini/vorcan_1111_â€”_kopia.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_6.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_8.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan_9.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Vorcan_04.04.2019/vorcan__7.jpg"
+         ]
+      },
+      {
+         "name":"Rowek - beagle na wózku",
+         "birth":"",
+         "description":"W naszym schronisku mamy dwa pieski, które poruszają się za pomocą wózków inwalidzkich. Jednym z nich jest właśnie Rowek. Dzięki pomocy darczyńcom, otrzymał wózek. Od tamtej pory może cieszyć się ze spacerów tak jak inne nasze pieski w schronisku. Rowek trafił do nas w maju 2018 roku z miejscowości Małachowo. Prawdopodobnie został potrącony przez samochód - znaleziono go w rowie. Rowek ma za sobą zabieg stabilizacji kręgosłupa. Piesek wymaga opieki 24 godziny na dobę, kilka razy w tygodniu jest rehabilitowany. Każdego dnia walczymy o to, by stanął na nogi. Na co dzień potrzebuje srebra koloidalnego, chusteczek nawilżających, podkładów higienicznych, Octeniseptu, Sudocremu oraz miodu manuka. Jeżeli ktoś z Was chciałby nas obdarować wymienionymi rzeczami, prosimy przesłać nam je na adres: Schronisko dla zwierząt w Gaju, Gaj 56 D, 63-100 Śrem. PRZEDE WSZYSTKIM ROWEK POTRZEBUJE DOMU. Domu, w którym pokochają go mimo jego niepełnosprawności, chociażby domu tymczasowego, który pomoże mu odpocząć od schroniskowej codzienności i który będzie mógł liczyć na naszą pomoc. To naprawdę kochany pies. Na spacerach radzi sobie świetnie. Z pewnością będzie wspaniałym przyjacielem rodziny. Pomóżcie nam wypromować naszego beagla i znaleźć dla niego kochający dom. Pomóżcie Rowkowi, niech nie cierpi dlatego, że jest niepełnosprawny...",
+         "location":"0001",
+         "id":"733d7b8b-788c-4772-dog-rowek",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/pliki/aktualnosci2017/mini/44707067_305822860008216_7613127886358183936_n.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/20180824_121112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/20180824_121114.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/20180824_121216.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/20180824_121221.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/34818899_1666144923454916_3395004126583586816_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/36342123_1693221770747231_7009330947115974656_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/37293820_1720902061312535_1848979211860049920_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/37407112_1720966877972720_3493943774898290688_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/40769114_308176496654447_236325850998374400_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/41508798_1856710471030714_1381553222342148096_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/42836406_321911298590543_5216552713763946496_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/42878400_321911268590546_1131411320546000896_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/44707067_305822860008216_7613127886358183936_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/48243154_2126266584355068_4942076596715520000_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/48369820_282695852395602_3073531373575733248_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/48382279_2025243410854630_1121060831614730240_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/rowek.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/rowek3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/rowek_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Rowek_26.08.2018/rowek_wozek.jpg"
+         ]
+      },
+      {
+         "name":"Imi",
+         "birth":"",
+         "description":"Będąc w Gaju na pewno poznaliście małą wredotę Imi, która bezczelnie panoszy się po schronisku:) Jest mała, chociaż pewnie myśli, że jest wzrostu co najmniej mastifa. Gdy kogoś nie lubi podgryza za nogawki:) Zresztą przy próbie pogłaskania również potrafi dziabnąć, gdy jej się nie spodoba. Chociaż bez strachu - ta babcia prawie nie ma zębów. Na zdjęciach widzicie ją na smyczy, uwierzcie na co dzień nasza Ima wszędzie przechadza się luzem. Co do innych psów to typowa baba! Potrafi zawalczyć o swoje, gdy inny pies chciałby się razem z nią położyć na legowisku lub w tym samym momencie co ona jeść z jednej miski. Chociaż zdarzają się dni, w których Imi jest bardzo wyrozumiała zarówno do ludzi jak i psich braci. Czy kiedykolwiek zginęło komuś śniadanie po zostawieniu plecaka w socjalnym? Bardzo prawdopodobne, że to właśnie Imula wskoczyła na stół i ze smakiem zjadła kanapki. Ale jak jej nie kochać? Może i nie ma zasad, ani manier ale przy niej zawsze jest zabawnie. Nowy dom musiałby poświęcić trochę czasu żeby Imi się do niego przyzwyczaiła. Niestety jest już tak długo w schronisku, że uważa je za swój dom.",
+         "location":"0001",
+         "id":"4c9e3410-6d6e-4451-dog-imi",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Imi/mini/imi_112.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Imi/imi_111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Imi/imi_112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Imi/imi_113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Imi/imi_114.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Imi/imi_115.jpg"
+         ]
+      },
+      {
+         "name":"Laluś",
+         "birth":"2010",
+         "description":"Pies adoptowany z naszego schroniska dwa lata temu. Okazało się, że jego opiekunów przerosła opieka nad nim. Laluś to wulkan energii kochający ludzi jednak zupełnie nie akceptujący innych zwierząt. Poszukujemy dla niego domu, który będzie już tym ostatecznym, który pokaże mu co to znaczy miłość i oddanie. Laluś raczej nie nadaje się do domu, w którym są małe dzieci. Przy swojej energii mógłby niechcący zrobić dziecku krzywdę. Idealnie gdyby trafił do osób aktywnych, które zapewniłyby mu dużą dawkę ruchu.",
+         "location":"0001",
+         "id":"3ca3d5d3-64d6-47ac-dog-lalus",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Lalus/mini/lalus125.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus1111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus1112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus1113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus1114.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus1114_â€”_kopia.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus123.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus124.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Lalus/lalus125.jpg"
+         ]
+      },
+      {
+         "name":"Szarik",
+         "birth":"",
+         "description":"Szarik jest już jakiś czas w schronisku, niestety nikt nie zwraca na niego uwagi. To dosyć niezależny i stateczny pies, nie narzuca się człowiekowi, woli chodzić własnymi ścieżkami. Bardzo lubi wylegiwać się na wybiegu, węszyć oraz obszczekiwać inne psy. Potrafi chodzić na smyczy, lecz podczas spacerów mocno ciągnie. Jest silnym i bardzo dostojnym psem. Widać w jego oczach ogromną mądrość. Szarik nie powinien mieszkać z innymi psami, jest typem dominanta przez co mógłby się wdawać w bójki i innymi sierściuchami. Świetnie odnalazłby się na podwórku, gdzie mógłby pilnować posesji oraz spędzać czas na psich sprawach:) Szarik jest bardzo czujny, gdy zamknięty w kojcu zobaczy obcą osobę od razu sygnalizuje to szczekaniem. Przyjemność sprawiają mu spacery po okolicznych lasach. Polecamy go do domu, w którym nie ma małych dzieci.",
+         "location":"0001",
+         "id":"7f208389-dc20-4c7a-dog-szarik",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/pliki/psy/mini/dsc05157.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05133.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05134.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05135.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05143.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05144.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05145.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05147.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05155.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05156.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/dsc05169.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/szarik001.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/szarik002.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/szarik003.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Szarik/szarik004.jpg"
+         ]
+      },
+      {
+         "name":"Brodo",
+         "birth":"2016",
+         "description":"Brodo w swoim krótkim życiu niejedno już musiał przejść. Najprawdopodobniej był psem łańcuchowym, którego potrącił samochód. Został interwencyjnie przewieziony do lecznicy, która zajmuje się opieką nad zwierzętami powypadkowymi. Na miejscu stwierdzono obustronny paraliż tylnych kończyn. Podczas przeprowadzonej operacji wykonano odprowadzenie złamania kręgu lędźwiowego oraz stabilizację dwóch gwoździ kostnych. W grudniu po zakończeniu leczenia Brodo trafił pod naszą opiekę. W chwili obecnej Brodo jest rehabilitowany przez naszą Anię. Wykazuje czucie płytkie w obu kończynach, jednak nie jest w stanie z nich korzystać. Tak na prawdę nie wiemy jaka będzie jego przyszłość, ale robimy wszystko co w naszej mocy aby żyło mu się lepiej. Marzeniem byłby dla nas i dla niego chociaż dom tymczasowy, który zrozumie jego potrzeby i będzie w stanie kontynuować rehabilitację.",
+         "location":"0001",
+         "id":"b5a16423-b457-49da-dog-bordo",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Brodo/mini/39468426_237455460248213_7712063995619835904_n.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/30415211_1656215661080197_2178363861562818560_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/30415399_1656216087746821_5987782287251472384_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/31488227_1676280162407080_6823895373333921792_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/39389265_303696616876111_6396339642534199296_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/39468426_237455460248213_7712063995619835904_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/brodo.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/brodo1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/brodo2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/brodo3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/brodo4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Brodo/brodo5.jpg"
+         ]
+      },
+      {
+         "name":"Ida",
+         "birth":"2008",
+         "description":"(rezerwacja) Ida to wesoła, uśmiechnięta sunia, która oddaje się z pasją taplaniu w kałużach i beztroskiemu bieganiu po polach. Ma w sobie duszę szczenięcia. Bardzo nie lubi jednak wracać do schroniskowego kojca i robi wszystko, by tego uniknąć. Zdecydowanie bardziej odpowiadają jej ciepłe pomieszczenia i wygodne legowiska. Ida uwielbia przebywać blisko ludzi, których zna. Z początku może sprawiać wrażenie indywidualistki- lata bezdomności ograniczyły jej kontakt z człowiekiem do minimum, przez co sunia jest jeszcze trochę nadwrażliwa na dotyk ludzkiej ręki. Coraz częściej przełamuje się jednak i sama zaczyna prosić o chwilę pieszczot.",
+         "location":"0001",
+         "id":"e5b064b5-82be-444b-dog-ida",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Ida/mini/ida_1112.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0013.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0017.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0025.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0027.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0037.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0050.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0078.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_0105.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/dsc_5957.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/ida_1111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Ida/ida_1112.jpg"
+         ]
+      },
+      {
+         "name":"Borys",
+         "birth":"2006",
+         "description":"Owczarek belgijski malinois. Borys należy w naszym schronisku do tzw. psów \"agresywnych\".",
+         "location":"0001",
+         "id":"b2c518b1-5048-4ee1-dog-borys",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Borys/mini/borys116.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/15111125_616552341864473_5077574926091629304_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/15139585_1825059561050423_411977642_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/15156830_616551078531266_7216857211051601830_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/15195860_616552835197757_2578070631526776676_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys114.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys116.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys117.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys118.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys119.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys120.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Borys/borys121.jpg"
+         ]
+      },
+      {
+         "name":"Bingo",
+         "birth":"2010",
+         "description":"Bingo – mówią na mnie agresor gajowy... A czy ja zapuszczam na kogoś swe łowy? No dobra, zdarza mi się czasem zęby pokazać, ale ja po prostu lubię zaczepiać i wesoło hasać. Ciągle uśmiechniętą mordę mam, chociaż taki mały ze mnie drań. Nikt nie zna mojej historii, więc nie snujcie domysłów i nieprawdziwych teorii... Nie wiecie co w życiu swym przeżyłem, a pamiętacie stan mej sierści, uszu i łańcuch na szyi, gdy do Gaju trafiłem...? Mimo złych wspomnień wiele miłości do człowieka mam, tylko potrzebuję czasu, by zaufać Wam... Polubiłem Martę swoją, wolontariuszkę gajową. Ona się nie poddała, pomimo pogryzień, nerwów i strachu regularnie ze mną pracowała... Teraz mówi, że jestem jej misiaczek, nieznośny szatan i mały gagatek... Kocham wybiegać się po dużym terenie, bo ogromu energii nie spożytkuję w kojcu siedzeniem... Marta uczy mnie też spacerować, bo do niedawna na smyczy ze mną można było fikołki wykonać:-) Chwali mnie, że coraz ładniej przy nodze chodzę, słucham poleceń, łapę daję i „siad” robię! Zmieniam się z dnia na dzień, dzięki Marcie innych wolontariuszy i pracowników bliżej poznaję... Nie przeszkadzają mi już jej pieszczoty, wręcz je uwielbiam, te głaskania, szmerania i od czasu do czasu jak pozwolę – przytulania. Jak wspominałem jestem pozytywnym psiakiem, cieszę się na widok ludzi, choć jeszcze rozbrykanym jestem zwierzakiem. Trzeba być przy mnie ostrożnym jeszcze, ale rokowania są coraz lepsze. Do adopcji się szykuję, innych psów, ani suczek niestety nie toleruję. Jednak czy przy takim fajowym Michu, potrzebny jest Ci jeszcze jakiś psi pychol?",
+         "location":"0001",
+         "id":"1d442ac0-6f74-4000-dog-bingo",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Bingo/mini/bingo_3.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/12182643_919328884768882_2222420838061507921_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/12191235_919328838102220_552307516808147318_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/12196234_919328821435555_5375296659865929728_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/14650753_1127638510604584_7885323754776894737_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/14680634_1127638443937924_5479007068573826708_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/14724519_1127638870604548_6116965121611730273_n.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1112.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1112_â€”_kopia.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1113.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1114.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1115.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1116.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1117.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1118.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_1119.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_5.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_6.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_7.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_8.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Bingo/bingo_9.jpg"
+         ]
+      },
+      {
+         "name":"Zalia",
+         "birth":"2009",
+         "description":"Zalia to pewna siebie sunia, która potrafi jasno i wyraźnie dać do zrozumienia, że coś jej się nie podoba. Nie lubi być zaskakiwana i potrafi ugryźć. Zalia sama wybiera sobie ludzi, których darzy sympatią. Kiedy zaufa, staje się delikatną, kochającą sunią, która chętnie spędza czas na kolanach człowieka i prosi o pieszczoty. Przyszły opiekun musi jednak przygotować się na długi proces zapoznania z Zalką i dać jej możliwość zaufania. Nie jest to pies, który może zamieszkać w domu z małymi dziećmi. Wymaga doświadczonego opiekuna, który nie przestraszy się jej charakteru. Zalia nie ma problemów w kontaktach z innymi psami.",
+         "location":"0001",
+         "id":"53830c83-74a3-4360-dog-zalia",
+         "animalType":"dog",
+         "icon":"http://www.schroniskogaj.pl/asp/galeria/Zalia/mini/zalia_woda.jpg",
+         "pictures":[
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/103114204_2524854054283215_4690457267644022149_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/74482454_2087735371328421_5811146388494352384_o.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_0111.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_0250.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_0299.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_0390.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_0448.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_0515.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/dsc_3463.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia001.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia002.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia2.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia3.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia4.jpg",
+            "http://www.schroniskogaj.pl/asp/galeria/Zalia/zalia_woda.jpg"
+         ]
+      },
+      {
+         "name":"Sybir",
+         "birth":"",
+         "description":"Sybir to cudowne kocie dziecko do adopcji. Ma 2 miesiące i trafił do schroniska stosunkowo niedawno, więc dopiero się poznajemy. W tej chwili chłopak pilnie poszukuje nowego, odpowiedzialnego domu. Takiego, który jest świadomy jak bardzo żywiołowe i absorbujące potrafią być małe kociaki. Po adopcji zapewniamy bezpłatną kastrację.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-sybir",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/07/106619376_322567055424725_8484485906335917032_n-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Beszamel",
+         "birth":"",
+         "description":"Beszamel jest energicznym kocim seniorem w typie kota syjamskiego (ma 12 lat). Trafił do schroniska po śmierci właścicielki. W domu tymczasowym większość czasu przesypia, potrafi jednak przypomnieć o swojej obecności przychodząc i dopraszając się głaskania. Wówczas intensywnie wokalizuje co jest typowe dla tej rasy. Beszamel jest niewidomy, ale doskonale odnalazł się w domu tymczasowym. Jak na kota przystało funkcjonuje normalnie. Po poznaniu przestrzeni bez problemu odnajduje miski czy kuwety, potrafi też otworzyć przymknięte drzwi. Najwięcej czasu spędza na kanapie i na kolanach. Niestety kot wymaga kontynuacji leczenia. Zdiagnozowano u niego przewlekłą niewydolność nerek. Z tego powodu wymaga stałej kontroli weterynarza oraz codziennego podawania leków w postaci tabletek oraz kroplówek.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-beszamel",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/3-6-515x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Kraksa",
+         "birth":"",
+         "description":"Kraksa to kocie dziecko do adopcji. Ma 3 miesiące i trafiła do schroniska z bardzo poważnymi obrażeniami. Dzięki naszym weterynarzom wyszła na prostą, a jedyną pamiątką po tych okropnych wydarzeniach jest brak ogonka. W tej chwili dziewczyna jest wyleczona, zaszczepiona, zachipowana i pilnie poszukuje nowego domu. Na początku znajomości jest odrobinę wycofana, ale raz “rozkręcona” zamienia się w mały koci tajfun słodyczy. W domu powinna pozostać jedynaczką. Po adopcji zapewniamy bezpłatną sterylizacje.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-kraksa",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/k14-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Wąglik",
+         "birth":"",
+         "description":"Wąglik to cudowne kocie dziecko do adopcji. Ma 2 miesiące i trafił do schroniska stosunkowo niedawno, więc dopiero się poznajemy. W tej chwili chłopak pilnie poszukuje nowego, odpowiedzialnego domu. Takiego, który jest świadomy jak bardzo żywiołowe potrafią być małe kociaki. Po adopcji zapewniamy bezpłatną kastrację.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-waglik",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/k22-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Mia",
+         "birth":"",
+         "description":"Mia to półtoraroczna delikatna koteczka, która trafiła do schroniska po śmierci swojego właściciela. Kotka bardzo potrzebuje swojego człowieka. Niestety fatalnie znosi pobyt w schronisku. Bardzo źle reaguje na wszelkie zmiany – na szczęście powoli zaczyna otwierać się na świat. Pozwala się głaskać i odwzajemnia pieszczoty naszych opiekunów. Nie nadaje się do domu z innymi kotami. Bardzo lubi skrytki i rozmaite kryjówki. Czuje się w nich dużo pewniej. W nowym domu potrzebowała będzie dużo spokoju, czułości i cierpliwości.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-mia",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/t9-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Dzidka",
+         "birth":"",
+         "description":"Dzidka to 8 miesięczna kotka. Jest lekko nieśmiała i potrzebuje trochę więcej czasu aby się do człowieka przekonać. Nie przepada za towarzystwem innych kotów – ich obecność mocno ja przytłacza. Dzidka szuka domu spokojnego, w którym uszanowany zostanie jej charakter i delikatne usposobienie. Kocha się wspinać i oglądać świat z wysokości.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-dzidka",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/ks9-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Pani Pyrka\n",
+         "birth":"",
+         "description":"Pani Pyrka to dostojna starsza dama o rubensowskich kształtach. Ma prawie 11 lat. Do schroniska trafiła po śmierci swojej właścicielki, z którą spędziła niemal całe życie. Bardzo źle znosi pobyt w schronisku i pilnie potrzebuje domu. Pani Pyrka jest charakterną indywidualistką. Z pewnością to ona ustalała w starym domu harmonogram głasków, przekąsek i drzemek. Nie przepada za kocim towarzystwem. Jest koneserką poduszek, poduszeczek i kocyków. Za dobry obiad i ciepły kąt z pewnością odda nowemu właścicielowi całe kocie serduszko. Oczywiście na własnych zasadach.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-pyrka",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/t6-pani-pyrka-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Alutka",
+         "birth":"",
+         "description":"Alutka to delikatna, nieduża koteczka. Ma około 9 miesięcy i od dłuższego już czasu poszukuje swojego człowieka. Jest kotem miłym i bardzo uległym. Idealna kompanka na długie wieczory pełne kocio-ludzkich czułości. Dobrze odnajdzie się w towarzystwie spokojnych i zrównoważonych kocich kompanów.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-alutka",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/ks6-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Janek",
+         "birth":"",
+         "description":"Janek to 6 letni kocur, który bardzo sobie ceni ciepłe ludzkie kolana. Uwielbia się przytulać i chętnie oddaje się drapanku. Spokojny, grzeczny i zrównoważony. Lubi towarzystwo kotów o podobnym usposobieniu. Janek to koci ideał – ma jednak tendencję do nawracających problemów gastrycznych. Musi otrzymywać specjalistyczną karmę.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-janek",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/P4-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Zdrapka",
+         "birth":"",
+         "description":"Zdrapka to śliczna, drobniutka, delikatna koteczka, która bardzo potrzebuje kontaktu z człowiekiem. Ma dopiero rok – jest niezwykle łagodna i spragniona pieszczot. Dobrze odnajdzie się w domu stabilnym, wśród ciszy i spokoju. Zdrapka choruje na młodzieńcze zapalenie dziąseł – nowy właściciel musi się liczyć z wizytami u kociego dentysty.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-zdrapka",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/C7-600x435.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Koleś",
+         "birth":"",
+         "description":"Koleś to roczny kocurek, który z powodzeniem mógłby służyć za samoodnawialne źródło energii. To szalony i żywiołowy kociak, który będzie potrzebował dużo uwagi ze strony opiekuna. Bardzo wskazane aby trafił do domu, w którym mieszka już kot o podobnym, rozrywkowym usposobieniu.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-koles",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/L7-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Grzanka",
+         "birth":"",
+         "description":"Grzanka to wyjątkowa, młoda dama. Ma dopiero 10 miesięcy a potrafi zachować się ze spokojem i godnością, której nie powstydziłby się dorosły kot. Jest bardzo grzeczna i lubi kontakt z innymi kotami. Kotka ma drobne problemy ze śluzówką przy odbycie. Przeszła zabieg weterynaryjny i może w przyszłości potrzebować wsparcia przy zachowaniu higieny tych okolic.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-grzanka",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/NK16-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Amigo",
+         "birth":"",
+         "description":"Amigo to młody, koci wesołek. Ma dopiero rok i jest bardzo towarzyski. Lubi pieszczoty i długie godziny spędzone na przytulaniu ale proszę się nie oszukiwać. \uD83D\uDE42 Priorytetem w jego kocim życiu jest zabawa. Chętnie zamieszka w domu, w którym będzie miał kompana do wspólnych harców.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-amigo",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/KS11-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Mysza",
+         "birth":"",
+         "description":"Mysza to urocza i “rozgadana” pięcioletnia kotka. Marzy o spokojnym domu, w którym będzie mogła ucinać sobie długie drzemki i oddawać się głaskaniu. Preferowany dom bez małych dzieci. Mysza powinna pozostać kocią jedynaczką.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-mysza",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/P11-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Lopez",
+         "birth":"",
+         "description":"Szybki Lopez to młody kocurek. Ma siedem miesięcy i jest małą, kocią siłą niszczącą. Nie boi się ludzi. Uwielbia zabawy i psikusy. Niestraszne mu nowe wyzwania i szalone wyprawy w poszukiwaniu wrażeń i kompanów do psot. Chętnie zamieszka z innymi kotami o podobnych upodobaniach.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-lopez",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/LOPEZ-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Grzegorz",
+         "birth":"",
+         "description":"Grzegorz to trzyletni kocur, który trafił do schroniska mocno połamany po wypadku komunikacyjnym. Wielki fan twarożku i innych wyrafinowanych smakołyków, które regularnie podkrada z naszych śniadaniowych kanapek. Został cichym kierownikiem kliniki weterynaryjnej, zdobywając serca wszystkich opiekunów. Jest to kot bardzo spragniony kontaktu z człowiekiem, spokojny i opanowany. Ceni sobie długie spanko i drapanko. W domu powinien być raczej jedynakiem – inne koty go stresują.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-grzegorz",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/grzegorz-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Marczello",
+         "birth":"",
+         "description":"Marczello to starszy pan z charakterem. Trafił do schroniska w bardzo złym stanie fizycznym i psychicznym. Dziś znów cieszy się dobrą formą. Indywidualista – kocur dla koneserów. Lubi dobrze zjeść i zaznać odrobiny czułości na własnych zasadach. Kiedy coś mu się nie podoba, okazuje to dobitnie. Kiedy jest szczęśliwy, również nie ukrywa swych uczuć.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-marczello",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/C8-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Jadzia",
+         "birth":"",
+         "description":"Jadzia to piękna, szylkretowa, dwuletnia panna. Jest kotem płochliwym i wycofanym. Potrzebuje spokojnego domu bez małych dzieci i dzikich tańców. Opiekun, który zdobędzie jej zaufanie, będzie się cieszył fantastyczną towarzyszką.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-jadzia",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/P8-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Krzyś",
+         "birth":"",
+         "description":"Mam 5 lat. Nazywam się Krzyś, znany jestem pod pseudonimem Burczysław. Pewnie wynika to z tego, że mam skomplikowany charakter. Z innymi kotami kiepsko się dogaduję, a człowieka potrafię pacnąć. Teraz, kiedy wiecie o mnie wszystko czekam na ochotnika, który podejmie wyzwanie i przygarnie mnie. Mile widziany doświadczony opiekun bez dzieci.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-krzys",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/KRZY%C5%9A-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Szogun",
+         "birth":"",
+         "description":"Jestem Szogun. Będę szczery! Jestem bardzo energiczny. Uwielbiam grandzić z innymi kotami. Wszędzie mnie pełno. Uwielbiam wspinaczki i akrobacje na wysokościach. W nowym domu muszę mieć towarzystwo do zabawy. Muszę!!! \uD83D\uDE42",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-szogun",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/SZOGUN-1-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Mini",
+         "birth":"",
+         "description":"Jestem Panią w średnim wieku ( 4 lata). Nazywam się Mini. Mam chore nerki i muszę jeść specjalistyczna karmę – wymagam nieco więcej uwagi, niż całkiem zdrowe koty. Mimo choroby jestem pogodna i lubię się bawić. Unikam towarzystwa kotów. Lubię siedzieć w kartonie, ale marzę o mieszkaniu w spokojnym, cichym domku u boku fajnego opiekuna! Chciałabym być jedynaczką :). Adoptuj mnie!",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-mini",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/MINI-1-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Fazi",
+         "birth":"",
+         "description":"Sześcioletnia nieśmiała koteczka o niespożytej energii. Zapewnia brak nudy i poszukiwanie niewielkich zgub za szafami i łóżkami. Całą sobą oznajmia nastawienie do proponowanej porcji czułości (czasem również pazurami). Wymaga cierpliwości i wyczucia, a odwdzięczy się ogromną kocią miłością.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-faz",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/FAZI-1-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Pika",
+         "birth":"",
+         "description":"Energiczna roczna panna oferuje wspólne pogonie za wędką, poszukiwanie zagubionego jedzenia i zwiedzanie najwyższych półek. Czułości przyjmuje po bliższym poznaniu. Chętnie zamieszka z kotem o podobnym usposobieniu.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-pika",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/Pika-600x445.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Paweł",
+         "birth":"",
+         "description":"Jedenastomiesięczny kocurek, jeden z dwóch braci; ciekawy człowieka, ale na razie mocno nieśmiały, trochę boi się ludzkiej ręki; mimo wszystko łagodny, na pewno się oswoi. Polecany do adopcji w dwupaku, ze swoim bratem Gawłem.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-pawel",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/T1-Pawe%C5%82-600x450.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Stefcia",
+         "birth":"",
+         "description":"Ośmiomiesięczna, bardzo urocza, śmieszna kotka; mięciutka i miła; ogromnie ciekawa, ale bardzo nieśmiała – gdy się ją głaszcze, kuli się i odsuwa, ale widać, że garnie się do człowieka, w domu na pewno zaraz się oswoi.  Wolałaby być jedynaczką.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-stefcia",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/S7-Stefcia-1-600x450.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Klara",
+         "birth":"",
+         "description":"Miła dziewięciomiesięczna kotka, chętna do kontaktu z człowiekiem, ale jeszcze bardzo nieśmiała. Spokojna i porządna, ma zawsze czysto w klatce. Zaciekawiona innymi kotami, ale z klatki nie wychodzi. Na pewno się oswoi i będzie przytulakiem. Zalecamy adopcję do domu bez dzieci.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-klara",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/02/S1-Klara-1-600x450.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Churro",
+         "birth":"",
+         "description":"Churro jest kotem-alpinistą. Przebywanie na wysokościach to jego żywioł. Może podziwiać stamtąd krajobraz mieszkania i monitorować jego domowników. Na pewno ucieszyłby się z półeczki pod sufitem, albo kocyka na szafce kuchennej/szafie. Jest kontaktowy i chętnie wchodzi w interakcje z człowiekiem, ale sam wyznacza długość trwania tego kontaktu. Kiedy już nie chce głaskanka – wskakuje na swój taras widokowy ;).",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-churro",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/10/s9a-600x493.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Delicja",
+         "birth":"",
+         "description":"Delicja została zostawiona przez matkę jako dwutygodniowy kociak. Nie wiemy, co się stało z matką – może potrącił ją samochód albo ktoś zabrał. Kociakami zajęli się ludzie. Delicja, dziś roczna panna, jest pełną wdzięku koteczką. Lubi rozrabiać, ale nie pogardzi też przytuleniem (zwłaszcza jak się zmęczy zabawą). ",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-delicja",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/10/kociak-do-adopcji-delicja-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Ekler",
+         "birth":"",
+         "description":"Mały słodziak. Gdy się go bierze na ręce, od razu mruczy i się tuli. W słodkiej oprawie kryje się jednak dusza łowcy, co niejedną pluszową myszkę w domu upoluje! Ekler ma już ponad cztery miesiące, w schronisku przebywa od połowy sierpnia.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-ekler",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/09/kociak-do-adopcji-ekler-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Hamlet",
+         "birth":"",
+         "description":"Nieznajomych osyczy, znajomym da się pogłaskać i chętnie się do nich przytuli. Nie tylko dlatego warto stać się jego znajomym. Hamlet to spokojny, miły kot. Bardzo lubi się bawić, również z innymi kotami. W schronisku jest od jesieni ubiegłego roku – trafił z ogródków działkowych na Darzyborze. Chłopak skończył dwa lata i jest kastratem.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-hamlet",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/07/kot-do-adopcji-hamlet-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Lambert",
+         "birth":"",
+         "description":"Dwuletni kocurek, jest trochę dziki i wymaga socjalizacji – ale robi już postępy. Lubi się bawić, także z innymi kotami. Nie polecamy go do domu z dziećmi. Do schroniska trafił jako kociak z poznańskich Ogrodów. Jest wykastrowany, zaszczepiony i zaczipowany.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-lambert",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2018/04/kot-do-adopcji-lambert-1200x800.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Norma",
+         "birth":"",
+         "description":"Trafiła do nas w połowie grudnia z kocim katarem. Został on wyleczony, a my cały czas oswajamy kotkę. Są już postępy. Norma jest ciekawska, lubi wyglądać z klatki, ale jeszcze potrzebuje czasu. Lubi się bawić i jest bardzo łasa na jedzenie. Kotka ma dwa lata i jest wysterylizowana, a także zaszczepiona i zaczipowana.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-norma",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2018/03/kot-do-adopcji-norma.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Julian",
+         "birth":"",
+         "description":"Julian trafił do schroniska z ulicy- został znaleziony zakleszczony w kratce kanalizacyjnej. Julian nie chodził samodzielnie. Trafił do domu tymczasowego, gdzie jest do tej pory rehabilitowany. Poczynił ogromne postępy, coraz lepiej się porusza. Julian ma 4 lata, jest zaszczepiony, zaczipowany i wykastrowany.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-julian",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2018/02/kot-do-adopcji-Julian.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Ptyś",
+         "birth":"",
+         "description":"Do adopcji poleca się Ptyś z naszego domu tymczasowego. Kocurek ma dwa lata. Trafił pod naszą opiekę, razem z siostrą Bezą, jako już całkiem podrośnięty kocurek, co oznacza, że dość długo walczył na ulicy o przetrwanie. Kilkumiesięczna walka o życie w dużym mieście dość mocno go uwarunkowała – dla Ptysia nie ma rzeczy niemożliwych. Ptyś wejdzie wszędzie, Ptyś zje każdą ilość jedzenia, Ptyś zawsze postawi na swoim. Ptyś jest odważny, przebojowy i bardzo zaradny. ",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-kot-ptys",
+         "animalType":"cat",
+         "icon":"https://schronisko.com/wp-content/uploads/2016/12/15682670_10211233024366722_1696196252_n.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Kori",
+         "birth":"",
+         "description":"Kori to szczeniak pełen energii. W nowym domu trzeba będzie zacząć naukę od treningu czystości i podstaw posłuszeństwa. Na razie idealnie określa go słowo: chaos \uD83D\uDE42  Jest wiele do zrobienia, ale i uczeń zapowiada się być pojętnym. Na przyszłym opiekunie będzie spoczywał obowiązek zapewnienia Koriemu czasu na aktywność jak i miejsca na wyciszenie. Na tą chwilę ma z tym spory kłopot.\n\nKori ma 8 miesięcy, jest wykastrowany, zaszczepiony oraz zaczipowany.",
+         "location":"0002",
+         "id":"157bd2a6-7bd2-dog-kori",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/04/Kori-1-600x536.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Tunel",
+         "birth":"",
+         "description":"Tunel to pies idealnie skrojony dla osoby poszukującej aktywnego psiego towarzysza. Bieganie i aportowanie to dwa ulubione żywioły tego psa. Niezły z niego także skoczek. Uwielbia aktywne spędzanie czasu wraz z opiekunem na wybiegu. Początki jego pobytu w schronisku nie były kolorowe. Tunel obawiał się dotyku i był bardzo strachliwy. Dzięki pracy wolontariuszy zrobił spore postępy. Teraz spędzanie czasu z człowiekiem sprawia mu dużo radości. Zna podstawowe komendy. Na pewno będzie jeszcze wymagał pracy nad spokojnym spacerowaniem, nadal ciągnie na smyczy. Do innych psów podchodzi z opanowaniem i ciekawością.\n\nTunel ma  prawie 8 lat, jest wykastrowany, zaszczepiony oraz zaczipowany",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-tunel",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/06/Tunel-1-383x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Banksy",
+         "birth":"",
+         "description":"Węszenie podczas spacerów zajmuje temu psiakowi najwięcej czasu. Jego bystrość można wykorzystać przy nauce komend. Ma chłopak potencjał, ale na razie jego zachowanie przypomina chaos. Poszukujemy domu, który lubi takie wyzwania.\n\nBanksy ma ponad 2 lata, jest wykastrowany, zaszczepiony oraz zaczipowany.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-banksy",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/Banksy-450x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Beksa",
+         "birth":"",
+         "description":"Beksa trafił do nas w bardzo złym stanie, jego ciało pokrywały rany, a oczy były sklejone ropą. Po ponad dwumiesięcznym leczeniu po ranach nie ma już śladu, pozostało tylko zapalenie spojówek, które nadal leczymy. Beksa jest bardzo zrównoważonym i spokojnym psem. Spacer z nim to prawdziwa przyjemność, na smyczy chodzi spokojnie, dużo węszy, a na przejeżdżających rowerzystów nie zwraca uwagi. W stosunku do innych psów zachowuje się różnie, wobec jednych jest przyjazny, wobec innych zdecydowanie nie.\n\nBeksa ma ponad 10 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-beksa",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2018/04/Beksa-1200x829.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Hera",
+         "birth":"",
+         "description":"Hera trafiła do nas w 2018 roku. To spokojna suczka bardzo pozytywnie nastawiona do ludzi jak i do swojego gatunku. Mimo problemów ze słuchem doskonale sobie radzi, także z porozumiewaniem się z opiekunami. Na gest ręki siada na posłaniu i oczekuje na smaczki.  Kontakt z człowiekiem sprawia jej przyjemność. Hera bardzo lubi spacery i węszenie podczas nich. Trzymamy kciuki aby spokojna Hera znalazła równie spokojny dom.\n\nHera ma ponad 9 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-hera",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/07/23-600x400.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Pedro",
+         "birth":"",
+         "description":"Bywają takie psy przy których jedno imię to stanowczo za mało. Ten terier jest doskonałym tego przykładem. Pedro – Iwan – Rusek to ciemny kudłacz i prawdziwy dżentelmen. Bardzo czytelnie komunikuje opiekunom kiedy ma ochotę na bliskość, a kiedy zdecydowanie woli swobodę. Jako entuzjasta smaczków bardzo polubił pracę z człowiekiem. Pedro trafił do nas po wypadku komunikacyjnym. Nasi weterynarze stanęli na wysokości zadania i teraz śmiało może pokonywać trasy spacerowe. Poszukujemy dla niego właściciela, który będzie kontynuować jego rehabilitację aby nie zaprzepaścić jego stabilnej postawy. Człowieka, który poświęci mu czas bo z całą pewnością będzie się tego domagał. Uprzedzamy, iż niewskazane jest aby Pedro pokonywał codziennie dużą liczbę schodów np. do domu.Pedro ma ponad 9 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-pedro",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/01/76695063_2813631475354993_3202318605056212992_n-600x475.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Anzelm",
+         "birth":"",
+         "description":"Anzelm jest psem o niesamowitym wyrazie pyska. Jego uszy (intensywnie leczone) zdają się żyć swoim życiem. Mimo dojrzałego wieku nadal zachowuje się jak młodzik. Uwielbia długie spacery, zdecydowanie bez towarzystwa innych psów. Mało komfortowo czuje się przy zgiełku ulicznym. Kontakt z człowiekiem jest dla niego bardzo ważny. Chętnie przebywa w towarzystwie opiekunów. Do nowych osób podchodzi z rezerwą. Nowy opiekun początkowo powinien dać mu przestrzeń i nie narzucać się.  Anzelm je karmę hipoalergiczną.\n\nMa 11 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-anzelm",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/01/80765233_599816660787685_5592629099697799168_n-600x372.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Symbol",
+         "birth":"",
+         "description":"Symbol jest psem wpatrzonym w człowieka. Bardzo ładnie wykonuje podstawowe komendy. Uwielbia aportowanie. Na spacerze zawsze wyszukuje patyków aby mieć co aportować. Lubisz być w centrum uwagi? Senior Symbol spełni twoje oczekiwania. Spokojne spacery gwarantowane. Symbol ma 12 lat, jest wykastrowany, zaszczepiony oraz zaczipowany.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-symbol",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/symbol-600x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Zefir",
+         "birth":"",
+         "description":"Zefir to rudzielec, który notorycznie uważa, iż człowiek nie jest mu do szczęścia potrzebny. Nawet jedzenie smaczków z rąk opiekunów nie zmieniło jego przekonania. To pies o dużym temperamencie, żywiołowy i niezależny. Ze względu na swój charakter będzie wymagał konsekwentnego właściciela. Idealnie odnajdzie się w domu z ogrodem, pamiętając oczywiście, iż nawet największy ogród nie zastąpi regularnych spacerów i treningów. Spacer z nim to ciągła próba sił. Zarówno ze smyczą jak i z mijaniem innych psów. Wymaga to siły i opanowania. Opiekunom dał się poznać jako niezależny i zainteresowany środowiskiem pies. Uwielbia swobodne węszenie. Na wybiegu to właśnie chęć poznania terenu jest zdecydowanie ważniejsza niż przebywanie z opiekunami. Ma 3 lata.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-zefir",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/Zefir-2-450x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Faza",
+         "birth":"",
+         "description":"Faza to suczka, która jest pełna obaw co do człowieka. Jest bardzo wycofana. Przyszły opiekun będzie musiał stopniowo socjalizować ją z nowymi rzeczami. Niezbędna będzie tu wiedza jak postępować z psem lękliwym. Nowy dom będzie musiał poświecić na to dużo czasu. Nowe miejsca, osoby, odgłosy, smycz – to tylko przykładowe rzeczy, które powodują w tej rudej suczce strach. Ma 6 miesięcy",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-faza",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/Faza-2-450x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Gucia",
+         "birth":"",
+         "description":"Ma ponad 13 lat. Gucia to suczka w typie owczarka niemieckiego. Bardzo lubi spędzać czas z opiekunami. Na spacerach spokojnie chodzi na smyczy, gdy ma taką możliwość dużo węszy. Przechadzka z nią to prawdziwa przyjemność. Przy zachowaniu bezpiecznej odległości potrafi spokojnie mijać inne zwierzęta. W nowym domu zalecamy jednak aby była jedynym psem. Sprawdziliśmy – nie pała miłością do innych czworonogów. Gucia poddawana jest leczeniu uszu, otrzymuje także karmę hipoalergiczną. Z powodu tej dolegliwości jej głowa jest przechylona. Dużym plusem jest fakt, iż bardzo grzecznie znosi zabiegi lecznicze i pielęgnacyjne.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-gucia",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/05/1-2.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Luka",
+         "birth":"",
+         "description":"Luka to seniorka o nieprzeciętnym szczeku. To mała suczka o dużej pewności siebie. Uwielbia spacery oraz swobodne bieganie na wybiegu. Poszukujemy dla niej cierpliwego kompana – opiekuna, który dotrzyma jej kroku.\n\nLuka ma ponad 11 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-luka",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/04/IMG_8748-600x580.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Alex",
+         "birth":"",
+         "description":"Alex jest psem aktywnym i potrzebującym opiekuna pewnego siebie. On sam doskonale wie jak wpływać na opiekunów. Na spacerze jest bardzo pobudzony, dopiero po jakimś czasie uspakaja się. Wobec ludzi, których już miał przyjemność poznać, jest bardzo pozytywnie nastawiony. Precyzyjnie reaguje na komendę siad oraz czekaj. Podczas zabawy na wybiegu uczy się aportować. Na razie bez większych sukcesów \uD83D\uDE0A  Alex już raz wrócił do schroniska. W domu może ponownie pojawić się problem bronienia zasobów (np. miski z jedzeniem). Przyszły właściciel Alexa będzie musiał  kontynuować naukę spokojnego mijania innych psów na spacerach. Alex to łobuziak jak na teriera przystało.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-alex",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/04/2-1-600x425.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Max",
+         "birth":"",
+         "description":"Max to pies bardzo kontaktowy i przyjacielski. Podczas spacerów ładnie chodzi na smyczy. Na inne psy reaguje wybiórczo. Zdarza mu się warczeniem i szczekaniem zakomunikować, iż nie ma ochoty na bliższe zapoznanie z obcym psem.  Na wybiegu chętnie biega i węszy w poszukiwaniu pozostawionych smaczków.\n\nMax ma 8 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-max",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/04/a-547x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Foxy",
+         "birth":"",
+         "description":"Foxy jest psem w typie foksteriera. Kto miał styczność z psami w tym typie ten wie, że są to bardzo niezależne, uparte i temperamentne stworzenia. Jeśli poszukujesz psa-kanapowca omiń to ogłoszenie. Foxy już kilka razy wracał do schroniska, właśnie przez niezrozumienie jego potrzeb. Znudzony Foxy to problemowy Foxy. Przyszły właściciel będzie mógł wykazać się swoją cierpliwością.  Przyda się przy kontynuacji uczenia tego psa np. spokojnego mijania obcych ludzi lub psów na spacerach. Foxy lubi aktywnie spędzać czas biegając, pływając lub aportując.\n\nFoxy ma 6 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-foxy",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/04/DS7A4426-600x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Żaba",
+         "birth":"",
+         "description":"Żaba czeka na magiczne zaklęcie wyczarowujące … rozsądnego właściciela, stroniącego od tłumu, który z nieskrywaną nieufnością podchodzi do rzeczywistości. Podobnie jak Żaba. Przyszły właściciel będzie musiał pojąć tajemną wiedzę jak przewidzieć zachowanie tego psa. Żabol bardzo ładnie pokazuje czego nie lubi. Warczenie to jego sposób komunikacji. Nie ufa obcym osobom. Na jego akceptację trzeba sobie zasłużyć. Gdy już kogoś bliżej pozna okazuje się bardzo radosnym psem. Na spacerach bardzo lubi węszenie. To mały jegomość z dużym ego. Pies ten powrócił już z adopcji. Niestety zabrakło konsekwencji u osób, które podjęły się tego zadania. Przy sporej dawce cierpliwości i mądrym wykorzystywaniu komend, życie z Żabą będzie bajeczne. Ma 8 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-zaba",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/04/IMG_0617-1-450x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Karo",
+         "birth":"",
+         "description":"Karo to pies, który przybył do schroniska w zeszłym roku. Od tego czasu zrobił spore postępy w swoim zachowaniu, ale nadal jest nad czym pracować. Nerwowość, mocne ciągnięcie smyczy czy nadpobudliwa reakcja na rowerzystów mijających go na spacerze. Swój nadmiar emocji rozładowuje np. podczas aportowania piłki. Na inne psy reaguje dość emocjonalnie. Cały czas pracujemy nad nawiązane kontaktu Karo z opiekunem. Na nowego właściciela czeka nie lada wyzwanie. Poszukujemy świadomego opiekuna, który będzie chciał poświęcić swój czas dla tego nadpobudliwego psa. Ma ponad 7 lat.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-karo",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/Karo1-600x375.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Tosiek",
+         "birth":"",
+         "description":"Tosiek to puchaty dżentelmen, który trafił do schroniska z ogromnym problemem awersji na dotyk. Mimo ogromnej pracy opiekunów i wolontariuszy Tosiek nadal potrafi pokazać swoją niechęć do zakładania obroży i smyczy.  Przy tych czynnościach trzeba być niezwykle ostrożnym. Zabiegi pielęgnacyjne tego puchacza także będą wymagały ostrożności. Tosiek zaczyna robić postępy, cieszy się na spotykanych opiekunów, chętnie wychodzi na spacery i coraz bardziej pozwala się dotykać.  Z całą pewnością wymaga dużo cierpliwości i wolnej przestrzeni, tak aby sam mógł przekonać się do nowego człowieka i mu zaufać. Introwertycy mile widziani.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-tosiek",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/IMG_5384-450x600.jpeg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Dżeki",
+         "birth":"",
+         "description":"To pies bardzo mądry, ale i uparty.  Potrafi wykonać serię komend. Z łatwością przyswoił: siad, łapa, kółeczko i niezwykle urocze: poproś. Ogromną radość sprawiają mu takie treningi. Dżeki, kilka razy już wracał z adopcji. To pies wymagający konsekwencji i opanowania. W nowym domu, może pojawić się problem bronienia zasobów np. zabawek.  Na spacerach nadal ciągnie, więc na codzienne spacery trzeba sobie zarezerwować dużo siły i cierpliwości w nauce chodzenia na luźniej smyczy. Dżeki jest psem bardzo kontaktowym i radosnym. Trzymamy kciuki aby trafił do domu z doświadczonym opiekunem, który odkryje jego potencjał do treningów. Może rally-o? W tym sporcie, polegającym na współpracy z opiekunem, Dżeki odnajdzie się doskonale. Ma około 7 lat",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-dzeki",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/D%C5%BCeki4-600x585.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Carlos",
+         "birth":"",
+         "description":"Carlos jest psem pełnym obaw do człowieka, a nawet do pomieszczeń. Na spacery chodzi chętnie, choć i smycz wywołuje w nim niepokój. Bywa dość niespokojny, gdy napotyka obce osoby lub inne rozproszenia. Aktualnie praca z nim polega na skupieniu uwagi na przewodniku. Kontakt z człowiekiem zaczyna sprawiać mu przyjemność.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-carlos",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/20200228_154835_Burst15-600x517.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Joy",
+         "birth":"",
+         "description":"Joy jest psem idealnym dla wielbicieli psich aktywności. Niezwykle skoczna i energiczna. Uwielbia zabawy z piłką. Jest bardzo inteligentną istotą, która potrzebuje opiekuna, mogącego jej poświęcić dużo czasu na naukę. Komendy: łapa, waruj, zostań należą już do jej repertuaru. Joy nie czuje się zbyt komfortowo w zatłoczonych miejscach. Wystraszona zamienia się w Davida Copperfielda wyswobadzając się z szelek lub obroży.  Idealne miejsce spacerowe, dla niej, to teren  z dala od biegaczy i rowerzystów. Z innymi psami dogaduje się wybiórczo. Opiekun jest dla niej ważny ale z obcymi osobami zapoznajemy ją stopniowo.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-joy",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/IMG_7878-450x600.jpeg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Piorun",
+         "birth":"",
+         "description":"Piorun to pręgowany jegomość, prawdopodobnie z przeszłością spędzoną w kojcu. Jest psem dość lękliwym i wycofanym. Boi się ludzi. Opiekunów, których już zna traktuje bardzo przyjacielsko, domagając się kontaktu. Jest bardzo wrażliwy na dotyk. Okolice głowy to strefa zdecydowanie niedotykalska.  Przyszły właściciel nie powinien wywierać na niego presji. Mamy nadzieję, że w nowym spokojnym domu bliskość człowieka stanie się dla tego psa naturalna. Piorun potrzebuje domu bez innych zwierząt domowych oraz małych dzieci.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-piorun",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2020/03/90608944_533896067263682_9182180070670729216_n-450x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Lady",
+         "birth":"",
+         "description":"Lady swoim wyglądem wzbudza respekt. Przy pierwszym kontakcie z nową osobą  potrafi zrobić nie lada wrażenie…  Boi się wielu rzeczy: głośne dźwięki, przebiegające osoby czy nawet przejeżdżający rower wywołują u niej strach. Niestety w takich momentach, nie radząc sobie z emocjami, próbuje odstraszyć swoim groźnym zachowaniem.  Aktualnie opiekunowie pracują nad dodaniem jej pewności siebie i zapoznawaniu jej z większą ilością osób aby mogła im zaufać. Podczas spacerów w towarzystwie innych psów o wiele lepiej odnajduje się w nowym otoczeniu. Z całą pewnością osoba rozważająca adopcję naszej Kruszyny musi zaplanować sobie przynajmniej kilka wizyt w schronisku. Zależy nam aby urokowi Lady uległa osoba posiadająca już doświadczenie z molosam",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-dog-lady",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/11/75210783_2096925633740566_4112762254884077568_n-600x397.png",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Brutus",
+         "birth":"",
+         "description":"Brutus to „niskopodłogowy” rudzielec. Mimo swoich 9 lat energia go nie opuszcza. Kocha aportowanie i pływanie. Na inne psy reaguje spontanicznie – czasami przyjaźnie, innym razem zaczepnie. Weterynarze diagnozują go w kierunku nowotworu (zatok czołowych). Trzymamy kciuki za jego stan zdrowia.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-brutus",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/11/74403397_418722545731143_1733597312044761088_n-530x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Chaps",
+         "birth":"",
+         "description":"Chaps to żywioł o dwóch twarzach a raczej pyskach. W boksie szaleje i rozpiera go energia. Natomiast podczas spacerów uspakaja się i potrafi szybko skupić się na opiekunie. W opanowaniu emocji pomaga mu węszenie, a także wykonywanie nauczonych już komend. Przyszły właściciel musi uzbroić się w sporą dawkę cierpliwości ucząc go spokojnego mijania innych psów.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-chaps",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/11/76656170_413819079308872_7035717667109470208_n-450x600.jpg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Fred",
+         "birth":"",
+         "description":"Fred jest bardzo pojętnym owczarkiem niemieckim. Wobec osób, które już zna czuje się bardzo komfortowo i wykonuje bezbłędnie komendy: siad, waruj, obrót, omiń. Nauka trwa nadal  więc z całą pewnością  ilość komend wzrośnie.  Fred chętnie współpracuje z opiekunem. To pies do aktywnego i świadomego domu, który ma doświadczenie z psami agresywnymi.  Fred jest dość terytorialny, ale coraz łatwiej akceptuje nowe osoby.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-fred",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2019/11/Fred-450x600.jpeg",
+         "pictures":[
+
+         ]
+      },
+      {
+         "name":"Kevin",
+         "birth":"",
+         "description":"Kevin to  energiczny, 5 letni mieszaniec, prawdopodobnie jamnika z amstaffem. Jest niezwykle umięśniony i silny.  Kevin jest bardzo zainteresowany człowiekiem, na wybiegu woli kontakt z człowiekiem niż bieganie np za piłką. Psiak wymaga dużej ilości ruchu i zajęć intelektualnych, w boksie z nudów budzi się w nim niszczycielska natura. Potrzebuje właściciela, który będzie z nim pracował, by rozładować nadmiar energii, który w nim drzemie. Kevin niestety nie przepada za innymi psami, większe od siebie po zapoznaniu może zaakceptować, małych psów nie toleruje.",
+         "location":"0002",
+         "id":"157bd2a6-6bd2-dog-kevin",
+         "animalType":"dog",
+         "icon":"https://schronisko.com/wp-content/uploads/2016/11/IMG_5184-Medium.jpg",
+         "pictures":[
+
+         ]
+      }
+   ]
+}

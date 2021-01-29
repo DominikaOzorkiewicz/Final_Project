@@ -24,7 +24,10 @@ node_modules/
 .idea/
 
 ### Other ###
+/public
 .test/
 .solution
 users.json
-services/
+
+### Secret ###
+/src/services/firebaseConfig.js
