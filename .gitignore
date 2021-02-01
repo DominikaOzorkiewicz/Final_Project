@@ -30,4 +30,4 @@ node_modules/
 users.json
 
 ### Secret ###
-/src/services/firebaseConfig.js
+/src/services/firebaseData.js
